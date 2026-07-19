@@ -1,0 +1,293 @@
+{
+  "generatedAt": "2026-07-18T21:57:23.640Z",
+  "topics": [
+    {
+      "id": "animals",
+      "en": "Animals",
+      "cn": "動物",
+      "cover": "cards/animals/cat.webp",
+      "cards": [
+        {
+          "id": "cat",
+          "en": "Cat",
+          "cn": "貓貓",
+          "image": "cards/animals/cat.webp",
+          "audioEn": "cards/animals/cat-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "dog",
+          "en": "Dog",
+          "cn": "狗狗",
+          "image": "cards/animals/dog.webp",
+          "audioEn": "cards/animals/dog-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "rabbit",
+          "en": "Rabbit",
+          "cn": "兔仔",
+          "image": "cards/animals/rabbit.webp",
+          "audioEn": "cards/animals/rabbit-en.mp3",
+          "audioCn": null
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "en": "Body",
+      "cn": "身體",
+      "cover": "cards/body/eye.webp",
+      "cards": [
+        {
+          "id": "eye",
+          "en": "Eye",
+          "cn": "眼",
+          "image": "cards/body/eye.webp",
+          "audioEn": "cards/body/eye-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "hand",
+          "en": "Hand",
+          "cn": "手",
+          "image": "cards/body/hand.webp",
+          "audioEn": "cards/body/hand-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "mouth",
+          "en": "Mouth",
+          "cn": "口",
+          "image": "cards/body/mouth.webp",
+          "audioEn": "cards/body/mouth-en.mp3",
+          "audioCn": null
+        }
+      ]
+    },
+    {
+      "id": "cars",
+      "en": "Cars",
+      "cn": "車車",
+      "cover": "cards/cars/bus.webp",
+      "cards": [
+        {
+          "id": "bus",
+          "en": "Bus",
+          "cn": "巴士",
+          "image": "cards/cars/bus.webp",
+          "audioEn": "cards/cars/bus-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "car",
+          "en": "Car",
+          "cn": "車車",
+          "image": "cards/cars/car.webp",
+          "audioEn": "cards/cars/car-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "truck",
+          "en": "Truck",
+          "cn": "貨車",
+          "image": "cards/cars/truck.webp",
+          "audioEn": "cards/cars/truck-en.mp3",
+          "audioCn": null
+        }
+      ]
+    },
+    {
+      "id": "clothes",
+      "en": "Clothes",
+      "cn": "衫褲",
+      "cover": "cards/clothes/hat.webp",
+      "cards": [
+        {
+          "id": "hat",
+          "en": "Hat",
+          "cn": "帽",
+          "image": "cards/clothes/hat.webp",
+          "audioEn": "cards/clothes/hat-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "shirt",
+          "en": "Shirt",
+          "cn": "衫",
+          "image": "cards/clothes/shirt.webp",
+          "audioEn": "cards/clothes/shirt-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "shoes",
+          "en": "Shoes",
+          "cn": "鞋",
+          "image": "cards/clothes/shoes.webp",
+          "audioEn": "cards/clothes/shoes-en.mp3",
+          "audioCn": null
+        }
+      ]
+    },
+    {
+      "id": "colors",
+      "en": "Colors",
+      "cn": "顏色",
+      "cover": "cards/colors/blue.webp",
+      "cards": [
+        {
+          "id": "blue",
+          "en": "Blue",
+          "cn": "藍色",
+          "image": "cards/colors/blue.webp",
+          "audioEn": "cards/colors/blue-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "red",
+          "en": "Red",
+          "cn": "紅色",
+          "image": "cards/colors/red.webp",
+          "audioEn": "cards/colors/red-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "yellow",
+          "en": "Yellow",
+          "cn": "黃色",
+          "image": "cards/colors/yellow.webp",
+          "audioEn": "cards/colors/yellow-en.mp3",
+          "audioCn": null
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "en": "Family",
+      "cn": "屋企人",
+      "cover": "cards/family/baby.webp",
+      "cards": [
+        {
+          "id": "baby",
+          "en": "Baby",
+          "cn": "BB",
+          "image": "cards/family/baby.webp",
+          "audioEn": "cards/family/baby-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "daddy",
+          "en": "Daddy",
+          "cn": "爸爸",
+          "image": "cards/family/daddy.webp",
+          "audioEn": "cards/family/daddy-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "mummy",
+          "en": "Mummy",
+          "cn": "媽媽",
+          "image": "cards/family/mummy.webp",
+          "audioEn": "cards/family/mummy-en.mp3",
+          "audioCn": null
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "en": "Food",
+      "cn": "食物",
+      "cover": "cards/food/bread.webp",
+      "cards": [
+        {
+          "id": "bread",
+          "en": "Bread",
+          "cn": "麵包",
+          "image": "cards/food/bread.webp",
+          "audioEn": "cards/food/bread-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "milk",
+          "en": "Milk",
+          "cn": "奶奶",
+          "image": "cards/food/milk.webp",
+          "audioEn": "cards/food/milk-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "rice",
+          "en": "Rice",
+          "cn": "飯飯",
+          "image": "cards/food/rice.webp",
+          "audioEn": "cards/food/rice-en.mp3",
+          "audioCn": null
+        }
+      ]
+    },
+    {
+      "id": "fruits",
+      "en": "Fruits",
+      "cn": "生果",
+      "cover": "cards/fruits/apple.webp",
+      "cards": [
+        {
+          "id": "apple",
+          "en": "Apple",
+          "cn": "蘋果",
+          "image": "cards/fruits/apple.webp",
+          "audioEn": "cards/fruits/apple-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "banana",
+          "en": "Banana",
+          "cn": "香蕉",
+          "image": "cards/fruits/banana.webp",
+          "audioEn": "cards/fruits/banana-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "orange",
+          "en": "Orange",
+          "cn": "橙",
+          "image": "cards/fruits/orange.webp",
+          "audioEn": "cards/fruits/orange-en.mp3",
+          "audioCn": null
+        }
+      ]
+    },
+    {
+      "id": "toys",
+      "en": "Toys",
+      "cn": "玩具",
+      "cover": "cards/toys/ball.webp",
+      "cards": [
+        {
+          "id": "ball",
+          "en": "Ball",
+          "cn": "波波",
+          "image": "cards/toys/ball.webp",
+          "audioEn": "cards/toys/ball-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "blocks",
+          "en": "Blocks",
+          "cn": "積木",
+          "image": "cards/toys/blocks.webp",
+          "audioEn": "cards/toys/blocks-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "teddy",
+          "en": "Teddy",
+          "cn": "啤啤熊",
+          "image": "cards/toys/teddy.webp",
+          "audioEn": "cards/toys/teddy-en.mp3",
+          "audioCn": null
+        }
+      ]
+    }
+  ]
+}
