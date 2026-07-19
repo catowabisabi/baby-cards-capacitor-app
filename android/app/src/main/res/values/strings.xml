@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BabyCards 嬰兒認字咭</string>
+    <string name="title_activity_main">BabyCards 嬰兒認字咭</string>
+    <string name="package_name">com.babycards.app</string>
+    <string name="custom_url_scheme">com.babycards.app</string>
+</resources>
