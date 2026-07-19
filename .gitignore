@@ -29,5 +29,10 @@ dist-ssr
 android/.gradle/
 android/build/
 android/app/build/
+android/local.properties
 ios/App/Pods/
 ios/App/build/
+
+# ComfyUI local artifacts (generated images + working config, not for repo)
+comfyui/
+comfyui-output/
