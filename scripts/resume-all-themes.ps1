@@ -49,6 +49,7 @@ function Run-Theme {
 
     Write-Host "  -- committing $Theme --"
     & git -c core.autocrlf=false add "public/cards/$Theme/"
+    & git -c core.autocrlf=false add "public/cards/manifest.json"
     & git -c core.autocrlf=false commit -m "feat(cards): regenerate $Theme with realistic style"
     if ($LASTEXITCODE -ne 0) {
         throw "  git commit failed for $Theme (exit=$LASTEXITCODE). Pipeline halted."
