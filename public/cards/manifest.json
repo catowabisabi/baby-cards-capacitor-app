@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T07:32:48.278Z",
+  "generatedAt": "2026-07-20T07:49:34.209Z",
   "topics": [
     {
       "id": "animals",
@@ -24,26 +24,10 @@
           "audioCn": null
         },
         {
-          "id": "guinea-pig",
-          "en": "Guinea Pig",
-          "cn": "天竺鼠",
-          "image": "cards/animals/guinea-pig.webp",
-          "audioEn": null,
-          "audioCn": null
-        },
-        {
           "id": "hamster",
           "en": "Hamster",
           "cn": "倉鼠",
           "image": "cards/animals/hamster.webp",
-          "audioEn": null,
-          "audioCn": null
-        },
-        {
-          "id": "parrot",
-          "en": "Parrot",
-          "cn": "鸚鵡",
-          "image": "cards/animals/parrot.webp",
           "audioEn": null,
           "audioCn": null
         },
