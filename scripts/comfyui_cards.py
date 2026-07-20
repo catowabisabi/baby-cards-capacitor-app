@@ -40,7 +40,35 @@ WORKFLOW_PATH = ROOT / "comfyui" / "Z Image - Logo.json"
 XLSX_PATH = ROOT / "comfyui" / "BabyCards_900卡詞彙清單.xlsx"
 CARDS_DIR = ROOT / "public" / "cards"
 
-SERVER = "127.0.0.1:8188"
+try:
+    from comfyui_generate import discover_server  # noqa: E402
+except ImportError:
+    discover_server = None
+
+try:
+    from colors_renderer import (  # noqa: E402
+        COLOR_HEX, SHAPES, PATTERNS, MODIFIERS,
+        fill_solid, fill_shape, fill_pattern, fill_modifier,
+    )
+except ImportError:
+    COLOR_HEX = SHAPES = PATTERNS = MODIFIERS = None
+    fill_solid = fill_shape = fill_pattern = fill_modifier = None
+
+
+def render_color_card(card, out_path):
+    """Dispatch a colors-sheet card to the PIL renderer."""
+    cid = card["id"]
+    if cid in COLOR_HEX:
+        fill_solid(card, out_path)
+    elif cid in SHAPES:
+        fill_shape(card, out_path)
+    elif cid in PATTERNS:
+        fill_pattern(card, out_path)
+    elif cid in MODIFIERS:
+        fill_modifier(card, out_path)
+    else:
+        raise ValueError(f"unknown colors id: {cid}")
+
 GEN_SIZE = 1024      # Z-Image 原生解像度，出完先縮
 CARD_SIZE = 512      # app 卡片最終尺寸
 CORNER_RADIUS = 56   # 512px 下嘅圓角半徑，想調就改呢度
@@ -51,12 +79,56 @@ NODE_LATENT = "41"   # EmptySD3LatentImage 尺寸
 NODE_SAMPLER = "44"  # KSampler seed
 NODE_SAVE = "9"      # SaveImage filename_prefix
 
-PROMPT_TEMPLATE = (
-    "professional realistic studio photograph of {en}, one single animal, full body, "
-    "whole body clearly visible, centered, plain pure white seamless background filling "
-    "the entire frame, soft even studio lighting, sharp focus, high detail, "
-    "no text, no watermark, no border, no frame"
-)
+THEME_PROMPTS = {
+    "animals": (
+        "professional realistic studio photograph of {en}, one single animal, full body, "
+        "whole body clearly visible, centered, plain pure white seamless background filling "
+        "the entire frame, soft even studio lighting, sharp focus, high detail, "
+        "no text, no watermark, no border, no frame"
+    ),
+    "cars": (
+        "professional realistic studio photograph of a {en}, single vehicle, no driver, no people, "
+        "whole vehicle clearly visible from front three-quarter angle, centered, plain pure white "
+        "seamless background filling the entire frame, soft even studio lighting, sharp focus, "
+        "high detail, no text, no watermark, no border, no frame"
+    ),
+    "fruits": (
+        "professional realistic studio photograph of a single {en}, whole fruit clearly visible, "
+        "centered, plain pure white seamless background filling the entire frame, "
+        "soft even studio lighting, sharp focus, high detail, fresh, appetizing, "
+        "no text, no watermark, no border, no frame"
+    ),
+    "food": (
+        "professional realistic studio photograph of {en}, single dish, top-down three-quarter view, "
+        "whole dish clearly visible, centered, plain pure white seamless background filling "
+        "the entire frame, soft even studio lighting, sharp focus, high detail, appetizing, "
+        "no text, no watermark, no border, no frame"
+    ),
+    "family": (
+        "professional realistic friendly portrait of a {en}, single person, clearly visible, "
+        "warm smile, centered, plain pure white seamless background filling the entire frame, "
+        "soft even studio lighting, sharp focus, high detail, "
+        "no text, no watermark, no border, no frame"
+    ),
+    "body": (
+        "professional realistic studio photograph of a human {en}, isolated body part clearly visible, "
+        "clean skin, centered, plain pure white seamless background filling the entire frame, "
+        "soft even studio lighting, sharp focus, high detail, "
+        "no text, no watermark, no border, no frame"
+    ),
+    "clothes": (
+        "professional realistic studio photograph of a single {en}, garment laid flat or on invisible mannequin, "
+        "whole item clearly visible, centered, plain pure white seamless background filling the entire frame, "
+        "soft even studio lighting, sharp focus, high detail, "
+        "no text, no watermark, no border, no frame"
+    ),
+    "toys": (
+        "professional realistic studio photograph of a single {en} toy, whole toy clearly visible, "
+        "centered, plain pure white seamless background filling the entire frame, "
+        "soft even studio lighting, sharp focus, high detail, "
+        "no text, no watermark, no border, no frame"
+    ),
+}
 
 
 def api_post(server, path, payload, timeout=60):
@@ -153,7 +225,7 @@ def main():
     ap.add_argument("--theme", required=True, help="xlsx 主題頁名，例如 animals")
     ap.add_argument("--start", type=int, default=1, help="由第幾號開始（1-based）")
     ap.add_argument("--count", type=int, default=0, help="做幾多張（0=晒全部）")
-    ap.add_argument("--server", default=SERVER)
+    ap.add_argument("--server", default=None, help="ComfyUI host:port（唔填自動 ping 8188/8000）")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -170,16 +242,36 @@ def main():
             print(f"  No.{w['no']:>3} {w['id']:<20} {w['en']} / {w['cn']}")
         return
 
-    workflow = json.loads(WORKFLOW_PATH.read_text(encoding="utf-8"))
     out_dir = CARDS_DIR / args.theme
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    if args.theme == "colors" and fill_solid is not None:
+        from colors_renderer import write_card_json as wr_colors_write
+        for i, card in enumerate(selected, 1):
+            webp_path = out_dir / f"{card['id']}.webp"
+            render_color_card(card, webp_path)
+            wr_colors_write(out_dir, card)
+            if i % 10 == 0 or i == len(selected):
+                print(f"    [{i}/{len(selected)}]", flush=True)
+        print(f"搞掂 {len(selected)} 張 colors 卡。記得 `npm run cards:manifest` 更新 manifest。")
+        return
+
+    if discover_server is not None:
+        server, info = discover_server(prefer=args.server)
+        if server != args.server:
+            v = info.get("system", {}).get("comfyui_version", "?")
+            print(f"ℹ️  auto-discovered ComfyUI at {server} (v{v})")
+    else:
+        server = args.server or "127.0.0.1:8188"
+
+    workflow = json.loads(WORKFLOW_PATH.read_text(encoding="utf-8"))
+
     for i, card in enumerate(selected, 1):
         webp_path = out_dir / f"{card['id']}.webp"
-        prompt_text = PROMPT_TEMPLATE.format(en=card["en"])
+        prompt_text = THEME_PROMPTS[args.theme].format(en=card["en"])
         seed = random.randint(0, 2**63 - 1)
         print(f"[{i}/{len(selected)}] {card['id']}（{card['en']} / {card['cn']}）seed={seed} …", flush=True)
-        png = generate_one(args.server, workflow, prompt_text, seed)
+        png = generate_one(server, workflow, prompt_text, seed)
         rounded_card_webp(png, webp_path)
         write_card_json(args.theme, card)
         print(f"    ✅ {webp_path.relative_to(ROOT)}", flush=True)

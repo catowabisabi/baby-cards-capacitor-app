@@ -36,9 +36,36 @@ import urllib.request
 from pathlib import Path
 
 DEFAULT_SERVER = "127.0.0.1:8188"
+SERVER_FALLBACKS = ("127.0.0.1:8188", "127.0.0.1:8000", "localhost:8188", "localhost:8000")
 # 預設模型：可愛風 SDXL（你機上有 114 個，用 --ckpt 換，--list-models 睇晒）
 DEFAULT_CKPT = r"SD\SDXL\copaxCuteXL\copaxCuteXLSDXL10_v4.safetensors"
 DEFAULT_NEGATIVE = "lowres, bad anatomy, blurry, watermark, text, signature, jpeg artifacts, ugly, deformed, extra limbs"
+
+
+def discover_server(prefer=None, timeout=2.0):
+    """ComfyUI port discovery。先 prefer，再 env，最後逐個 ping fallback chain。
+    回返 ('host:port', info_dict) 或 raise RuntimeError。
+    """
+    import os
+    candidates = []
+    if prefer:
+        candidates.append(prefer)
+    env = os.environ.get("COMFYUI_SERVER")
+    if env and env not in candidates:
+        candidates.append(env)
+    for c in SERVER_FALLBACKS:
+        if c not in candidates:
+            candidates.append(c)
+    last_err = None
+    for s in candidates:
+        try:
+            r = json.load(urllib.request.urlopen(f"http://{s}/system_stats", timeout=timeout))
+            return s, r
+        except Exception as e:
+            last_err = e
+    raise RuntimeError(f"搵唔到 ComfyUI（試過 {' / '.join(candidates)}）。" + (
+        f" 最後錯誤：{last_err}" if last_err else ""
+    ))
 
 
 def api_get(server, path, timeout=30):
@@ -137,7 +164,7 @@ def to_webp(png_paths, size):
 
 def main():
     ap = argparse.ArgumentParser(description="ComfyUI API 極簡調用（stdlib only）")
-    ap.add_argument("--server", default=DEFAULT_SERVER)
+    ap.add_argument("--server", default=None, help="ComfyUI host:port（唔填自動 ping 8188/8000）")
     ap.add_argument("--prompt", help="正面 prompt")
     ap.add_argument("--negative", default=DEFAULT_NEGATIVE)
     ap.add_argument("--ckpt", default=DEFAULT_CKPT, help="checkpoint 名（--list-models 睇）")
@@ -154,13 +181,18 @@ def main():
     ap.add_argument("--fetch", metavar="PROMPT_ID", help="攞返之前生成完嘅圖")
     args = ap.parse_args()
 
+    server, info = discover_server(prefer=args.server)
+    if server != (args.server or DEFAULT_SERVER):
+        v = info.get("system", {}).get("comfyui_version", "?")
+        print(f"ℹ️  auto-discovered ComfyUI at {server} (v{v})", file=sys.stderr)
+
     if args.list_models:
-        list_models(args.server)
+        list_models(server)
         return
 
     if args.fetch:
-        entry = wait_result(args.server, args.fetch, timeout=5)
-        saved = download_images(args.server, entry, args.out)
+        entry = wait_result(server, args.fetch, timeout=5)
+        saved = download_images(server, entry, args.out)
         for p in saved:
             print("✅", p)
         return
@@ -171,11 +203,11 @@ def main():
     seed = args.seed if args.seed is not None else random.randint(0, 2**32 - 1)
     wf = build_workflow(args.prompt, args.negative, args.ckpt,
                         args.width, args.height, args.steps, args.cfg, seed)
-    prompt_id = queue_prompt(args.server, wf)
+    prompt_id = queue_prompt(server, wf)
     print(f"已排隊 prompt_id={prompt_id}（seed={seed}），生成緊……", flush=True)
 
-    entry = wait_result(args.server, prompt_id, args.timeout)
-    saved = download_images(args.server, entry, args.out)
+    entry = wait_result(server, prompt_id, args.timeout)
+    saved = download_images(server, entry, args.out)
     for p in saved:
         print("✅ 已儲存:", p)
 
