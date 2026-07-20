@@ -36,3 +36,8 @@ ios/App/build/
 # ComfyUI local artifacts (generated images + working config, not for repo)
 comfyui/
 comfyui-output/
+
+# Python bytecode + Sisyphus session cache (regenerated on every run)
+__pycache__/
+*.pyc
+.omo/
