@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T21:57:23.640Z",
+  "generatedAt": "2026-07-20T07:32:48.278Z",
   "topics": [
     {
       "id": "animals",
@@ -21,6 +21,30 @@
           "cn": "狗狗",
           "image": "cards/animals/dog.webp",
           "audioEn": "cards/animals/dog-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "guinea-pig",
+          "en": "Guinea Pig",
+          "cn": "天竺鼠",
+          "image": "cards/animals/guinea-pig.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "hamster",
+          "en": "Hamster",
+          "cn": "倉鼠",
+          "image": "cards/animals/hamster.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "parrot",
+          "en": "Parrot",
+          "cn": "鸚鵡",
+          "image": "cards/animals/parrot.webp",
+          "audioEn": null,
           "audioCn": null
         },
         {
@@ -133,14 +157,598 @@
       "id": "colors",
       "en": "Colors",
       "cn": "顏色",
-      "cover": "cards/colors/blue.webp",
+      "cover": "cards/colors/amber.webp",
       "cards": [
+        {
+          "id": "amber",
+          "en": "Amber",
+          "cn": "琥珀色",
+          "image": "cards/colors/amber.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "apricot",
+          "en": "Apricot",
+          "cn": "杏色",
+          "image": "cards/colors/apricot.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "aqua",
+          "en": "Aqua",
+          "cn": "水藍色",
+          "image": "cards/colors/aqua.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "arrow",
+          "en": "Arrow",
+          "cn": "箭嘴形",
+          "image": "cards/colors/arrow.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "beige",
+          "en": "Beige",
+          "cn": "米色",
+          "image": "cards/colors/beige.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "black",
+          "en": "Black",
+          "cn": "黑色",
+          "image": "cards/colors/black.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
         {
           "id": "blue",
           "en": "Blue",
           "cn": "藍色",
           "image": "cards/colors/blue.webp",
           "audioEn": "cards/colors/blue-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "bright",
+          "en": "Bright",
+          "cn": "鮮色",
+          "image": "cards/colors/bright.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "bronze",
+          "en": "Bronze",
+          "cn": "古銅色",
+          "image": "cards/colors/bronze.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "brown",
+          "en": "Brown",
+          "cn": "啡色",
+          "image": "cards/colors/brown.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "burgundy",
+          "en": "Burgundy",
+          "cn": "酒紅色",
+          "image": "cards/colors/burgundy.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "camouflage",
+          "en": "Camouflage",
+          "cn": "迷彩",
+          "image": "cards/colors/camouflage.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "charcoal",
+          "en": "Charcoal",
+          "cn": "炭灰色",
+          "image": "cards/colors/charcoal.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "checkered",
+          "en": "Checkered",
+          "cn": "格仔",
+          "image": "cards/colors/checkered.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "chevron",
+          "en": "Chevron",
+          "cn": "山形紋",
+          "image": "cards/colors/chevron.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "circle",
+          "en": "Circle",
+          "cn": "圓形",
+          "image": "cards/colors/circle.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "colorful",
+          "en": "Colorful",
+          "cn": "彩色",
+          "image": "cards/colors/colorful.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "cone",
+          "en": "Cone",
+          "cn": "圓錐形",
+          "image": "cards/colors/cone.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "copper",
+          "en": "Copper",
+          "cn": "銅色",
+          "image": "cards/colors/copper.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "coral",
+          "en": "Coral",
+          "cn": "珊瑚色",
+          "image": "cards/colors/coral.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "cow-print",
+          "en": "Cow Print",
+          "cn": "乳牛紋",
+          "image": "cards/colors/cow-print.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "cream",
+          "en": "Cream",
+          "cn": "奶油色",
+          "image": "cards/colors/cream.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "crescent",
+          "en": "Crescent",
+          "cn": "月牙形",
+          "image": "cards/colors/crescent.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "crimson",
+          "en": "Crimson",
+          "cn": "深紅色",
+          "image": "cards/colors/crimson.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "cross",
+          "en": "Cross",
+          "cn": "十字形",
+          "image": "cards/colors/cross.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "cube",
+          "en": "Cube",
+          "cn": "正方體",
+          "image": "cards/colors/cube.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "cyan",
+          "en": "Cyan",
+          "cn": "青色",
+          "image": "cards/colors/cyan.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "cylinder",
+          "en": "Cylinder",
+          "cn": "圓柱體",
+          "image": "cards/colors/cylinder.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "dark-green",
+          "en": "Dark Green",
+          "cn": "深綠色",
+          "image": "cards/colors/dark-green.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "dark",
+          "en": "Dark",
+          "cn": "深色",
+          "image": "cards/colors/dark.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "diamond",
+          "en": "Diamond",
+          "cn": "菱形",
+          "image": "cards/colors/diamond.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "floral",
+          "en": "Floral",
+          "cn": "花花圖案",
+          "image": "cards/colors/floral.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "gold",
+          "en": "Gold",
+          "cn": "金色",
+          "image": "cards/colors/gold.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "green",
+          "en": "Green",
+          "cn": "綠色",
+          "image": "cards/colors/green.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "grey",
+          "en": "Grey",
+          "cn": "灰色",
+          "image": "cards/colors/grey.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "heart",
+          "en": "Heart",
+          "cn": "心形",
+          "image": "cards/colors/heart.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "herringbone",
+          "en": "Herringbone",
+          "cn": "人字紋",
+          "image": "cards/colors/herringbone.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "hexagon",
+          "en": "Hexagon",
+          "cn": "六邊形",
+          "image": "cards/colors/hexagon.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "houndstooth",
+          "en": "Houndstooth",
+          "cn": "千鳥格",
+          "image": "cards/colors/houndstooth.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "indigo",
+          "en": "Indigo",
+          "cn": "靛藍色",
+          "image": "cards/colors/indigo.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "ivory",
+          "en": "Ivory",
+          "cn": "象牙色",
+          "image": "cards/colors/ivory.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "khaki",
+          "en": "Khaki",
+          "cn": "卡其色",
+          "image": "cards/colors/khaki.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "lavender",
+          "en": "Lavender",
+          "cn": "薰衣草色",
+          "image": "cards/colors/lavender.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "lemon",
+          "en": "Lemon",
+          "cn": "檸檬黃色",
+          "image": "cards/colors/lemon.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "leopard-print",
+          "en": "Leopard Print",
+          "cn": "豹紋",
+          "image": "cards/colors/leopard-print.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "light-blue",
+          "en": "Light Blue",
+          "cn": "淺藍色",
+          "image": "cards/colors/light-blue.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "light-green",
+          "en": "Light Green",
+          "cn": "淺綠色",
+          "image": "cards/colors/light-green.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "light",
+          "en": "Light",
+          "cn": "淺色",
+          "image": "cards/colors/light.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "lilac",
+          "en": "Lilac",
+          "cn": "丁香紫色",
+          "image": "cards/colors/lilac.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "lime",
+          "en": "Lime",
+          "cn": "青檸綠色",
+          "image": "cards/colors/lime.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "magenta",
+          "en": "Magenta",
+          "cn": "洋紅色",
+          "image": "cards/colors/magenta.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "marble",
+          "en": "Marble",
+          "cn": "雲石紋",
+          "image": "cards/colors/marble.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "maroon",
+          "en": "Maroon",
+          "cn": "棗紅色",
+          "image": "cards/colors/maroon.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "matte",
+          "en": "Matte",
+          "cn": "啞色",
+          "image": "cards/colors/matte.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "mint",
+          "en": "Mint",
+          "cn": "薄荷綠色",
+          "image": "cards/colors/mint.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "mustard",
+          "en": "Mustard",
+          "cn": "芥末黃色",
+          "image": "cards/colors/mustard.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "navy",
+          "en": "Navy",
+          "cn": "深藍色",
+          "image": "cards/colors/navy.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "neon",
+          "en": "Neon",
+          "cn": "螢光色",
+          "image": "cards/colors/neon.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "octagon",
+          "en": "Octagon",
+          "cn": "八邊形",
+          "image": "cards/colors/octagon.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "olive",
+          "en": "Olive",
+          "cn": "橄欖綠色",
+          "image": "cards/colors/olive.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "orange",
+          "en": "Orange",
+          "cn": "橙色",
+          "image": "cards/colors/orange.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "oval",
+          "en": "Oval",
+          "cn": "橢圓形",
+          "image": "cards/colors/oval.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "paisley",
+          "en": "Paisley",
+          "cn": "佩斯利紋",
+          "image": "cards/colors/paisley.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "pastel",
+          "en": "Pastel",
+          "cn": "粉彩色",
+          "image": "cards/colors/pastel.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "peach",
+          "en": "Peach",
+          "cn": "蜜桃色",
+          "image": "cards/colors/peach.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "pentagon",
+          "en": "Pentagon",
+          "cn": "五邊形",
+          "image": "cards/colors/pentagon.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "pink",
+          "en": "Pink",
+          "cn": "粉紅色",
+          "image": "cards/colors/pink.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "plaid",
+          "en": "Plaid",
+          "cn": "蘇格蘭格紋",
+          "image": "cards/colors/plaid.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "polka-dots",
+          "en": "Polka Dots",
+          "cn": "波點",
+          "image": "cards/colors/polka-dots.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "prism",
+          "en": "Prism",
+          "cn": "三稜柱",
+          "image": "cards/colors/prism.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "purple",
+          "en": "Purple",
+          "cn": "紫色",
+          "image": "cards/colors/purple.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "pyramid",
+          "en": "Pyramid",
+          "cn": "金字塔形",
+          "image": "cards/colors/pyramid.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "rainbow",
+          "en": "Rainbow",
+          "cn": "彩虹色",
+          "image": "cards/colors/rainbow.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "rectangle",
+          "en": "Rectangle",
+          "cn": "長方形",
+          "image": "cards/colors/rectangle.webp",
+          "audioEn": null,
           "audioCn": null
         },
         {
@@ -152,11 +760,203 @@
           "audioCn": null
         },
         {
+          "id": "rose",
+          "en": "Rose",
+          "cn": "玫瑰色",
+          "image": "cards/colors/rose.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "rust",
+          "en": "Rust",
+          "cn": "鐵銹色",
+          "image": "cards/colors/rust.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "salmon",
+          "en": "Salmon",
+          "cn": "三文魚色",
+          "image": "cards/colors/salmon.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "semicircle",
+          "en": "Semicircle",
+          "cn": "半圓形",
+          "image": "cards/colors/semicircle.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "shiny",
+          "en": "Shiny",
+          "cn": "閃令令",
+          "image": "cards/colors/shiny.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "silver",
+          "en": "Silver",
+          "cn": "銀色",
+          "image": "cards/colors/silver.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "sky-blue",
+          "en": "Sky Blue",
+          "cn": "天藍色",
+          "image": "cards/colors/sky-blue.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "sparkle",
+          "en": "Sparkle",
+          "cn": "閃閃",
+          "image": "cards/colors/sparkle.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "sphere",
+          "en": "Sphere",
+          "cn": "球形",
+          "image": "cards/colors/sphere.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "spiral",
+          "en": "Spiral",
+          "cn": "螺旋形",
+          "image": "cards/colors/spiral.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "square",
+          "en": "Square",
+          "cn": "正方形",
+          "image": "cards/colors/square.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "star",
+          "en": "Star",
+          "cn": "星形",
+          "image": "cards/colors/star.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "stripes",
+          "en": "Stripes",
+          "cn": "條紋",
+          "image": "cards/colors/stripes.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "teal",
+          "en": "Teal",
+          "cn": "藍綠色",
+          "image": "cards/colors/teal.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "tie-dye",
+          "en": "Tie-dye",
+          "cn": "紮染",
+          "image": "cards/colors/tie-dye.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "torus",
+          "en": "Torus",
+          "cn": "冬甩圈形",
+          "image": "cards/colors/torus.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "transparent",
+          "en": "Transparent",
+          "cn": "透明",
+          "image": "cards/colors/transparent.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "triangle",
+          "en": "Triangle",
+          "cn": "三角形",
+          "image": "cards/colors/triangle.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "turquoise",
+          "en": "Turquoise",
+          "cn": "湖水藍色",
+          "image": "cards/colors/turquoise.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "violet",
+          "en": "Violet",
+          "cn": "紫羅蘭色",
+          "image": "cards/colors/violet.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "wave",
+          "en": "Wave",
+          "cn": "波浪形",
+          "image": "cards/colors/wave.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "white",
+          "en": "White",
+          "cn": "白色",
+          "image": "cards/colors/white.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
           "id": "yellow",
           "en": "Yellow",
           "cn": "黃色",
           "image": "cards/colors/yellow.webp",
           "audioEn": "cards/colors/yellow-en.mp3",
+          "audioCn": null
+        },
+        {
+          "id": "zebra-print",
+          "en": "Zebra Print",
+          "cn": "斑馬紋",
+          "image": "cards/colors/zebra-print.webp",
+          "audioEn": null,
+          "audioCn": null
+        },
+        {
+          "id": "zigzag",
+          "en": "Zigzag",
+          "cn": "鋸齒形",
+          "image": "cards/colors/zigzag.webp",
+          "audioEn": null,
           "audioCn": null
         }
       ]
