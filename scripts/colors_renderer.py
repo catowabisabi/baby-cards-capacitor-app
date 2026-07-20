@@ -88,18 +88,34 @@ def _safe_area():
     return Image.new("RGBA", (CARD_SIZE, CARD_SIZE), (255, 255, 255, 255))
 
 
-def _label(card, draw, fill=(60, 60, 60)):
-    """Print EN big + CN small at bottom, font fallback chain."""
-    try:
-        font_big = ImageFont.truetype("arial.ttf", 38)
-        font_sm = ImageFont.truetype("arial.ttf", 26)
-    except OSError:
+def _pick_font(size):
+    """Try CJK-capable fonts first so Chinese characters don't render as boxes.
+    PIL truetype() only raises OSError on missing FILE, not missing GLYPHS,
+    so arial.ttf has to come AFTER the CJK fonts in the chain.
+    """
+    cjk_candidates = (
+        "C:/Windows/Fonts/msyh.ttc",
+        "C:/Windows/Fonts/msyhbd.ttc",
+        "C:/Windows/Fonts/simsun.ttc",
+        "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc",
+        "/System/Library/Fonts/PingFang.ttc",
+    )
+    for path in cjk_candidates:
         try:
-            font_big = ImageFont.truetype("C:/Windows/Fonts/msyh.ttc", 38)
-            font_sm = ImageFont.truetype("C:/Windows/Fonts/msyh.ttc", 26)
+            return ImageFont.truetype(path, size)
         except OSError:
-            font_big = ImageFont.load_default()
-            font_sm = font_big
+            continue
+    try:
+        return ImageFont.truetype("arial.ttf", size)
+    except OSError:
+        return ImageFont.load_default()
+
+
+def _label(card, draw, fill=(60, 60, 60)):
+    """Print EN big + CN small at bottom."""
+    font_big = _pick_font(38)
+    font_sm = _pick_font(26)
     en = card["en"]
     cn = card["cn"]
     bbox = draw.textbbox((0, 0), en, font=font_big)
