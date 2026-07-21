@@ -1,40 +1,26 @@
-/**
- * BabyCards — cards manifest 生成器
- *
- * 掃描 public/cards/ 入面每個子文件夾（每個 = 一個主題），
- * 根據命名規則組成卡片資料，輸出 public/cards/manifest.json。
- *
- * 文件夾規則（以 animals/apple 為例）：
- *   apple.png      卡片圖片（透明 PNG 最佳，亦支援 jpg/webp/gif/svg）
- *   apple-en.mp3   英文發音（可選，冇就用裝置語音合成 fallback）
- *   apple-cn.mp3   中文發音（可選，你可以錄廣東話放喺度）
- *   apple.json     卡片文字：{ "en": "Apple", "cn": "蘋果" }
- *   _topic.json    主題名稱（可選）：{ "en": "Animals", "cn": "動物" }
- *
- * 想加新主題？直接開個新文件夾放卡入去，再跑一次呢個腳本
- * （npm run dev / build 會自動跑）。主題封面 = 文件夾入面第一張卡嘅圖。
- */
 import fs from 'node:fs';
 import path from 'node:path';
 
-const cardsDir = path.resolve(process.cwd(), 'public/cards');
+const dataDir = path.resolve(process.cwd(), 'public/data');
 const IMAGE_EXTS = ['.png', '.jpg', '.jpeg', '.webp', '.gif', '.svg'];
+const AUDIO_EXTS = ['.wav', '.mp3', '.flac', '.m4a', '.aac'];
 
-if (!fs.existsSync(cardsDir)) {
-  console.error(`搵唔到 ${cardsDir}`);
+if (!fs.existsSync(dataDir)) {
+  console.error(`Cannot find ${dataDir}`);
   process.exit(1);
 }
 
-const topics = [];
+const firstExisting = (files, names) => names.find((name) => files.includes(name)) ?? null;
 
+const topics = [];
 const topicDirs = fs
-  .readdirSync(cardsDir, { withFileTypes: true })
-  .filter((e) => e.isDirectory())
-  .map((e) => e.name)
+  .readdirSync(dataDir, { withFileTypes: true })
+  .filter((entry) => entry.isDirectory())
+  .map((entry) => entry.name)
   .sort();
 
 for (const topicId of topicDirs) {
-  const dir = path.join(cardsDir, topicId);
+  const dir = path.join(dataDir, topicId);
   const files = fs.readdirSync(dir);
   const has = (name) => files.includes(name);
 
@@ -43,59 +29,68 @@ for (const topicId of topicDirs) {
     try {
       topicMeta = JSON.parse(fs.readFileSync(path.join(dir, '_topic.json'), 'utf8'));
     } catch {
-      console.warn(`⚠ ${topicId}/_topic.json 格式有問題，用預設名稱`);
+      console.warn(`Invalid ${topicId}/_topic.json; using fallback topic names.`);
     }
   }
 
   const cards = [];
   const jsonFiles = files
-    .filter((f) => f.endsWith('.json') && f !== '_topic.json')
+    .filter((file) => file.endsWith('.json') && file !== '_topic.json')
     .sort();
 
   for (const file of jsonFiles) {
     const id = path.basename(file, '.json');
     let data = {};
+
     try {
       data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
     } catch {
-      console.warn(`⚠ ${topicId}/${file} 格式有問題，跳過`);
+      console.warn(`Invalid ${topicId}/${file}; skipping.`);
       continue;
     }
 
-    // 搵圖片：json 指定 > 同名檔案 > 任何以 id 開頭嘅圖
     let image = null;
     if (data.image && has(data.image)) {
       image = data.image;
     } else {
-      for (const ext of IMAGE_EXTS) {
-        if (has(`${id}${ext}`)) {
-          image = `${id}${ext}`;
-          break;
-        }
-      }
-      if (!image) {
-        image = files.find(
-          (f) => f.startsWith(id) && IMAGE_EXTS.includes(path.extname(f).toLowerCase())
+      image =
+        firstExisting(
+          files,
+          IMAGE_EXTS.map((ext) => `${id}${ext}`)
+        ) ??
+        files.find(
+          (candidate) =>
+            candidate.startsWith(id) &&
+            IMAGE_EXTS.includes(path.extname(candidate).toLowerCase())
         );
-      }
     }
+
     if (!image) {
-      console.warn(`⚠ ${topicId}/${id} 冇圖片，跳過`);
+      console.warn(`Missing image for ${topicId}/${id}; skipping.`);
       continue;
     }
+
+    const audioEn = firstExisting(
+      files,
+      AUDIO_EXTS.map((ext) => `${id}-en${ext}`)
+    );
+    const audioCn = firstExisting(
+      files,
+      AUDIO_EXTS.map((ext) => `${id}-cn${ext}`)
+    );
 
     cards.push({
       id,
       en: data.en ?? id,
       cn: data.cn ?? id,
-      image: `cards/${topicId}/${image}`,
-      audioEn: has(`${id}-en.mp3`) ? `cards/${topicId}/${id}-en.mp3` : null,
-      audioCn: has(`${id}-cn.mp3`) ? `cards/${topicId}/${id}-cn.mp3` : null,
+      image: `data/${topicId}/${image}`,
+      audioEn: audioEn ? `data/${topicId}/${audioEn}` : null,
+      audioCn: audioCn ? `data/${topicId}/${audioCn}` : null,
     });
   }
 
   if (cards.length === 0) {
-    console.warn(`⚠ 主題 ${topicId} 冇任何卡，略過`);
+    console.warn(`Topic ${topicId} has no cards; skipping.`);
     continue;
   }
 
@@ -103,13 +98,16 @@ for (const topicId of topicDirs) {
     id: topicId,
     en: topicMeta.en ?? topicId,
     cn: topicMeta.cn ?? topicId,
-    cover: cards[0].image, // 用第一張卡嘅圖做主題封面
+    cover: cards[0].image,
     cards,
   });
 }
 
 const manifest = { generatedAt: new Date().toISOString(), topics };
-fs.writeFileSync(path.join(cardsDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
+fs.writeFileSync(path.join(dataDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
 console.log(
-  `✓ manifest.json 已生成：${topics.length} 個主題，共 ${topics.reduce((n, t) => n + t.cards.length, 0)} 張卡`
+  `manifest.json generated: ${topics.length} topics, ${topics.reduce(
+    (count, topic) => count + topic.cards.length,
+    0
+  )} cards`
 );

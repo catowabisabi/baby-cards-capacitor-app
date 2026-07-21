@@ -4,7 +4,7 @@ This doc captures the state left by the 2026-07-19/20 card-generation session,
 and the recipe to resume when ComfyUI is back up on `http://127.0.0.1:8188`. If
 you (or a future agent) pick this up after a break, start here.
 
-## State at last commit (`bdf1eb0`)
+## State at last commit (`30ffbb4`)
 
 - **Branch** is `main`, in sync with `origin/main` (`0/0` ahead/behind).
 - **Manifest** (`public/cards/manifest.json`): 9 topics, **125 cards**, generated

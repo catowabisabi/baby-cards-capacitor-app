@@ -58,7 +58,7 @@ export default function App() {
     (async () => {
       let loaded: Topic[] = [];
       try {
-        const res = await fetch(assetUrl('cards/manifest.json'));
+        const res = await fetch(assetUrl('data/manifest.json'));
         const manifest = (await res.json()) as CardsManifest;
         loaded = manifest.topics;
       } catch (e) {
