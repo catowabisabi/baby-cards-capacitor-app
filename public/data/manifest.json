@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T08:43:42.457Z",
+  "generatedAt": "2026-07-22T15:27:42.701Z",
   "topics": [
     {
       "id": "animals",
@@ -931,8 +931,8 @@
     },
     {
       "id": "career",
-      "en": "career",
-      "cn": "career",
+      "en": "Career",
+      "cn": "職業",
       "cover": "data/career/accountant.webp",
       "cards": [
         {
@@ -1666,817 +1666,9 @@
       ]
     },
     {
-      "id": "cars",
-      "en": "cars",
-      "cn": "cars",
-      "cover": "data/cars/airplane.webp",
-      "cards": [
-        {
-          "id": "airplane",
-          "en": "Airplane",
-          "cn": "飛機",
-          "image": "data/cars/airplane.webp",
-          "audioEn": "data/cars/airplane-en.wav",
-          "audioCn": "data/cars/airplane-cn.wav"
-        },
-        {
-          "id": "ambulance",
-          "en": "Ambulance",
-          "cn": "救護車",
-          "image": "data/cars/ambulance.webp",
-          "audioEn": "data/cars/ambulance-en.wav",
-          "audioCn": "data/cars/ambulance-cn.wav"
-        },
-        {
-          "id": "armored-car",
-          "en": "Armored Car",
-          "cn": "裝甲車",
-          "image": "data/cars/armored-car.webp",
-          "audioEn": "data/cars/armored-car-en.wav",
-          "audioCn": "data/cars/armored-car-cn.wav"
-        },
-        {
-          "id": "bicycle",
-          "en": "Bicycle",
-          "cn": "單車",
-          "image": "data/cars/bicycle.webp",
-          "audioEn": "data/cars/bicycle-en.wav",
-          "audioCn": "data/cars/bicycle-cn.wav"
-        },
-        {
-          "id": "blimp",
-          "en": "Blimp",
-          "cn": "飛艇",
-          "image": "data/cars/blimp.webp",
-          "audioEn": "data/cars/blimp-en.wav",
-          "audioCn": "data/cars/blimp-cn.wav"
-        },
-        {
-          "id": "boat",
-          "en": "Boat",
-          "cn": "船",
-          "image": "data/cars/boat.webp",
-          "audioEn": "data/cars/boat-en.wav",
-          "audioCn": "data/cars/boat-cn.wav"
-        },
-        {
-          "id": "bulldozer",
-          "en": "Bulldozer",
-          "cn": "推土機",
-          "image": "data/cars/bulldozer.webp",
-          "audioEn": "data/cars/bulldozer-en.wav",
-          "audioCn": "data/cars/bulldozer-cn.wav"
-        },
-        {
-          "id": "bumper-car",
-          "en": "Bumper Car",
-          "cn": "碰碰車",
-          "image": "data/cars/bumper-car.webp",
-          "audioEn": "data/cars/bumper-car-en.wav",
-          "audioCn": "data/cars/bumper-car-cn.wav"
-        },
-        {
-          "id": "bus",
-          "en": "Bus",
-          "cn": "巴士",
-          "image": "data/cars/bus.webp",
-          "audioEn": "data/cars/bus-en.wav",
-          "audioCn": "data/cars/bus-cn.wav"
-        },
-        {
-          "id": "cable-car",
-          "en": "Cable Car",
-          "cn": "纜車",
-          "image": "data/cars/cable-car.webp",
-          "audioEn": "data/cars/cable-car-en.wav",
-          "audioCn": "data/cars/cable-car-cn.wav"
-        },
-        {
-          "id": "camper-van",
-          "en": "Camper Van",
-          "cn": "露營車",
-          "image": "data/cars/camper-van.webp",
-          "audioEn": "data/cars/camper-van-en.wav",
-          "audioCn": "data/cars/camper-van-cn.wav"
-        },
-        {
-          "id": "canoe",
-          "en": "Canoe",
-          "cn": "獨木舟",
-          "image": "data/cars/canoe.webp",
-          "audioEn": "data/cars/canoe-en.wav",
-          "audioCn": "data/cars/canoe-cn.wav"
-        },
-        {
-          "id": "car",
-          "en": "Car",
-          "cn": "車車",
-          "image": "data/cars/car.webp",
-          "audioEn": "data/cars/car-en.wav",
-          "audioCn": "data/cars/car-cn.wav"
-        },
-        {
-          "id": "caravan",
-          "en": "Caravan",
-          "cn": "露營拖車",
-          "image": "data/cars/caravan.webp",
-          "audioEn": "data/cars/caravan-en.wav",
-          "audioCn": "data/cars/caravan-cn.wav"
-        },
-        {
-          "id": "cargo-ship",
-          "en": "Cargo Ship",
-          "cn": "貨輪",
-          "image": "data/cars/cargo-ship.webp",
-          "audioEn": "data/cars/cargo-ship-en.wav",
-          "audioCn": "data/cars/cargo-ship-cn.wav"
-        },
-        {
-          "id": "catamaran",
-          "en": "Catamaran",
-          "cn": "雙體船",
-          "image": "data/cars/catamaran.webp",
-          "audioEn": "data/cars/catamaran-en.wav",
-          "audioCn": "data/cars/catamaran-cn.wav"
-        },
-        {
-          "id": "cement-mixer",
-          "en": "Cement Mixer",
-          "cn": "水泥車",
-          "image": "data/cars/cement-mixer.webp",
-          "audioEn": "data/cars/cement-mixer-en.wav",
-          "audioCn": "data/cars/cement-mixer-cn.wav"
-        },
-        {
-          "id": "coach",
-          "en": "Coach",
-          "cn": "旅遊巴",
-          "image": "data/cars/coach.webp",
-          "audioEn": "data/cars/coach-en.wav",
-          "audioCn": "data/cars/coach-cn.wav"
-        },
-        {
-          "id": "combine-harvester",
-          "en": "Combine Harvester",
-          "cn": "聯合收割機",
-          "image": "data/cars/combine-harvester.webp",
-          "audioEn": "data/cars/combine-harvester-en.wav",
-          "audioCn": "data/cars/combine-harvester-cn.wav"
-        },
-        {
-          "id": "convertible",
-          "en": "Convertible",
-          "cn": "開篷車",
-          "image": "data/cars/convertible.webp",
-          "audioEn": "data/cars/convertible-en.wav",
-          "audioCn": "data/cars/convertible-cn.wav"
-        },
-        {
-          "id": "crane",
-          "en": "Crane",
-          "cn": "吊機",
-          "image": "data/cars/crane.webp",
-          "audioEn": "data/cars/crane-en.wav",
-          "audioCn": "data/cars/crane-cn.wav"
-        },
-        {
-          "id": "cruise-ship",
-          "en": "Cruise Ship",
-          "cn": "郵輪",
-          "image": "data/cars/cruise-ship.webp",
-          "audioEn": "data/cars/cruise-ship-en.wav",
-          "audioCn": "data/cars/cruise-ship-cn.wav"
-        },
-        {
-          "id": "double-decker",
-          "en": "Double Decker",
-          "cn": "雙層巴士",
-          "image": "data/cars/double-decker.webp",
-          "audioEn": "data/cars/double-decker-en.wav",
-          "audioCn": "data/cars/double-decker-cn.wav"
-        },
-        {
-          "id": "drone",
-          "en": "Drone",
-          "cn": "無人機",
-          "image": "data/cars/drone.webp",
-          "audioEn": "data/cars/drone-en.wav",
-          "audioCn": "data/cars/drone-cn.wav"
-        },
-        {
-          "id": "dump-truck",
-          "en": "Dump Truck",
-          "cn": "泥頭車",
-          "image": "data/cars/dump-truck.webp",
-          "audioEn": "data/cars/dump-truck-en.wav",
-          "audioCn": "data/cars/dump-truck-cn.wav"
-        },
-        {
-          "id": "e-scooter",
-          "en": "E-scooter",
-          "cn": "電動滑板車",
-          "image": "data/cars/e-scooter.webp",
-          "audioEn": "data/cars/e-scooter-en.wav",
-          "audioCn": "data/cars/e-scooter-cn.wav"
-        },
-        {
-          "id": "excavator",
-          "en": "Excavator",
-          "cn": "挖泥機",
-          "image": "data/cars/excavator.webp",
-          "audioEn": "data/cars/excavator-en.wav",
-          "audioCn": "data/cars/excavator-cn.wav"
-        },
-        {
-          "id": "ferry",
-          "en": "Ferry",
-          "cn": "渡輪",
-          "image": "data/cars/ferry.webp",
-          "audioEn": "data/cars/ferry-en.wav",
-          "audioCn": "data/cars/ferry-cn.wav"
-        },
-        {
-          "id": "fire-truck",
-          "en": "Fire Truck",
-          "cn": "消防車",
-          "image": "data/cars/fire-truck.webp",
-          "audioEn": "data/cars/fire-truck-en.wav",
-          "audioCn": "data/cars/fire-truck-cn.wav"
-        },
-        {
-          "id": "fireboat",
-          "en": "Fireboat",
-          "cn": "消防船",
-          "image": "data/cars/fireboat.webp",
-          "audioEn": "data/cars/fireboat-en.wav",
-          "audioCn": "data/cars/fireboat-cn.wav"
-        },
-        {
-          "id": "fishing-boat",
-          "en": "Fishing Boat",
-          "cn": "漁船",
-          "image": "data/cars/fishing-boat.webp",
-          "audioEn": "data/cars/fishing-boat-en.wav",
-          "audioCn": "data/cars/fishing-boat-cn.wav"
-        },
-        {
-          "id": "forklift",
-          "en": "Forklift",
-          "cn": "剷車",
-          "image": "data/cars/forklift.webp",
-          "audioEn": "data/cars/forklift-en.wav",
-          "audioCn": "data/cars/forklift-cn.wav"
-        },
-        {
-          "id": "garbage-truck",
-          "en": "Garbage Truck",
-          "cn": "垃圾車",
-          "image": "data/cars/garbage-truck.webp",
-          "audioEn": "data/cars/garbage-truck-en.wav",
-          "audioCn": "data/cars/garbage-truck-cn.wav"
-        },
-        {
-          "id": "glider",
-          "en": "Glider",
-          "cn": "滑翔機",
-          "image": "data/cars/glider.webp",
-          "audioEn": "data/cars/glider-en.wav",
-          "audioCn": "data/cars/glider-cn.wav"
-        },
-        {
-          "id": "go-kart",
-          "en": "Go-kart",
-          "cn": "高卡車",
-          "image": "data/cars/go-kart.webp",
-          "audioEn": "data/cars/go-kart-en.wav",
-          "audioCn": "data/cars/go-kart-cn.wav"
-        },
-        {
-          "id": "gondola",
-          "en": "Gondola",
-          "cn": "貢多拉船",
-          "image": "data/cars/gondola.webp",
-          "audioEn": "data/cars/gondola-en.wav",
-          "audioCn": "data/cars/gondola-cn.wav"
-        },
-        {
-          "id": "hatchback",
-          "en": "Hatchback",
-          "cn": "揭背車",
-          "image": "data/cars/hatchback.webp",
-          "audioEn": "data/cars/hatchback-en.wav",
-          "audioCn": "data/cars/hatchback-cn.wav"
-        },
-        {
-          "id": "helicopter",
-          "en": "Helicopter",
-          "cn": "直升機",
-          "image": "data/cars/helicopter.webp",
-          "audioEn": "data/cars/helicopter-en.wav",
-          "audioCn": "data/cars/helicopter-cn.wav"
-        },
-        {
-          "id": "high-speed-train",
-          "en": "High-speed Train",
-          "cn": "高鐵",
-          "image": "data/cars/high-speed-train.webp",
-          "audioEn": "data/cars/high-speed-train-en.wav",
-          "audioCn": "data/cars/high-speed-train-cn.wav"
-        },
-        {
-          "id": "horse-carriage",
-          "en": "Horse Carriage",
-          "cn": "馬車",
-          "image": "data/cars/horse-carriage.webp",
-          "audioEn": "data/cars/horse-carriage-en.wav",
-          "audioCn": "data/cars/horse-carriage-cn.wav"
-        },
-        {
-          "id": "hot-air-balloon",
-          "en": "Hot Air Balloon",
-          "cn": "熱氣球",
-          "image": "data/cars/hot-air-balloon.webp",
-          "audioEn": "data/cars/hot-air-balloon-en.wav",
-          "audioCn": "data/cars/hot-air-balloon-cn.wav"
-        },
-        {
-          "id": "hovercraft",
-          "en": "Hovercraft",
-          "cn": "氣墊船",
-          "image": "data/cars/hovercraft.webp",
-          "audioEn": "data/cars/hovercraft-en.wav",
-          "audioCn": "data/cars/hovercraft-cn.wav"
-        },
-        {
-          "id": "ice-cream-truck",
-          "en": "Ice Cream Truck",
-          "cn": "雪糕車",
-          "image": "data/cars/ice-cream-truck.webp",
-          "audioEn": "data/cars/ice-cream-truck-en.wav",
-          "audioCn": "data/cars/ice-cream-truck-cn.wav"
-        },
-        {
-          "id": "jeep",
-          "en": "Jeep",
-          "cn": "吉普車",
-          "image": "data/cars/jeep.webp",
-          "audioEn": "data/cars/jeep-en.wav",
-          "audioCn": "data/cars/jeep-cn.wav"
-        },
-        {
-          "id": "jet-ski",
-          "en": "Jet Ski",
-          "cn": "水上電單車",
-          "image": "data/cars/jet-ski.webp",
-          "audioEn": "data/cars/jet-ski-en.wav",
-          "audioCn": "data/cars/jet-ski-cn.wav"
-        },
-        {
-          "id": "jet",
-          "en": "Jet",
-          "cn": "噴射機",
-          "image": "data/cars/jet.webp",
-          "audioEn": "data/cars/jet-en.wav",
-          "audioCn": "data/cars/jet-cn.wav"
-        },
-        {
-          "id": "kayak",
-          "en": "Kayak",
-          "cn": "皮划艇",
-          "image": "data/cars/kayak.webp",
-          "audioEn": "data/cars/kayak-en.wav",
-          "audioCn": "data/cars/kayak-cn.wav"
-        },
-        {
-          "id": "lifeboat",
-          "en": "Lifeboat",
-          "cn": "救生艇",
-          "image": "data/cars/lifeboat.webp",
-          "audioEn": "data/cars/lifeboat-en.wav",
-          "audioCn": "data/cars/lifeboat-cn.wav"
-        },
-        {
-          "id": "limousine",
-          "en": "Limousine",
-          "cn": "加長車",
-          "image": "data/cars/limousine.webp",
-          "audioEn": "data/cars/limousine-en.wav",
-          "audioCn": "data/cars/limousine-cn.wav"
-        },
-        {
-          "id": "lunar-rover",
-          "en": "Lunar Rover",
-          "cn": "月球車",
-          "image": "data/cars/lunar-rover.webp",
-          "audioEn": "data/cars/lunar-rover-en.wav",
-          "audioCn": "data/cars/lunar-rover-cn.wav"
-        },
-        {
-          "id": "minibus",
-          "en": "Minibus",
-          "cn": "小巴",
-          "image": "data/cars/minibus.webp",
-          "audioEn": "data/cars/minibus-en.wav",
-          "audioCn": "data/cars/minibus-cn.wav"
-        },
-        {
-          "id": "monorail",
-          "en": "Monorail",
-          "cn": "單軌列車",
-          "image": "data/cars/monorail.webp",
-          "audioEn": "data/cars/monorail-en.wav",
-          "audioCn": "data/cars/monorail-cn.wav"
-        },
-        {
-          "id": "monster-truck",
-          "en": "Monster Truck",
-          "cn": "大腳車",
-          "image": "data/cars/monster-truck.webp",
-          "audioEn": "data/cars/monster-truck-en.wav",
-          "audioCn": "data/cars/monster-truck-cn.wav"
-        },
-        {
-          "id": "motorcycle",
-          "en": "Motorcycle",
-          "cn": "電單車",
-          "image": "data/cars/motorcycle.webp",
-          "audioEn": "data/cars/motorcycle-en.wav",
-          "audioCn": "data/cars/motorcycle-cn.wav"
-        },
-        {
-          "id": "parachute",
-          "en": "Parachute",
-          "cn": "降落傘",
-          "image": "data/cars/parachute.webp",
-          "audioEn": "data/cars/parachute-en.wav",
-          "audioCn": "data/cars/parachute-cn.wav"
-        },
-        {
-          "id": "pickup-truck",
-          "en": "Pickup Truck",
-          "cn": "皮卡車",
-          "image": "data/cars/pickup-truck.webp",
-          "audioEn": "data/cars/pickup-truck-en.wav",
-          "audioCn": "data/cars/pickup-truck-cn.wav"
-        },
-        {
-          "id": "police-car",
-          "en": "Police Car",
-          "cn": "警車",
-          "image": "data/cars/police-car.webp",
-          "audioEn": "data/cars/police-car-en.wav",
-          "audioCn": "data/cars/police-car-cn.wav"
-        },
-        {
-          "id": "race-car",
-          "en": "Race Car",
-          "cn": "賽車",
-          "image": "data/cars/race-car.webp",
-          "audioEn": "data/cars/race-car-en.wav",
-          "audioCn": "data/cars/race-car-cn.wav"
-        },
-        {
-          "id": "raft",
-          "en": "Raft",
-          "cn": "木筏",
-          "image": "data/cars/raft.webp",
-          "audioEn": "data/cars/raft-en.wav",
-          "audioCn": "data/cars/raft-cn.wav"
-        },
-        {
-          "id": "rickshaw",
-          "en": "Rickshaw",
-          "cn": "人力車",
-          "image": "data/cars/rickshaw.webp",
-          "audioEn": "data/cars/rickshaw-en.wav",
-          "audioCn": "data/cars/rickshaw-cn.wav"
-        },
-        {
-          "id": "road-roller",
-          "en": "Road Roller",
-          "cn": "壓路機",
-          "image": "data/cars/road-roller.webp",
-          "audioEn": "data/cars/road-roller-en.wav",
-          "audioCn": "data/cars/road-roller-cn.wav"
-        },
-        {
-          "id": "rocket",
-          "en": "Rocket",
-          "cn": "火箭",
-          "image": "data/cars/rocket.webp",
-          "audioEn": "data/cars/rocket-en.wav",
-          "audioCn": "data/cars/rocket-cn.wav"
-        },
-        {
-          "id": "sailboat",
-          "en": "Sailboat",
-          "cn": "帆船",
-          "image": "data/cars/sailboat.webp",
-          "audioEn": "data/cars/sailboat-en.wav",
-          "audioCn": "data/cars/sailboat-cn.wav"
-        },
-        {
-          "id": "school-bus",
-          "en": "School Bus",
-          "cn": "校巴",
-          "image": "data/cars/school-bus.webp",
-          "audioEn": "data/cars/school-bus-en.wav",
-          "audioCn": "data/cars/school-bus-cn.wav"
-        },
-        {
-          "id": "scooter",
-          "en": "Scooter",
-          "cn": "綿羊仔",
-          "image": "data/cars/scooter.webp",
-          "audioEn": "data/cars/scooter-en.wav",
-          "audioCn": "data/cars/scooter-cn.wav"
-        },
-        {
-          "id": "seaplane",
-          "en": "Seaplane",
-          "cn": "水上飛機",
-          "image": "data/cars/seaplane.webp",
-          "audioEn": "data/cars/seaplane-en.wav",
-          "audioCn": "data/cars/seaplane-cn.wav"
-        },
-        {
-          "id": "sedan",
-          "en": "Sedan",
-          "cn": "房車",
-          "image": "data/cars/sedan.webp",
-          "audioEn": "data/cars/sedan-en.wav",
-          "audioCn": "data/cars/sedan-cn.wav"
-        },
-        {
-          "id": "segway",
-          "en": "Segway",
-          "cn": "平衡車",
-          "image": "data/cars/segway.webp",
-          "audioEn": "data/cars/segway-en.wav",
-          "audioCn": "data/cars/segway-cn.wav"
-        },
-        {
-          "id": "ship",
-          "en": "Ship",
-          "cn": "大船",
-          "image": "data/cars/ship.webp",
-          "audioEn": "data/cars/ship-en.wav",
-          "audioCn": "data/cars/ship-cn.wav"
-        },
-        {
-          "id": "skateboard",
-          "en": "Skateboard",
-          "cn": "滑板",
-          "image": "data/cars/skateboard.webp",
-          "audioEn": "data/cars/skateboard-en.wav",
-          "audioCn": "data/cars/skateboard-cn.wav"
-        },
-        {
-          "id": "sleigh",
-          "en": "Sleigh",
-          "cn": "雪橇",
-          "image": "data/cars/sleigh.webp",
-          "audioEn": "data/cars/sleigh-en.wav",
-          "audioCn": "data/cars/sleigh-cn.wav"
-        },
-        {
-          "id": "snowmobile",
-          "en": "Snowmobile",
-          "cn": "雪地電單車",
-          "image": "data/cars/snowmobile.webp",
-          "audioEn": "data/cars/snowmobile-en.wav",
-          "audioCn": "data/cars/snowmobile-cn.wav"
-        },
-        {
-          "id": "snowplow",
-          "en": "Snowplow",
-          "cn": "掃雪車",
-          "image": "data/cars/snowplow.webp",
-          "audioEn": "data/cars/snowplow-en.wav",
-          "audioCn": "data/cars/snowplow-cn.wav"
-        },
-        {
-          "id": "space-shuttle",
-          "en": "Space Shuttle",
-          "cn": "穿梭機",
-          "image": "data/cars/space-shuttle.webp",
-          "audioEn": "data/cars/space-shuttle-en.wav",
-          "audioCn": "data/cars/space-shuttle-cn.wav"
-        },
-        {
-          "id": "spaceship",
-          "en": "Spaceship",
-          "cn": "太空船",
-          "image": "data/cars/spaceship.webp",
-          "audioEn": "data/cars/spaceship-en.wav",
-          "audioCn": "data/cars/spaceship-cn.wav"
-        },
-        {
-          "id": "speedboat",
-          "en": "Speedboat",
-          "cn": "快艇",
-          "image": "data/cars/speedboat.webp",
-          "audioEn": "data/cars/speedboat-en.wav",
-          "audioCn": "data/cars/speedboat-cn.wav"
-        },
-        {
-          "id": "sports-car",
-          "en": "Sports Car",
-          "cn": "跑車",
-          "image": "data/cars/sports-car.webp",
-          "audioEn": "data/cars/sports-car-en.wav",
-          "audioCn": "data/cars/sports-car-cn.wav"
-        },
-        {
-          "id": "steam-train",
-          "en": "Steam Train",
-          "cn": "蒸汽火車",
-          "image": "data/cars/steam-train.webp",
-          "audioEn": "data/cars/steam-train-en.wav",
-          "audioCn": "data/cars/steam-train-cn.wav"
-        },
-        {
-          "id": "stroller",
-          "en": "Stroller",
-          "cn": "BB車",
-          "image": "data/cars/stroller.webp",
-          "audioEn": "data/cars/stroller-en.wav",
-          "audioCn": "data/cars/stroller-cn.wav"
-        },
-        {
-          "id": "submarine",
-          "en": "Submarine",
-          "cn": "潛水艇",
-          "image": "data/cars/submarine.webp",
-          "audioEn": "data/cars/submarine-en.wav",
-          "audioCn": "data/cars/submarine-cn.wav"
-        },
-        {
-          "id": "subway",
-          "en": "Subway",
-          "cn": "地鐵",
-          "image": "data/cars/subway.webp",
-          "audioEn": "data/cars/subway-en.wav",
-          "audioCn": "data/cars/subway-cn.wav"
-        },
-        {
-          "id": "suv",
-          "en": "SUV",
-          "cn": "越野車",
-          "image": "data/cars/suv.webp",
-          "audioEn": "data/cars/suv-en.wav",
-          "audioCn": "data/cars/suv-cn.wav"
-        },
-        {
-          "id": "tandem",
-          "en": "Tandem",
-          "cn": "雙人單車",
-          "image": "data/cars/tandem.webp",
-          "audioEn": "data/cars/tandem-en.wav",
-          "audioCn": "data/cars/tandem-cn.wav"
-        },
-        {
-          "id": "tank",
-          "en": "Tank",
-          "cn": "坦克",
-          "image": "data/cars/tank.webp",
-          "audioEn": "data/cars/tank-en.wav",
-          "audioCn": "data/cars/tank-cn.wav"
-        },
-        {
-          "id": "tanker",
-          "en": "Tanker",
-          "cn": "油缸車",
-          "image": "data/cars/tanker.webp",
-          "audioEn": "data/cars/tanker-en.wav",
-          "audioCn": "data/cars/tanker-cn.wav"
-        },
-        {
-          "id": "taxi",
-          "en": "Taxi",
-          "cn": "的士",
-          "image": "data/cars/taxi.webp",
-          "audioEn": "data/cars/taxi-en.wav",
-          "audioCn": "data/cars/taxi-cn.wav"
-        },
-        {
-          "id": "tow-truck",
-          "en": "Tow Truck",
-          "cn": "拖車",
-          "image": "data/cars/tow-truck.webp",
-          "audioEn": "data/cars/tow-truck-en.wav",
-          "audioCn": "data/cars/tow-truck-cn.wav"
-        },
-        {
-          "id": "tractor",
-          "en": "Tractor",
-          "cn": "拖拉機",
-          "image": "data/cars/tractor.webp",
-          "audioEn": "data/cars/tractor-en.wav",
-          "audioCn": "data/cars/tractor-cn.wav"
-        },
-        {
-          "id": "trailer",
-          "en": "Trailer",
-          "cn": "拖卡",
-          "image": "data/cars/trailer.webp",
-          "audioEn": "data/cars/trailer-en.wav",
-          "audioCn": "data/cars/trailer-cn.wav"
-        },
-        {
-          "id": "train",
-          "en": "Train",
-          "cn": "火車",
-          "image": "data/cars/train.webp",
-          "audioEn": "data/cars/train-en.wav",
-          "audioCn": "data/cars/train-cn.wav"
-        },
-        {
-          "id": "tram",
-          "en": "Tram",
-          "cn": "電車",
-          "image": "data/cars/tram.webp",
-          "audioEn": "data/cars/tram-en.wav",
-          "audioCn": "data/cars/tram-cn.wav"
-        },
-        {
-          "id": "tricycle",
-          "en": "Tricycle",
-          "cn": "三輪車",
-          "image": "data/cars/tricycle.webp",
-          "audioEn": "data/cars/tricycle-en.wav",
-          "audioCn": "data/cars/tricycle-cn.wav"
-        },
-        {
-          "id": "truck",
-          "en": "Truck",
-          "cn": "貨車",
-          "image": "data/cars/truck.webp",
-          "audioEn": "data/cars/truck-en.wav",
-          "audioCn": "data/cars/truck-cn.wav"
-        },
-        {
-          "id": "tugboat",
-          "en": "Tugboat",
-          "cn": "拖船",
-          "image": "data/cars/tugboat.webp",
-          "audioEn": "data/cars/tugboat-en.wav",
-          "audioCn": "data/cars/tugboat-cn.wav"
-        },
-        {
-          "id": "tuk-tuk",
-          "en": "Tuk-tuk",
-          "cn": "篤篤車",
-          "image": "data/cars/tuk-tuk.webp",
-          "audioEn": "data/cars/tuk-tuk-en.wav",
-          "audioCn": "data/cars/tuk-tuk-cn.wav"
-        },
-        {
-          "id": "ufo",
-          "en": "UFO",
-          "cn": "飛碟",
-          "image": "data/cars/ufo.webp",
-          "audioEn": "data/cars/ufo-en.wav",
-          "audioCn": "data/cars/ufo-cn.wav"
-        },
-        {
-          "id": "unicycle",
-          "en": "Unicycle",
-          "cn": "單輪車",
-          "image": "data/cars/unicycle.webp",
-          "audioEn": "data/cars/unicycle-en.wav",
-          "audioCn": "data/cars/unicycle-cn.wav"
-        },
-        {
-          "id": "van",
-          "en": "Van",
-          "cn": "客貨車",
-          "image": "data/cars/van.webp",
-          "audioEn": "data/cars/van-en.wav",
-          "audioCn": "data/cars/van-cn.wav"
-        },
-        {
-          "id": "wheelchair",
-          "en": "Wheelchair",
-          "cn": "輪椅",
-          "image": "data/cars/wheelchair.webp",
-          "audioEn": "data/cars/wheelchair-en.wav",
-          "audioCn": "data/cars/wheelchair-cn.wav"
-        },
-        {
-          "id": "yacht",
-          "en": "Yacht",
-          "cn": "遊艇",
-          "image": "data/cars/yacht.webp",
-          "audioEn": "data/cars/yacht-en.wav",
-          "audioCn": "data/cars/yacht-cn.wav"
-        }
-      ]
-    },
-    {
       "id": "clothes",
-      "en": "clothes",
-      "cn": "clothes",
+      "en": "Clothes",
+      "cn": "衣服",
       "cover": "data/clothes/apron.webp",
       "cards": [
         {
@@ -2560,20 +1752,20 @@
           "audioCn": "data/clothes/boots-cn.wav"
         },
         {
-          "id": "bow-tie",
-          "en": "Bow Tie",
-          "cn": "煲呔",
-          "image": "data/clothes/bow-tie.webp",
-          "audioEn": "data/clothes/bow-tie-en.wav",
-          "audioCn": "data/clothes/bow-tie-cn.wav"
-        },
-        {
           "id": "bow",
           "en": "Bow",
           "cn": "蝴蝶結",
           "image": "data/clothes/bow.webp",
           "audioEn": "data/clothes/bow-en.wav",
           "audioCn": "data/clothes/bow-cn.wav"
+        },
+        {
+          "id": "bow-tie",
+          "en": "Bow Tie",
+          "cn": "煲呔",
+          "image": "data/clothes/bow-tie.webp",
+          "audioEn": "data/clothes/bow-tie-en.wav",
+          "audioCn": "data/clothes/bow-tie-cn.wav"
         },
         {
           "id": "bracelet",
@@ -3243,57 +2435,17 @@
     },
     {
       "id": "colors",
-      "en": "colors",
-      "cn": "colors",
-      "cover": "data/colors/amber.webp",
+      "en": "Colors",
+      "cn": "顏色",
+      "cover": "data/colors/black.webp",
       "cards": [
-        {
-          "id": "amber",
-          "en": "Amber",
-          "cn": "琥珀色",
-          "image": "data/colors/amber.webp",
-          "audioEn": "data/colors/amber-en.wav",
-          "audioCn": "data/colors/amber-cn.wav"
-        },
-        {
-          "id": "apricot",
-          "en": "Apricot",
-          "cn": "杏色",
-          "image": "data/colors/apricot.webp",
-          "audioEn": "data/colors/apricot-en.wav",
-          "audioCn": "data/colors/apricot-cn.wav"
-        },
-        {
-          "id": "aqua",
-          "en": "Aqua",
-          "cn": "水藍色",
-          "image": "data/colors/aqua.webp",
-          "audioEn": "data/colors/aqua-en.wav",
-          "audioCn": "data/colors/aqua-cn.wav"
-        },
-        {
-          "id": "arrow",
-          "en": "Arrow",
-          "cn": "箭嘴形",
-          "image": "data/colors/arrow.webp",
-          "audioEn": "data/colors/arrow-en.wav",
-          "audioCn": "data/colors/arrow-cn.wav"
-        },
-        {
-          "id": "beige",
-          "en": "Beige",
-          "cn": "米色",
-          "image": "data/colors/beige.webp",
-          "audioEn": "data/colors/beige-en.wav",
-          "audioCn": "data/colors/beige-cn.wav"
-        },
         {
           "id": "black",
           "en": "Black",
           "cn": "黑色",
           "image": "data/colors/black.webp",
           "audioEn": "data/colors/black-en.wav",
-          "audioCn": "data/colors/black-cn.wav"
+          "audioCn": "data/colors/black-cn.mp3"
         },
         {
           "id": "blue",
@@ -3301,23 +2453,7 @@
           "cn": "藍色",
           "image": "data/colors/blue.webp",
           "audioEn": "data/colors/blue-en.wav",
-          "audioCn": "data/colors/blue-cn.wav"
-        },
-        {
-          "id": "bright",
-          "en": "Bright",
-          "cn": "鮮色",
-          "image": "data/colors/bright.webp",
-          "audioEn": "data/colors/bright-en.wav",
-          "audioCn": "data/colors/bright-cn.wav"
-        },
-        {
-          "id": "bronze",
-          "en": "Bronze",
-          "cn": "古銅色",
-          "image": "data/colors/bronze.webp",
-          "audioEn": "data/colors/bronze-en.wav",
-          "audioCn": "data/colors/bronze-cn.wav"
+          "audioCn": "data/colors/blue-cn.mp3"
         },
         {
           "id": "brown",
@@ -3325,135 +2461,7 @@
           "cn": "啡色",
           "image": "data/colors/brown.webp",
           "audioEn": "data/colors/brown-en.wav",
-          "audioCn": "data/colors/brown-cn.wav"
-        },
-        {
-          "id": "burgundy",
-          "en": "Burgundy",
-          "cn": "酒紅色",
-          "image": "data/colors/burgundy.webp",
-          "audioEn": "data/colors/burgundy-en.wav",
-          "audioCn": "data/colors/burgundy-cn.wav"
-        },
-        {
-          "id": "camouflage",
-          "en": "Camouflage",
-          "cn": "迷彩",
-          "image": "data/colors/camouflage.webp",
-          "audioEn": "data/colors/camouflage-en.wav",
-          "audioCn": "data/colors/camouflage-cn.wav"
-        },
-        {
-          "id": "charcoal",
-          "en": "Charcoal",
-          "cn": "炭灰色",
-          "image": "data/colors/charcoal.webp",
-          "audioEn": "data/colors/charcoal-en.wav",
-          "audioCn": "data/colors/charcoal-cn.wav"
-        },
-        {
-          "id": "checkered",
-          "en": "Checkered",
-          "cn": "格仔",
-          "image": "data/colors/checkered.webp",
-          "audioEn": "data/colors/checkered-en.wav",
-          "audioCn": "data/colors/checkered-cn.wav"
-        },
-        {
-          "id": "chevron",
-          "en": "Chevron",
-          "cn": "山形紋",
-          "image": "data/colors/chevron.webp",
-          "audioEn": "data/colors/chevron-en.wav",
-          "audioCn": "data/colors/chevron-cn.wav"
-        },
-        {
-          "id": "circle",
-          "en": "Circle",
-          "cn": "圓形",
-          "image": "data/colors/circle.webp",
-          "audioEn": "data/colors/circle-en.wav",
-          "audioCn": "data/colors/circle-cn.wav"
-        },
-        {
-          "id": "colorful",
-          "en": "Colorful",
-          "cn": "彩色",
-          "image": "data/colors/colorful.webp",
-          "audioEn": "data/colors/colorful-en.wav",
-          "audioCn": "data/colors/colorful-cn.wav"
-        },
-        {
-          "id": "cone",
-          "en": "Cone",
-          "cn": "圓錐形",
-          "image": "data/colors/cone.webp",
-          "audioEn": "data/colors/cone-en.wav",
-          "audioCn": "data/colors/cone-cn.wav"
-        },
-        {
-          "id": "copper",
-          "en": "Copper",
-          "cn": "銅色",
-          "image": "data/colors/copper.webp",
-          "audioEn": "data/colors/copper-en.wav",
-          "audioCn": "data/colors/copper-cn.wav"
-        },
-        {
-          "id": "coral",
-          "en": "Coral",
-          "cn": "珊瑚色",
-          "image": "data/colors/coral.webp",
-          "audioEn": "data/colors/coral-en.wav",
-          "audioCn": "data/colors/coral-cn.wav"
-        },
-        {
-          "id": "cow-print",
-          "en": "Cow Print",
-          "cn": "乳牛紋",
-          "image": "data/colors/cow-print.webp",
-          "audioEn": "data/colors/cow-print-en.wav",
-          "audioCn": "data/colors/cow-print-cn.wav"
-        },
-        {
-          "id": "cream",
-          "en": "Cream",
-          "cn": "奶油色",
-          "image": "data/colors/cream.webp",
-          "audioEn": "data/colors/cream-en.wav",
-          "audioCn": "data/colors/cream-cn.wav"
-        },
-        {
-          "id": "crescent",
-          "en": "Crescent",
-          "cn": "月牙形",
-          "image": "data/colors/crescent.webp",
-          "audioEn": "data/colors/crescent-en.wav",
-          "audioCn": "data/colors/crescent-cn.wav"
-        },
-        {
-          "id": "crimson",
-          "en": "Crimson",
-          "cn": "深紅色",
-          "image": "data/colors/crimson.webp",
-          "audioEn": "data/colors/crimson-en.wav",
-          "audioCn": "data/colors/crimson-cn.wav"
-        },
-        {
-          "id": "cross",
-          "en": "Cross",
-          "cn": "十字形",
-          "image": "data/colors/cross.webp",
-          "audioEn": "data/colors/cross-en.wav",
-          "audioCn": "data/colors/cross-cn.wav"
-        },
-        {
-          "id": "cube",
-          "en": "Cube",
-          "cn": "正方體",
-          "image": "data/colors/cube.webp",
-          "audioEn": "data/colors/cube-en.wav",
-          "audioCn": "data/colors/cube-cn.wav"
+          "audioCn": "data/colors/brown-cn.mp3"
         },
         {
           "id": "cyan",
@@ -3461,47 +2469,7 @@
           "cn": "青色",
           "image": "data/colors/cyan.webp",
           "audioEn": "data/colors/cyan-en.wav",
-          "audioCn": "data/colors/cyan-cn.wav"
-        },
-        {
-          "id": "cylinder",
-          "en": "Cylinder",
-          "cn": "圓柱體",
-          "image": "data/colors/cylinder.webp",
-          "audioEn": "data/colors/cylinder-en.wav",
-          "audioCn": "data/colors/cylinder-cn.wav"
-        },
-        {
-          "id": "dark-green",
-          "en": "Dark Green",
-          "cn": "深綠色",
-          "image": "data/colors/dark-green.webp",
-          "audioEn": "data/colors/dark-green-en.wav",
-          "audioCn": "data/colors/dark-green-cn.wav"
-        },
-        {
-          "id": "dark",
-          "en": "Dark",
-          "cn": "深色",
-          "image": "data/colors/dark.webp",
-          "audioEn": "data/colors/dark-en.wav",
-          "audioCn": "data/colors/dark-cn.wav"
-        },
-        {
-          "id": "diamond",
-          "en": "Diamond",
-          "cn": "菱形",
-          "image": "data/colors/diamond.webp",
-          "audioEn": "data/colors/diamond-en.wav",
-          "audioCn": "data/colors/diamond-cn.wav"
-        },
-        {
-          "id": "floral",
-          "en": "Floral",
-          "cn": "花花圖案",
-          "image": "data/colors/floral.webp",
-          "audioEn": "data/colors/floral-en.wav",
-          "audioCn": "data/colors/floral-cn.wav"
+          "audioCn": "data/colors/cyan-cn.mp3"
         },
         {
           "id": "gold",
@@ -3509,7 +2477,15 @@
           "cn": "金色",
           "image": "data/colors/gold.webp",
           "audioEn": "data/colors/gold-en.wav",
-          "audioCn": "data/colors/gold-cn.wav"
+          "audioCn": "data/colors/gold-cn.mp3"
+        },
+        {
+          "id": "gray",
+          "en": "Gray",
+          "cn": "灰色",
+          "image": "data/colors/gray.webp",
+          "audioEn": "data/colors/gray-en.wav",
+          "audioCn": "data/colors/gray-cn.mp3"
         },
         {
           "id": "green",
@@ -3517,215 +2493,15 @@
           "cn": "綠色",
           "image": "data/colors/green.webp",
           "audioEn": "data/colors/green-en.wav",
-          "audioCn": "data/colors/green-cn.wav"
-        },
-        {
-          "id": "grey",
-          "en": "Grey",
-          "cn": "灰色",
-          "image": "data/colors/grey.webp",
-          "audioEn": "data/colors/grey-en.wav",
-          "audioCn": "data/colors/grey-cn.wav"
-        },
-        {
-          "id": "heart",
-          "en": "Heart",
-          "cn": "心形",
-          "image": "data/colors/heart.webp",
-          "audioEn": "data/colors/heart-en.wav",
-          "audioCn": "data/colors/heart-cn.wav"
-        },
-        {
-          "id": "herringbone",
-          "en": "Herringbone",
-          "cn": "人字紋",
-          "image": "data/colors/herringbone.webp",
-          "audioEn": "data/colors/herringbone-en.wav",
-          "audioCn": "data/colors/herringbone-cn.wav"
-        },
-        {
-          "id": "hexagon",
-          "en": "Hexagon",
-          "cn": "六邊形",
-          "image": "data/colors/hexagon.webp",
-          "audioEn": "data/colors/hexagon-en.wav",
-          "audioCn": "data/colors/hexagon-cn.wav"
-        },
-        {
-          "id": "houndstooth",
-          "en": "Houndstooth",
-          "cn": "千鳥格",
-          "image": "data/colors/houndstooth.webp",
-          "audioEn": "data/colors/houndstooth-en.wav",
-          "audioCn": "data/colors/houndstooth-cn.wav"
-        },
-        {
-          "id": "indigo",
-          "en": "Indigo",
-          "cn": "靛藍色",
-          "image": "data/colors/indigo.webp",
-          "audioEn": "data/colors/indigo-en.wav",
-          "audioCn": "data/colors/indigo-cn.wav"
-        },
-        {
-          "id": "ivory",
-          "en": "Ivory",
-          "cn": "象牙色",
-          "image": "data/colors/ivory.webp",
-          "audioEn": "data/colors/ivory-en.wav",
-          "audioCn": "data/colors/ivory-cn.wav"
-        },
-        {
-          "id": "khaki",
-          "en": "Khaki",
-          "cn": "卡其色",
-          "image": "data/colors/khaki.webp",
-          "audioEn": "data/colors/khaki-en.wav",
-          "audioCn": "data/colors/khaki-cn.wav"
-        },
-        {
-          "id": "lavender",
-          "en": "Lavender",
-          "cn": "薰衣草色",
-          "image": "data/colors/lavender.webp",
-          "audioEn": "data/colors/lavender-en.wav",
-          "audioCn": "data/colors/lavender-cn.wav"
-        },
-        {
-          "id": "lemon",
-          "en": "Lemon",
-          "cn": "檸檬黃色",
-          "image": "data/colors/lemon.webp",
-          "audioEn": "data/colors/lemon-en.wav",
-          "audioCn": "data/colors/lemon-cn.wav"
-        },
-        {
-          "id": "leopard-print",
-          "en": "Leopard Print",
-          "cn": "豹紋",
-          "image": "data/colors/leopard-print.webp",
-          "audioEn": "data/colors/leopard-print-en.wav",
-          "audioCn": "data/colors/leopard-print-cn.wav"
-        },
-        {
-          "id": "light-blue",
-          "en": "Light Blue",
-          "cn": "淺藍色",
-          "image": "data/colors/light-blue.webp",
-          "audioEn": "data/colors/light-blue-en.wav",
-          "audioCn": "data/colors/light-blue-cn.wav"
-        },
-        {
-          "id": "light-green",
-          "en": "Light Green",
-          "cn": "淺綠色",
-          "image": "data/colors/light-green.webp",
-          "audioEn": "data/colors/light-green-en.wav",
-          "audioCn": "data/colors/light-green-cn.wav"
-        },
-        {
-          "id": "light",
-          "en": "Light",
-          "cn": "淺色",
-          "image": "data/colors/light.webp",
-          "audioEn": "data/colors/light-en.wav",
-          "audioCn": "data/colors/light-cn.wav"
-        },
-        {
-          "id": "lilac",
-          "en": "Lilac",
-          "cn": "丁香紫色",
-          "image": "data/colors/lilac.webp",
-          "audioEn": "data/colors/lilac-en.wav",
-          "audioCn": "data/colors/lilac-cn.wav"
+          "audioCn": "data/colors/green-cn.mp3"
         },
         {
           "id": "lime",
           "en": "Lime",
-          "cn": "青檸綠色",
+          "cn": "青綠色",
           "image": "data/colors/lime.webp",
           "audioEn": "data/colors/lime-en.wav",
-          "audioCn": "data/colors/lime-cn.wav"
-        },
-        {
-          "id": "magenta",
-          "en": "Magenta",
-          "cn": "洋紅色",
-          "image": "data/colors/magenta.webp",
-          "audioEn": "data/colors/magenta-en.wav",
-          "audioCn": "data/colors/magenta-cn.wav"
-        },
-        {
-          "id": "marble",
-          "en": "Marble",
-          "cn": "雲石紋",
-          "image": "data/colors/marble.webp",
-          "audioEn": "data/colors/marble-en.wav",
-          "audioCn": "data/colors/marble-cn.wav"
-        },
-        {
-          "id": "maroon",
-          "en": "Maroon",
-          "cn": "棗紅色",
-          "image": "data/colors/maroon.webp",
-          "audioEn": "data/colors/maroon-en.wav",
-          "audioCn": "data/colors/maroon-cn.wav"
-        },
-        {
-          "id": "matte",
-          "en": "Matte",
-          "cn": "啞色",
-          "image": "data/colors/matte.webp",
-          "audioEn": "data/colors/matte-en.wav",
-          "audioCn": "data/colors/matte-cn.wav"
-        },
-        {
-          "id": "mint",
-          "en": "Mint",
-          "cn": "薄荷綠色",
-          "image": "data/colors/mint.webp",
-          "audioEn": "data/colors/mint-en.wav",
-          "audioCn": "data/colors/mint-cn.wav"
-        },
-        {
-          "id": "mustard",
-          "en": "Mustard",
-          "cn": "芥末黃色",
-          "image": "data/colors/mustard.webp",
-          "audioEn": "data/colors/mustard-en.wav",
-          "audioCn": "data/colors/mustard-cn.wav"
-        },
-        {
-          "id": "navy",
-          "en": "Navy",
-          "cn": "深藍色",
-          "image": "data/colors/navy.webp",
-          "audioEn": "data/colors/navy-en.wav",
-          "audioCn": "data/colors/navy-cn.wav"
-        },
-        {
-          "id": "neon",
-          "en": "Neon",
-          "cn": "螢光色",
-          "image": "data/colors/neon.webp",
-          "audioEn": "data/colors/neon-en.wav",
-          "audioCn": "data/colors/neon-cn.wav"
-        },
-        {
-          "id": "octagon",
-          "en": "Octagon",
-          "cn": "八邊形",
-          "image": "data/colors/octagon.webp",
-          "audioEn": "data/colors/octagon-en.wav",
-          "audioCn": "data/colors/octagon-cn.wav"
-        },
-        {
-          "id": "olive",
-          "en": "Olive",
-          "cn": "橄欖綠色",
-          "image": "data/colors/olive.webp",
-          "audioEn": "data/colors/olive-en.wav",
-          "audioCn": "data/colors/olive-cn.wav"
+          "audioCn": "data/colors/lime-cn.mp3"
         },
         {
           "id": "orange",
@@ -3733,39 +2509,7 @@
           "cn": "橙色",
           "image": "data/colors/orange.webp",
           "audioEn": "data/colors/orange-en.wav",
-          "audioCn": "data/colors/orange-cn.wav"
-        },
-        {
-          "id": "oval",
-          "en": "Oval",
-          "cn": "橢圓形",
-          "image": "data/colors/oval.webp",
-          "audioEn": "data/colors/oval-en.wav",
-          "audioCn": "data/colors/oval-cn.wav"
-        },
-        {
-          "id": "paisley",
-          "en": "Paisley",
-          "cn": "佩斯利紋",
-          "image": "data/colors/paisley.webp",
-          "audioEn": "data/colors/paisley-en.wav",
-          "audioCn": "data/colors/paisley-cn.wav"
-        },
-        {
-          "id": "pastel",
-          "en": "Pastel",
-          "cn": "粉彩色",
-          "image": "data/colors/pastel.webp",
-          "audioEn": "data/colors/pastel-en.wav",
-          "audioCn": "data/colors/pastel-cn.wav"
-        },
-        {
-          "id": "peach",
-          "en": "Peach",
-          "cn": "蜜桃色",
-          "image": "data/colors/peach.webp",
-          "audioEn": "data/colors/peach-en.wav",
-          "audioCn": "data/colors/peach-cn.wav"
+          "audioCn": "data/colors/orange-cn.mp3"
         },
         {
           "id": "pink",
@@ -3773,31 +2517,7 @@
           "cn": "粉紅色",
           "image": "data/colors/pink.webp",
           "audioEn": "data/colors/pink-en.wav",
-          "audioCn": "data/colors/pink-cn.wav"
-        },
-        {
-          "id": "plaid",
-          "en": "Plaid",
-          "cn": "蘇格蘭格紋",
-          "image": "data/colors/plaid.webp",
-          "audioEn": "data/colors/plaid-en.wav",
-          "audioCn": "data/colors/plaid-cn.wav"
-        },
-        {
-          "id": "polka-dots",
-          "en": "Polka Dots",
-          "cn": "波點",
-          "image": "data/colors/polka-dots.webp",
-          "audioEn": "data/colors/polka-dots-en.wav",
-          "audioCn": "data/colors/polka-dots-cn.wav"
-        },
-        {
-          "id": "prism",
-          "en": "Prism",
-          "cn": "三稜柱",
-          "image": "data/colors/prism.webp",
-          "audioEn": "data/colors/prism-en.wav",
-          "audioCn": "data/colors/prism-cn.wav"
+          "audioCn": "data/colors/pink-cn.mp3"
         },
         {
           "id": "purple",
@@ -3805,31 +2525,7 @@
           "cn": "紫色",
           "image": "data/colors/purple.webp",
           "audioEn": "data/colors/purple-en.wav",
-          "audioCn": "data/colors/purple-cn.wav"
-        },
-        {
-          "id": "pyramid",
-          "en": "Pyramid",
-          "cn": "金字塔形",
-          "image": "data/colors/pyramid.webp",
-          "audioEn": "data/colors/pyramid-en.wav",
-          "audioCn": "data/colors/pyramid-cn.wav"
-        },
-        {
-          "id": "rainbow",
-          "en": "Rainbow",
-          "cn": "彩虹色",
-          "image": "data/colors/rainbow.webp",
-          "audioEn": "data/colors/rainbow-en.wav",
-          "audioCn": "data/colors/rainbow-cn.wav"
-        },
-        {
-          "id": "rectangle",
-          "en": "Rectangle",
-          "cn": "長方形",
-          "image": "data/colors/rectangle.webp",
-          "audioEn": "data/colors/rectangle-en.wav",
-          "audioCn": "data/colors/rectangle-cn.wav"
+          "audioCn": "data/colors/purple-cn.mp3"
         },
         {
           "id": "red",
@@ -3837,47 +2533,7 @@
           "cn": "紅色",
           "image": "data/colors/red.webp",
           "audioEn": "data/colors/red-en.wav",
-          "audioCn": "data/colors/red-cn.wav"
-        },
-        {
-          "id": "rose",
-          "en": "Rose",
-          "cn": "玫瑰色",
-          "image": "data/colors/rose.webp",
-          "audioEn": "data/colors/rose-en.wav",
-          "audioCn": "data/colors/rose-cn.wav"
-        },
-        {
-          "id": "rust",
-          "en": "Rust",
-          "cn": "鐵銹色",
-          "image": "data/colors/rust.webp",
-          "audioEn": "data/colors/rust-en.wav",
-          "audioCn": "data/colors/rust-cn.wav"
-        },
-        {
-          "id": "salmon",
-          "en": "Salmon",
-          "cn": "三文魚色",
-          "image": "data/colors/salmon.webp",
-          "audioEn": "data/colors/salmon-en.wav",
-          "audioCn": "data/colors/salmon-cn.wav"
-        },
-        {
-          "id": "semicircle",
-          "en": "Semicircle",
-          "cn": "半圓形",
-          "image": "data/colors/semicircle.webp",
-          "audioEn": "data/colors/semicircle-en.wav",
-          "audioCn": "data/colors/semicircle-cn.wav"
-        },
-        {
-          "id": "shiny",
-          "en": "Shiny",
-          "cn": "閃令令",
-          "image": "data/colors/shiny.webp",
-          "audioEn": "data/colors/shiny-en.wav",
-          "audioCn": "data/colors/shiny-cn.wav"
+          "audioCn": "data/colors/red-cn.mp3"
         },
         {
           "id": "silver",
@@ -3885,127 +2541,7 @@
           "cn": "銀色",
           "image": "data/colors/silver.webp",
           "audioEn": "data/colors/silver-en.wav",
-          "audioCn": "data/colors/silver-cn.wav"
-        },
-        {
-          "id": "sky-blue",
-          "en": "Sky Blue",
-          "cn": "天藍色",
-          "image": "data/colors/sky-blue.webp",
-          "audioEn": "data/colors/sky-blue-en.wav",
-          "audioCn": "data/colors/sky-blue-cn.wav"
-        },
-        {
-          "id": "sparkle",
-          "en": "Sparkle",
-          "cn": "閃閃",
-          "image": "data/colors/sparkle.webp",
-          "audioEn": "data/colors/sparkle-en.wav",
-          "audioCn": "data/colors/sparkle-cn.wav"
-        },
-        {
-          "id": "sphere",
-          "en": "Sphere",
-          "cn": "球形",
-          "image": "data/colors/sphere.webp",
-          "audioEn": "data/colors/sphere-en.wav",
-          "audioCn": "data/colors/sphere-cn.wav"
-        },
-        {
-          "id": "spiral",
-          "en": "Spiral",
-          "cn": "螺旋形",
-          "image": "data/colors/spiral.webp",
-          "audioEn": "data/colors/spiral-en.wav",
-          "audioCn": "data/colors/spiral-cn.wav"
-        },
-        {
-          "id": "square",
-          "en": "Square",
-          "cn": "正方形",
-          "image": "data/colors/square.webp",
-          "audioEn": "data/colors/square-en.wav",
-          "audioCn": "data/colors/square-cn.wav"
-        },
-        {
-          "id": "star",
-          "en": "Star",
-          "cn": "星形",
-          "image": "data/colors/star.webp",
-          "audioEn": "data/colors/star-en.wav",
-          "audioCn": "data/colors/star-cn.wav"
-        },
-        {
-          "id": "stripes",
-          "en": "Stripes",
-          "cn": "條紋",
-          "image": "data/colors/stripes.webp",
-          "audioEn": "data/colors/stripes-en.wav",
-          "audioCn": "data/colors/stripes-cn.wav"
-        },
-        {
-          "id": "teal",
-          "en": "Teal",
-          "cn": "藍綠色",
-          "image": "data/colors/teal.webp",
-          "audioEn": "data/colors/teal-en.wav",
-          "audioCn": "data/colors/teal-cn.wav"
-        },
-        {
-          "id": "tie-dye",
-          "en": "Tie-dye",
-          "cn": "紮染",
-          "image": "data/colors/tie-dye.webp",
-          "audioEn": "data/colors/tie-dye-en.wav",
-          "audioCn": "data/colors/tie-dye-cn.wav"
-        },
-        {
-          "id": "torus",
-          "en": "Torus",
-          "cn": "冬甩圈形",
-          "image": "data/colors/torus.webp",
-          "audioEn": "data/colors/torus-en.wav",
-          "audioCn": "data/colors/torus-cn.wav"
-        },
-        {
-          "id": "transparent",
-          "en": "Transparent",
-          "cn": "透明",
-          "image": "data/colors/transparent.webp",
-          "audioEn": "data/colors/transparent-en.wav",
-          "audioCn": "data/colors/transparent-cn.wav"
-        },
-        {
-          "id": "triangle",
-          "en": "Triangle",
-          "cn": "三角形",
-          "image": "data/colors/triangle.webp",
-          "audioEn": "data/colors/triangle-en.wav",
-          "audioCn": "data/colors/triangle-cn.wav"
-        },
-        {
-          "id": "turquoise",
-          "en": "Turquoise",
-          "cn": "湖水藍色",
-          "image": "data/colors/turquoise.webp",
-          "audioEn": "data/colors/turquoise-en.wav",
-          "audioCn": "data/colors/turquoise-cn.wav"
-        },
-        {
-          "id": "violet",
-          "en": "Violet",
-          "cn": "紫羅蘭色",
-          "image": "data/colors/violet.webp",
-          "audioEn": "data/colors/violet-en.wav",
-          "audioCn": "data/colors/violet-cn.wav"
-        },
-        {
-          "id": "wave",
-          "en": "Wave",
-          "cn": "波浪形",
-          "image": "data/colors/wave.webp",
-          "audioEn": "data/colors/wave-en.wav",
-          "audioCn": "data/colors/wave-cn.wav"
+          "audioCn": "data/colors/silver-cn.mp3"
         },
         {
           "id": "white",
@@ -4013,7 +2549,7 @@
           "cn": "白色",
           "image": "data/colors/white.webp",
           "audioEn": "data/colors/white-en.wav",
-          "audioCn": "data/colors/white-cn.wav"
+          "audioCn": "data/colors/white-cn.mp3"
         },
         {
           "id": "yellow",
@@ -4021,30 +2557,14 @@
           "cn": "黃色",
           "image": "data/colors/yellow.webp",
           "audioEn": "data/colors/yellow-en.wav",
-          "audioCn": "data/colors/yellow-cn.wav"
-        },
-        {
-          "id": "zebra-print",
-          "en": "Zebra Print",
-          "cn": "斑馬紋",
-          "image": "data/colors/zebra-print.webp",
-          "audioEn": "data/colors/zebra-print-en.wav",
-          "audioCn": "data/colors/zebra-print-cn.wav"
-        },
-        {
-          "id": "zigzag",
-          "en": "Zigzag",
-          "cn": "鋸齒形",
-          "image": "data/colors/zigzag.webp",
-          "audioEn": "data/colors/zigzag-en.wav",
-          "audioCn": "data/colors/zigzag-cn.wav"
+          "audioCn": "data/colors/yellow-cn.mp3"
         }
       ]
     },
     {
       "id": "family",
-      "en": "family",
-      "cn": "family",
+      "en": "People",
+      "cn": "人物",
       "cover": "data/family/auntie.webp",
       "cards": [
         {
@@ -4073,7 +2593,7 @@
         },
         {
           "id": "grandma-maternal",
-          "en": "Grandma (maternal)",
+          "en": "Grandma",
           "cn": "婆婆",
           "image": "data/family/grandma-maternal.webp",
           "audioEn": "data/family/grandma-maternal-en.wav",
@@ -4107,8 +2627,8 @@
     },
     {
       "id": "food",
-      "en": "food",
-      "cn": "food",
+      "en": "Food",
+      "cn": "食物",
       "cover": "data/food/bacon.webp",
       "cards": [
         {
@@ -4224,20 +2744,20 @@
           "audioCn": "data/food/cereal-cn.wav"
         },
         {
-          "id": "char-siu-bao",
-          "en": "Char Siu Bao",
-          "cn": "叉燒包",
-          "image": "data/food/char-siu-bao.webp",
-          "audioEn": "data/food/char-siu-bao-en.wav",
-          "audioCn": "data/food/char-siu-bao-cn.wav"
-        },
-        {
           "id": "char-siu",
           "en": "Char Siu",
           "cn": "叉燒",
           "image": "data/food/char-siu.webp",
           "audioEn": "data/food/char-siu-en.wav",
           "audioCn": "data/food/char-siu-cn.wav"
+        },
+        {
+          "id": "char-siu-bao",
+          "en": "Char Siu Bao",
+          "cn": "叉燒包",
+          "image": "data/food/char-siu-bao.webp",
+          "audioEn": "data/food/char-siu-bao-en.wav",
+          "audioCn": "data/food/char-siu-bao-cn.wav"
         },
         {
           "id": "cheese",
@@ -4384,20 +2904,20 @@
           "audioCn": "data/food/dumplings-cn.wav"
         },
         {
-          "id": "egg-tart",
-          "en": "Egg Tart",
-          "cn": "蛋撻",
-          "image": "data/food/egg-tart.webp",
-          "audioEn": "data/food/egg-tart-en.wav",
-          "audioCn": "data/food/egg-tart-cn.wav"
-        },
-        {
           "id": "egg",
           "en": "Egg",
           "cn": "雞蛋",
           "image": "data/food/egg.webp",
           "audioEn": "data/food/egg-en.wav",
           "audioCn": "data/food/egg-cn.wav"
+        },
+        {
+          "id": "egg-tart",
+          "en": "Egg Tart",
+          "cn": "蛋撻",
+          "image": "data/food/egg-tart.webp",
+          "audioEn": "data/food/egg-tart-en.wav",
+          "audioCn": "data/food/egg-tart-cn.wav"
         },
         {
           "id": "french-fries",
@@ -4872,20 +3392,20 @@
           "audioCn": "data/food/waffle-cn.wav"
         },
         {
-          "id": "wonton-noodles",
-          "en": "Wonton Noodles",
-          "cn": "雲吞麵",
-          "image": "data/food/wonton-noodles.webp",
-          "audioEn": "data/food/wonton-noodles-en.wav",
-          "audioCn": "data/food/wonton-noodles-cn.wav"
-        },
-        {
           "id": "wonton",
           "en": "Wonton",
           "cn": "雲吞",
           "image": "data/food/wonton.webp",
           "audioEn": "data/food/wonton-en.wav",
           "audioCn": "data/food/wonton-cn.wav"
+        },
+        {
+          "id": "wonton-noodles",
+          "en": "Wonton Noodles",
+          "cn": "雲吞麵",
+          "image": "data/food/wonton-noodles.webp",
+          "audioEn": "data/food/wonton-noodles-en.wav",
+          "audioCn": "data/food/wonton-noodles-cn.wav"
         },
         {
           "id": "yogurt",
@@ -4915,8 +3435,8 @@
     },
     {
       "id": "fruits",
-      "en": "fruits",
-      "cn": "fruits",
+      "en": "Fruits",
+      "cn": "水果",
       "cover": "data/fruits/apple.webp",
       "cards": [
         {
@@ -5386,9 +3906,1833 @@
       ]
     },
     {
+      "id": "letters",
+      "en": "A-Z",
+      "cn": "英文字母",
+      "cover": "data/letters/a.webp",
+      "cards": [
+        {
+          "id": "a",
+          "en": "Aa",
+          "cn": "Apple",
+          "image": "data/letters/a.webp",
+          "audioEn": "data/letters/a-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "b",
+          "en": "Bb",
+          "cn": "Banana",
+          "image": "data/letters/b.webp",
+          "audioEn": "data/letters/b-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "c",
+          "en": "Cc",
+          "cn": "Cat",
+          "image": "data/letters/c.webp",
+          "audioEn": "data/letters/c-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "d",
+          "en": "Dd",
+          "cn": "Dog",
+          "image": "data/letters/d.webp",
+          "audioEn": "data/letters/d-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "e",
+          "en": "Ee",
+          "cn": "Elephant",
+          "image": "data/letters/e.webp",
+          "audioEn": "data/letters/e-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "f",
+          "en": "Ff",
+          "cn": "Fish",
+          "image": "data/letters/f.webp",
+          "audioEn": "data/letters/f-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "g",
+          "en": "Gg",
+          "cn": "Grape",
+          "image": "data/letters/g.webp",
+          "audioEn": "data/letters/g-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "h",
+          "en": "Hh",
+          "cn": "Hat",
+          "image": "data/letters/h.webp",
+          "audioEn": "data/letters/h-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "i",
+          "en": "Ii",
+          "cn": "Ice cream",
+          "image": "data/letters/i.webp",
+          "audioEn": "data/letters/i-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "j",
+          "en": "Jj",
+          "cn": "Juice",
+          "image": "data/letters/j.webp",
+          "audioEn": "data/letters/j-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "k",
+          "en": "Kk",
+          "cn": "Kite",
+          "image": "data/letters/k.webp",
+          "audioEn": "data/letters/k-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "l",
+          "en": "Ll",
+          "cn": "Lion",
+          "image": "data/letters/l.webp",
+          "audioEn": "data/letters/l-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "m",
+          "en": "Mm",
+          "cn": "Moon",
+          "image": "data/letters/m.webp",
+          "audioEn": "data/letters/m-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "n",
+          "en": "Nn",
+          "cn": "Nose",
+          "image": "data/letters/n.webp",
+          "audioEn": "data/letters/n-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "o",
+          "en": "Oo",
+          "cn": "Orange",
+          "image": "data/letters/o.webp",
+          "audioEn": "data/letters/o-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "p",
+          "en": "Pp",
+          "cn": "Pig",
+          "image": "data/letters/p.webp",
+          "audioEn": "data/letters/p-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "q",
+          "en": "Qq",
+          "cn": "Queen",
+          "image": "data/letters/q.webp",
+          "audioEn": "data/letters/q-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "r",
+          "en": "Rr",
+          "cn": "Rainbow",
+          "image": "data/letters/r.webp",
+          "audioEn": "data/letters/r-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "s",
+          "en": "Ss",
+          "cn": "Sun",
+          "image": "data/letters/s.webp",
+          "audioEn": "data/letters/s-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "t",
+          "en": "Tt",
+          "cn": "Tiger",
+          "image": "data/letters/t.webp",
+          "audioEn": "data/letters/t-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "u",
+          "en": "Uu",
+          "cn": "Umbrella",
+          "image": "data/letters/u.webp",
+          "audioEn": "data/letters/u-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "v",
+          "en": "Vv",
+          "cn": "Violin",
+          "image": "data/letters/v.webp",
+          "audioEn": "data/letters/v-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "w",
+          "en": "Ww",
+          "cn": "Water",
+          "image": "data/letters/w.webp",
+          "audioEn": "data/letters/w-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "x",
+          "en": "Xx",
+          "cn": "Xylophone",
+          "image": "data/letters/x.webp",
+          "audioEn": "data/letters/x-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "y",
+          "en": "Yy",
+          "cn": "Yo-yo",
+          "image": "data/letters/y.webp",
+          "audioEn": "data/letters/y-en.wav",
+          "audioCn": null
+        },
+        {
+          "id": "z",
+          "en": "Zz",
+          "cn": "Zebra",
+          "image": "data/letters/z.webp",
+          "audioEn": "data/letters/z-en.wav",
+          "audioCn": null
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "en": "Numbers",
+      "cn": "數字",
+      "cover": "data/numbers/1.webp",
+      "cards": [
+        {
+          "id": "1",
+          "en": "One",
+          "cn": "一",
+          "image": "data/numbers/1.webp",
+          "audioEn": "data/numbers/1-en.wav",
+          "audioCn": "data/numbers/1-cn.mp3"
+        },
+        {
+          "id": "2",
+          "en": "Two",
+          "cn": "二",
+          "image": "data/numbers/2.webp",
+          "audioEn": "data/numbers/2-en.wav",
+          "audioCn": "data/numbers/2-cn.mp3"
+        },
+        {
+          "id": "3",
+          "en": "Three",
+          "cn": "三",
+          "image": "data/numbers/3.webp",
+          "audioEn": "data/numbers/3-en.wav",
+          "audioCn": "data/numbers/3-cn.mp3"
+        },
+        {
+          "id": "4",
+          "en": "Four",
+          "cn": "四",
+          "image": "data/numbers/4.webp",
+          "audioEn": "data/numbers/4-en.wav",
+          "audioCn": "data/numbers/4-cn.mp3"
+        },
+        {
+          "id": "5",
+          "en": "Five",
+          "cn": "五",
+          "image": "data/numbers/5.webp",
+          "audioEn": "data/numbers/5-en.wav",
+          "audioCn": "data/numbers/5-cn.mp3"
+        },
+        {
+          "id": "6",
+          "en": "Six",
+          "cn": "六",
+          "image": "data/numbers/6.webp",
+          "audioEn": "data/numbers/6-en.wav",
+          "audioCn": "data/numbers/6-cn.mp3"
+        },
+        {
+          "id": "7",
+          "en": "Seven",
+          "cn": "七",
+          "image": "data/numbers/7.webp",
+          "audioEn": "data/numbers/7-en.wav",
+          "audioCn": "data/numbers/7-cn.mp3"
+        },
+        {
+          "id": "8",
+          "en": "Eight",
+          "cn": "八",
+          "image": "data/numbers/8.webp",
+          "audioEn": "data/numbers/8-en.wav",
+          "audioCn": "data/numbers/8-cn.mp3"
+        },
+        {
+          "id": "9",
+          "en": "Nine",
+          "cn": "九",
+          "image": "data/numbers/9.webp",
+          "audioEn": "data/numbers/9-en.wav",
+          "audioCn": "data/numbers/9-cn.mp3"
+        },
+        {
+          "id": "10",
+          "en": "Ten",
+          "cn": "十",
+          "image": "data/numbers/10.webp",
+          "audioEn": "data/numbers/10-en.wav",
+          "audioCn": "data/numbers/10-cn.mp3"
+        },
+        {
+          "id": "11",
+          "en": "Eleven",
+          "cn": "十一",
+          "image": "data/numbers/11.webp",
+          "audioEn": "data/numbers/11-en.wav",
+          "audioCn": "data/numbers/11-cn.mp3"
+        },
+        {
+          "id": "12",
+          "en": "Twelve",
+          "cn": "十二",
+          "image": "data/numbers/12.webp",
+          "audioEn": "data/numbers/12-en.wav",
+          "audioCn": "data/numbers/12-cn.mp3"
+        },
+        {
+          "id": "13",
+          "en": "Thirteen",
+          "cn": "十三",
+          "image": "data/numbers/13.webp",
+          "audioEn": "data/numbers/13-en.wav",
+          "audioCn": "data/numbers/13-cn.mp3"
+        },
+        {
+          "id": "14",
+          "en": "Fourteen",
+          "cn": "十四",
+          "image": "data/numbers/14.webp",
+          "audioEn": "data/numbers/14-en.wav",
+          "audioCn": "data/numbers/14-cn.mp3"
+        },
+        {
+          "id": "15",
+          "en": "Fifteen",
+          "cn": "十五",
+          "image": "data/numbers/15.webp",
+          "audioEn": "data/numbers/15-en.wav",
+          "audioCn": "data/numbers/15-cn.mp3"
+        },
+        {
+          "id": "16",
+          "en": "Sixteen",
+          "cn": "十六",
+          "image": "data/numbers/16.webp",
+          "audioEn": "data/numbers/16-en.wav",
+          "audioCn": "data/numbers/16-cn.mp3"
+        },
+        {
+          "id": "17",
+          "en": "Seventeen",
+          "cn": "十七",
+          "image": "data/numbers/17.webp",
+          "audioEn": "data/numbers/17-en.wav",
+          "audioCn": "data/numbers/17-cn.mp3"
+        },
+        {
+          "id": "18",
+          "en": "Eighteen",
+          "cn": "十八",
+          "image": "data/numbers/18.webp",
+          "audioEn": "data/numbers/18-en.wav",
+          "audioCn": "data/numbers/18-cn.mp3"
+        },
+        {
+          "id": "19",
+          "en": "Nineteen",
+          "cn": "十九",
+          "image": "data/numbers/19.webp",
+          "audioEn": "data/numbers/19-en.wav",
+          "audioCn": "data/numbers/19-cn.mp3"
+        },
+        {
+          "id": "20",
+          "en": "Twenty",
+          "cn": "二十",
+          "image": "data/numbers/20.webp",
+          "audioEn": "data/numbers/20-en.wav",
+          "audioCn": "data/numbers/20-cn.mp3"
+        },
+        {
+          "id": "21",
+          "en": "Twenty-One",
+          "cn": "二十一",
+          "image": "data/numbers/21.webp",
+          "audioEn": "data/numbers/21-en.wav",
+          "audioCn": "data/numbers/21-cn.mp3"
+        },
+        {
+          "id": "22",
+          "en": "Twenty-Two",
+          "cn": "二十二",
+          "image": "data/numbers/22.webp",
+          "audioEn": "data/numbers/22-en.wav",
+          "audioCn": "data/numbers/22-cn.mp3"
+        },
+        {
+          "id": "23",
+          "en": "Twenty-Three",
+          "cn": "二十三",
+          "image": "data/numbers/23.webp",
+          "audioEn": "data/numbers/23-en.wav",
+          "audioCn": "data/numbers/23-cn.mp3"
+        },
+        {
+          "id": "24",
+          "en": "Twenty-Four",
+          "cn": "二十四",
+          "image": "data/numbers/24.webp",
+          "audioEn": "data/numbers/24-en.wav",
+          "audioCn": "data/numbers/24-cn.mp3"
+        },
+        {
+          "id": "25",
+          "en": "Twenty-Five",
+          "cn": "二十五",
+          "image": "data/numbers/25.webp",
+          "audioEn": "data/numbers/25-en.wav",
+          "audioCn": "data/numbers/25-cn.mp3"
+        },
+        {
+          "id": "26",
+          "en": "Twenty-Six",
+          "cn": "二十六",
+          "image": "data/numbers/26.webp",
+          "audioEn": "data/numbers/26-en.wav",
+          "audioCn": "data/numbers/26-cn.mp3"
+        },
+        {
+          "id": "27",
+          "en": "Twenty-Seven",
+          "cn": "二十七",
+          "image": "data/numbers/27.webp",
+          "audioEn": "data/numbers/27-en.wav",
+          "audioCn": "data/numbers/27-cn.mp3"
+        },
+        {
+          "id": "28",
+          "en": "Twenty-Eight",
+          "cn": "二十八",
+          "image": "data/numbers/28.webp",
+          "audioEn": "data/numbers/28-en.wav",
+          "audioCn": "data/numbers/28-cn.mp3"
+        },
+        {
+          "id": "29",
+          "en": "Twenty-Nine",
+          "cn": "二十九",
+          "image": "data/numbers/29.webp",
+          "audioEn": "data/numbers/29-en.wav",
+          "audioCn": "data/numbers/29-cn.mp3"
+        },
+        {
+          "id": "30",
+          "en": "Thirty",
+          "cn": "三十",
+          "image": "data/numbers/30.webp",
+          "audioEn": "data/numbers/30-en.wav",
+          "audioCn": "data/numbers/30-cn.mp3"
+        },
+        {
+          "id": "31",
+          "en": "Thirty-One",
+          "cn": "三十一",
+          "image": "data/numbers/31.webp",
+          "audioEn": "data/numbers/31-en.wav",
+          "audioCn": "data/numbers/31-cn.mp3"
+        },
+        {
+          "id": "32",
+          "en": "Thirty-Two",
+          "cn": "三十二",
+          "image": "data/numbers/32.webp",
+          "audioEn": "data/numbers/32-en.wav",
+          "audioCn": "data/numbers/32-cn.mp3"
+        },
+        {
+          "id": "33",
+          "en": "Thirty-Three",
+          "cn": "三十三",
+          "image": "data/numbers/33.webp",
+          "audioEn": "data/numbers/33-en.wav",
+          "audioCn": "data/numbers/33-cn.mp3"
+        },
+        {
+          "id": "34",
+          "en": "Thirty-Four",
+          "cn": "三十四",
+          "image": "data/numbers/34.webp",
+          "audioEn": "data/numbers/34-en.wav",
+          "audioCn": "data/numbers/34-cn.mp3"
+        },
+        {
+          "id": "35",
+          "en": "Thirty-Five",
+          "cn": "三十五",
+          "image": "data/numbers/35.webp",
+          "audioEn": "data/numbers/35-en.wav",
+          "audioCn": "data/numbers/35-cn.mp3"
+        },
+        {
+          "id": "36",
+          "en": "Thirty-Six",
+          "cn": "三十六",
+          "image": "data/numbers/36.webp",
+          "audioEn": "data/numbers/36-en.wav",
+          "audioCn": "data/numbers/36-cn.mp3"
+        },
+        {
+          "id": "37",
+          "en": "Thirty-Seven",
+          "cn": "三十七",
+          "image": "data/numbers/37.webp",
+          "audioEn": "data/numbers/37-en.wav",
+          "audioCn": "data/numbers/37-cn.mp3"
+        },
+        {
+          "id": "38",
+          "en": "Thirty-Eight",
+          "cn": "三十八",
+          "image": "data/numbers/38.webp",
+          "audioEn": "data/numbers/38-en.wav",
+          "audioCn": "data/numbers/38-cn.mp3"
+        },
+        {
+          "id": "39",
+          "en": "Thirty-Nine",
+          "cn": "三十九",
+          "image": "data/numbers/39.webp",
+          "audioEn": "data/numbers/39-en.wav",
+          "audioCn": "data/numbers/39-cn.mp3"
+        },
+        {
+          "id": "40",
+          "en": "Forty",
+          "cn": "四十",
+          "image": "data/numbers/40.webp",
+          "audioEn": "data/numbers/40-en.wav",
+          "audioCn": "data/numbers/40-cn.mp3"
+        },
+        {
+          "id": "41",
+          "en": "Forty-One",
+          "cn": "四十一",
+          "image": "data/numbers/41.webp",
+          "audioEn": "data/numbers/41-en.wav",
+          "audioCn": "data/numbers/41-cn.mp3"
+        },
+        {
+          "id": "42",
+          "en": "Forty-Two",
+          "cn": "四十二",
+          "image": "data/numbers/42.webp",
+          "audioEn": "data/numbers/42-en.wav",
+          "audioCn": "data/numbers/42-cn.mp3"
+        },
+        {
+          "id": "43",
+          "en": "Forty-Three",
+          "cn": "四十三",
+          "image": "data/numbers/43.webp",
+          "audioEn": "data/numbers/43-en.wav",
+          "audioCn": "data/numbers/43-cn.mp3"
+        },
+        {
+          "id": "44",
+          "en": "Forty-Four",
+          "cn": "四十四",
+          "image": "data/numbers/44.webp",
+          "audioEn": "data/numbers/44-en.wav",
+          "audioCn": "data/numbers/44-cn.mp3"
+        },
+        {
+          "id": "45",
+          "en": "Forty-Five",
+          "cn": "四十五",
+          "image": "data/numbers/45.webp",
+          "audioEn": "data/numbers/45-en.wav",
+          "audioCn": "data/numbers/45-cn.mp3"
+        },
+        {
+          "id": "46",
+          "en": "Forty-Six",
+          "cn": "四十六",
+          "image": "data/numbers/46.webp",
+          "audioEn": "data/numbers/46-en.wav",
+          "audioCn": "data/numbers/46-cn.mp3"
+        },
+        {
+          "id": "47",
+          "en": "Forty-Seven",
+          "cn": "四十七",
+          "image": "data/numbers/47.webp",
+          "audioEn": "data/numbers/47-en.wav",
+          "audioCn": "data/numbers/47-cn.mp3"
+        },
+        {
+          "id": "48",
+          "en": "Forty-Eight",
+          "cn": "四十八",
+          "image": "data/numbers/48.webp",
+          "audioEn": "data/numbers/48-en.wav",
+          "audioCn": "data/numbers/48-cn.mp3"
+        },
+        {
+          "id": "49",
+          "en": "Forty-Nine",
+          "cn": "四十九",
+          "image": "data/numbers/49.webp",
+          "audioEn": "data/numbers/49-en.wav",
+          "audioCn": "data/numbers/49-cn.mp3"
+        },
+        {
+          "id": "50",
+          "en": "Fifty",
+          "cn": "五十",
+          "image": "data/numbers/50.webp",
+          "audioEn": "data/numbers/50-en.wav",
+          "audioCn": "data/numbers/50-cn.mp3"
+        },
+        {
+          "id": "51",
+          "en": "Fifty-One",
+          "cn": "五十一",
+          "image": "data/numbers/51.webp",
+          "audioEn": "data/numbers/51-en.wav",
+          "audioCn": "data/numbers/51-cn.mp3"
+        },
+        {
+          "id": "52",
+          "en": "Fifty-Two",
+          "cn": "五十二",
+          "image": "data/numbers/52.webp",
+          "audioEn": "data/numbers/52-en.wav",
+          "audioCn": "data/numbers/52-cn.mp3"
+        },
+        {
+          "id": "53",
+          "en": "Fifty-Three",
+          "cn": "五十三",
+          "image": "data/numbers/53.webp",
+          "audioEn": "data/numbers/53-en.wav",
+          "audioCn": "data/numbers/53-cn.mp3"
+        },
+        {
+          "id": "54",
+          "en": "Fifty-Four",
+          "cn": "五十四",
+          "image": "data/numbers/54.webp",
+          "audioEn": "data/numbers/54-en.wav",
+          "audioCn": "data/numbers/54-cn.mp3"
+        },
+        {
+          "id": "55",
+          "en": "Fifty-Five",
+          "cn": "五十五",
+          "image": "data/numbers/55.webp",
+          "audioEn": "data/numbers/55-en.wav",
+          "audioCn": "data/numbers/55-cn.mp3"
+        },
+        {
+          "id": "56",
+          "en": "Fifty-Six",
+          "cn": "五十六",
+          "image": "data/numbers/56.webp",
+          "audioEn": "data/numbers/56-en.wav",
+          "audioCn": "data/numbers/56-cn.mp3"
+        },
+        {
+          "id": "57",
+          "en": "Fifty-Seven",
+          "cn": "五十七",
+          "image": "data/numbers/57.webp",
+          "audioEn": "data/numbers/57-en.wav",
+          "audioCn": "data/numbers/57-cn.mp3"
+        },
+        {
+          "id": "58",
+          "en": "Fifty-Eight",
+          "cn": "五十八",
+          "image": "data/numbers/58.webp",
+          "audioEn": "data/numbers/58-en.wav",
+          "audioCn": "data/numbers/58-cn.mp3"
+        },
+        {
+          "id": "59",
+          "en": "Fifty-Nine",
+          "cn": "五十九",
+          "image": "data/numbers/59.webp",
+          "audioEn": "data/numbers/59-en.wav",
+          "audioCn": "data/numbers/59-cn.mp3"
+        },
+        {
+          "id": "60",
+          "en": "Sixty",
+          "cn": "六十",
+          "image": "data/numbers/60.webp",
+          "audioEn": "data/numbers/60-en.wav",
+          "audioCn": "data/numbers/60-cn.mp3"
+        },
+        {
+          "id": "61",
+          "en": "Sixty-One",
+          "cn": "六十一",
+          "image": "data/numbers/61.webp",
+          "audioEn": "data/numbers/61-en.wav",
+          "audioCn": "data/numbers/61-cn.mp3"
+        },
+        {
+          "id": "62",
+          "en": "Sixty-Two",
+          "cn": "六十二",
+          "image": "data/numbers/62.webp",
+          "audioEn": "data/numbers/62-en.wav",
+          "audioCn": "data/numbers/62-cn.mp3"
+        },
+        {
+          "id": "63",
+          "en": "Sixty-Three",
+          "cn": "六十三",
+          "image": "data/numbers/63.webp",
+          "audioEn": "data/numbers/63-en.wav",
+          "audioCn": "data/numbers/63-cn.mp3"
+        },
+        {
+          "id": "64",
+          "en": "Sixty-Four",
+          "cn": "六十四",
+          "image": "data/numbers/64.webp",
+          "audioEn": "data/numbers/64-en.wav",
+          "audioCn": "data/numbers/64-cn.mp3"
+        },
+        {
+          "id": "65",
+          "en": "Sixty-Five",
+          "cn": "六十五",
+          "image": "data/numbers/65.webp",
+          "audioEn": "data/numbers/65-en.wav",
+          "audioCn": "data/numbers/65-cn.mp3"
+        },
+        {
+          "id": "66",
+          "en": "Sixty-Six",
+          "cn": "六十六",
+          "image": "data/numbers/66.webp",
+          "audioEn": "data/numbers/66-en.wav",
+          "audioCn": "data/numbers/66-cn.mp3"
+        },
+        {
+          "id": "67",
+          "en": "Sixty-Seven",
+          "cn": "六十七",
+          "image": "data/numbers/67.webp",
+          "audioEn": "data/numbers/67-en.wav",
+          "audioCn": "data/numbers/67-cn.mp3"
+        },
+        {
+          "id": "68",
+          "en": "Sixty-Eight",
+          "cn": "六十八",
+          "image": "data/numbers/68.webp",
+          "audioEn": "data/numbers/68-en.wav",
+          "audioCn": "data/numbers/68-cn.mp3"
+        },
+        {
+          "id": "69",
+          "en": "Sixty-Nine",
+          "cn": "六十九",
+          "image": "data/numbers/69.webp",
+          "audioEn": "data/numbers/69-en.wav",
+          "audioCn": "data/numbers/69-cn.mp3"
+        },
+        {
+          "id": "70",
+          "en": "Seventy",
+          "cn": "七十",
+          "image": "data/numbers/70.webp",
+          "audioEn": "data/numbers/70-en.wav",
+          "audioCn": "data/numbers/70-cn.mp3"
+        },
+        {
+          "id": "71",
+          "en": "Seventy-One",
+          "cn": "七十一",
+          "image": "data/numbers/71.webp",
+          "audioEn": "data/numbers/71-en.wav",
+          "audioCn": "data/numbers/71-cn.mp3"
+        },
+        {
+          "id": "72",
+          "en": "Seventy-Two",
+          "cn": "七十二",
+          "image": "data/numbers/72.webp",
+          "audioEn": "data/numbers/72-en.wav",
+          "audioCn": "data/numbers/72-cn.mp3"
+        },
+        {
+          "id": "73",
+          "en": "Seventy-Three",
+          "cn": "七十三",
+          "image": "data/numbers/73.webp",
+          "audioEn": "data/numbers/73-en.wav",
+          "audioCn": "data/numbers/73-cn.mp3"
+        },
+        {
+          "id": "74",
+          "en": "Seventy-Four",
+          "cn": "七十四",
+          "image": "data/numbers/74.webp",
+          "audioEn": "data/numbers/74-en.wav",
+          "audioCn": "data/numbers/74-cn.mp3"
+        },
+        {
+          "id": "75",
+          "en": "Seventy-Five",
+          "cn": "七十五",
+          "image": "data/numbers/75.webp",
+          "audioEn": "data/numbers/75-en.wav",
+          "audioCn": "data/numbers/75-cn.mp3"
+        },
+        {
+          "id": "76",
+          "en": "Seventy-Six",
+          "cn": "七十六",
+          "image": "data/numbers/76.webp",
+          "audioEn": "data/numbers/76-en.wav",
+          "audioCn": "data/numbers/76-cn.mp3"
+        },
+        {
+          "id": "77",
+          "en": "Seventy-Seven",
+          "cn": "七十七",
+          "image": "data/numbers/77.webp",
+          "audioEn": "data/numbers/77-en.wav",
+          "audioCn": "data/numbers/77-cn.mp3"
+        },
+        {
+          "id": "78",
+          "en": "Seventy-Eight",
+          "cn": "七十八",
+          "image": "data/numbers/78.webp",
+          "audioEn": "data/numbers/78-en.wav",
+          "audioCn": "data/numbers/78-cn.mp3"
+        },
+        {
+          "id": "79",
+          "en": "Seventy-Nine",
+          "cn": "七十九",
+          "image": "data/numbers/79.webp",
+          "audioEn": "data/numbers/79-en.wav",
+          "audioCn": "data/numbers/79-cn.mp3"
+        },
+        {
+          "id": "80",
+          "en": "Eighty",
+          "cn": "八十",
+          "image": "data/numbers/80.webp",
+          "audioEn": "data/numbers/80-en.wav",
+          "audioCn": "data/numbers/80-cn.mp3"
+        },
+        {
+          "id": "81",
+          "en": "Eighty-One",
+          "cn": "八十一",
+          "image": "data/numbers/81.webp",
+          "audioEn": "data/numbers/81-en.wav",
+          "audioCn": "data/numbers/81-cn.mp3"
+        },
+        {
+          "id": "82",
+          "en": "Eighty-Two",
+          "cn": "八十二",
+          "image": "data/numbers/82.webp",
+          "audioEn": "data/numbers/82-en.wav",
+          "audioCn": "data/numbers/82-cn.mp3"
+        },
+        {
+          "id": "83",
+          "en": "Eighty-Three",
+          "cn": "八十三",
+          "image": "data/numbers/83.webp",
+          "audioEn": "data/numbers/83-en.wav",
+          "audioCn": "data/numbers/83-cn.mp3"
+        },
+        {
+          "id": "84",
+          "en": "Eighty-Four",
+          "cn": "八十四",
+          "image": "data/numbers/84.webp",
+          "audioEn": "data/numbers/84-en.wav",
+          "audioCn": "data/numbers/84-cn.mp3"
+        },
+        {
+          "id": "85",
+          "en": "Eighty-Five",
+          "cn": "八十五",
+          "image": "data/numbers/85.webp",
+          "audioEn": "data/numbers/85-en.wav",
+          "audioCn": "data/numbers/85-cn.mp3"
+        },
+        {
+          "id": "86",
+          "en": "Eighty-Six",
+          "cn": "八十六",
+          "image": "data/numbers/86.webp",
+          "audioEn": "data/numbers/86-en.wav",
+          "audioCn": "data/numbers/86-cn.mp3"
+        },
+        {
+          "id": "87",
+          "en": "Eighty-Seven",
+          "cn": "八十七",
+          "image": "data/numbers/87.webp",
+          "audioEn": "data/numbers/87-en.wav",
+          "audioCn": "data/numbers/87-cn.mp3"
+        },
+        {
+          "id": "88",
+          "en": "Eighty-Eight",
+          "cn": "八十八",
+          "image": "data/numbers/88.webp",
+          "audioEn": "data/numbers/88-en.wav",
+          "audioCn": "data/numbers/88-cn.mp3"
+        },
+        {
+          "id": "89",
+          "en": "Eighty-Nine",
+          "cn": "八十九",
+          "image": "data/numbers/89.webp",
+          "audioEn": "data/numbers/89-en.wav",
+          "audioCn": "data/numbers/89-cn.mp3"
+        },
+        {
+          "id": "90",
+          "en": "Ninety",
+          "cn": "九十",
+          "image": "data/numbers/90.webp",
+          "audioEn": "data/numbers/90-en.wav",
+          "audioCn": "data/numbers/90-cn.mp3"
+        },
+        {
+          "id": "91",
+          "en": "Ninety-One",
+          "cn": "九十一",
+          "image": "data/numbers/91.webp",
+          "audioEn": "data/numbers/91-en.wav",
+          "audioCn": "data/numbers/91-cn.mp3"
+        },
+        {
+          "id": "92",
+          "en": "Ninety-Two",
+          "cn": "九十二",
+          "image": "data/numbers/92.webp",
+          "audioEn": "data/numbers/92-en.wav",
+          "audioCn": "data/numbers/92-cn.mp3"
+        },
+        {
+          "id": "93",
+          "en": "Ninety-Three",
+          "cn": "九十三",
+          "image": "data/numbers/93.webp",
+          "audioEn": "data/numbers/93-en.wav",
+          "audioCn": "data/numbers/93-cn.mp3"
+        },
+        {
+          "id": "94",
+          "en": "Ninety-Four",
+          "cn": "九十四",
+          "image": "data/numbers/94.webp",
+          "audioEn": "data/numbers/94-en.wav",
+          "audioCn": "data/numbers/94-cn.mp3"
+        },
+        {
+          "id": "95",
+          "en": "Ninety-Five",
+          "cn": "九十五",
+          "image": "data/numbers/95.webp",
+          "audioEn": "data/numbers/95-en.wav",
+          "audioCn": "data/numbers/95-cn.mp3"
+        },
+        {
+          "id": "96",
+          "en": "Ninety-Six",
+          "cn": "九十六",
+          "image": "data/numbers/96.webp",
+          "audioEn": "data/numbers/96-en.wav",
+          "audioCn": "data/numbers/96-cn.mp3"
+        },
+        {
+          "id": "97",
+          "en": "Ninety-Seven",
+          "cn": "九十七",
+          "image": "data/numbers/97.webp",
+          "audioEn": "data/numbers/97-en.wav",
+          "audioCn": "data/numbers/97-cn.mp3"
+        },
+        {
+          "id": "98",
+          "en": "Ninety-Eight",
+          "cn": "九十八",
+          "image": "data/numbers/98.webp",
+          "audioEn": "data/numbers/98-en.wav",
+          "audioCn": "data/numbers/98-cn.mp3"
+        },
+        {
+          "id": "99",
+          "en": "Ninety-Nine",
+          "cn": "九十九",
+          "image": "data/numbers/99.webp",
+          "audioEn": "data/numbers/99-en.wav",
+          "audioCn": "data/numbers/99-cn.mp3"
+        },
+        {
+          "id": "100",
+          "en": "One Hundred",
+          "cn": "一百",
+          "image": "data/numbers/100.webp",
+          "audioEn": "data/numbers/100-en.wav",
+          "audioCn": "data/numbers/100-cn.mp3"
+        }
+      ]
+    },
+    {
+      "id": "textures",
+      "en": "Textures",
+      "cn": "材質",
+      "cover": "data/textures/amber.webp",
+      "cards": [
+        {
+          "id": "amber",
+          "en": "Amber",
+          "cn": "琥珀色",
+          "image": "data/textures/amber.webp",
+          "audioEn": "data/textures/amber-en.wav",
+          "audioCn": "data/textures/amber-cn.wav"
+        },
+        {
+          "id": "apricot",
+          "en": "Apricot",
+          "cn": "杏色",
+          "image": "data/textures/apricot.webp",
+          "audioEn": "data/textures/apricot-en.wav",
+          "audioCn": "data/textures/apricot-cn.wav"
+        },
+        {
+          "id": "aqua",
+          "en": "Aqua",
+          "cn": "水藍色",
+          "image": "data/textures/aqua.webp",
+          "audioEn": "data/textures/aqua-en.wav",
+          "audioCn": "data/textures/aqua-cn.wav"
+        },
+        {
+          "id": "arrow",
+          "en": "Arrow",
+          "cn": "箭嘴形",
+          "image": "data/textures/arrow.webp",
+          "audioEn": "data/textures/arrow-en.wav",
+          "audioCn": "data/textures/arrow-cn.wav"
+        },
+        {
+          "id": "beige",
+          "en": "Beige",
+          "cn": "米色",
+          "image": "data/textures/beige.webp",
+          "audioEn": "data/textures/beige-en.wav",
+          "audioCn": "data/textures/beige-cn.wav"
+        },
+        {
+          "id": "black",
+          "en": "Black",
+          "cn": "黑色",
+          "image": "data/textures/black.webp",
+          "audioEn": "data/textures/black-en.wav",
+          "audioCn": "data/textures/black-cn.wav"
+        },
+        {
+          "id": "blue",
+          "en": "Blue",
+          "cn": "藍色",
+          "image": "data/textures/blue.webp",
+          "audioEn": "data/textures/blue-en.wav",
+          "audioCn": "data/textures/blue-cn.wav"
+        },
+        {
+          "id": "bright",
+          "en": "Bright",
+          "cn": "鮮色",
+          "image": "data/textures/bright.webp",
+          "audioEn": "data/textures/bright-en.wav",
+          "audioCn": "data/textures/bright-cn.wav"
+        },
+        {
+          "id": "bronze",
+          "en": "Bronze",
+          "cn": "古銅色",
+          "image": "data/textures/bronze.webp",
+          "audioEn": "data/textures/bronze-en.wav",
+          "audioCn": "data/textures/bronze-cn.wav"
+        },
+        {
+          "id": "brown",
+          "en": "Brown",
+          "cn": "啡色",
+          "image": "data/textures/brown.webp",
+          "audioEn": "data/textures/brown-en.wav",
+          "audioCn": "data/textures/brown-cn.wav"
+        },
+        {
+          "id": "burgundy",
+          "en": "Burgundy",
+          "cn": "酒紅色",
+          "image": "data/textures/burgundy.webp",
+          "audioEn": "data/textures/burgundy-en.wav",
+          "audioCn": "data/textures/burgundy-cn.wav"
+        },
+        {
+          "id": "camouflage",
+          "en": "Camouflage",
+          "cn": "迷彩",
+          "image": "data/textures/camouflage.webp",
+          "audioEn": "data/textures/camouflage-en.wav",
+          "audioCn": "data/textures/camouflage-cn.wav"
+        },
+        {
+          "id": "charcoal",
+          "en": "Charcoal",
+          "cn": "炭灰色",
+          "image": "data/textures/charcoal.webp",
+          "audioEn": "data/textures/charcoal-en.wav",
+          "audioCn": "data/textures/charcoal-cn.wav"
+        },
+        {
+          "id": "checkered",
+          "en": "Checkered",
+          "cn": "格仔",
+          "image": "data/textures/checkered.webp",
+          "audioEn": "data/textures/checkered-en.wav",
+          "audioCn": "data/textures/checkered-cn.wav"
+        },
+        {
+          "id": "chevron",
+          "en": "Chevron",
+          "cn": "山形紋",
+          "image": "data/textures/chevron.webp",
+          "audioEn": "data/textures/chevron-en.wav",
+          "audioCn": "data/textures/chevron-cn.wav"
+        },
+        {
+          "id": "circle",
+          "en": "Circle",
+          "cn": "圓形",
+          "image": "data/textures/circle.webp",
+          "audioEn": "data/textures/circle-en.wav",
+          "audioCn": "data/textures/circle-cn.wav"
+        },
+        {
+          "id": "colorful",
+          "en": "Colorful",
+          "cn": "彩色",
+          "image": "data/textures/colorful.webp",
+          "audioEn": "data/textures/colorful-en.wav",
+          "audioCn": "data/textures/colorful-cn.wav"
+        },
+        {
+          "id": "cone",
+          "en": "Cone",
+          "cn": "圓錐形",
+          "image": "data/textures/cone.webp",
+          "audioEn": "data/textures/cone-en.wav",
+          "audioCn": "data/textures/cone-cn.wav"
+        },
+        {
+          "id": "copper",
+          "en": "Copper",
+          "cn": "銅色",
+          "image": "data/textures/copper.webp",
+          "audioEn": "data/textures/copper-en.wav",
+          "audioCn": "data/textures/copper-cn.wav"
+        },
+        {
+          "id": "coral",
+          "en": "Coral",
+          "cn": "珊瑚色",
+          "image": "data/textures/coral.webp",
+          "audioEn": "data/textures/coral-en.wav",
+          "audioCn": "data/textures/coral-cn.wav"
+        },
+        {
+          "id": "cow-print",
+          "en": "Cow Print",
+          "cn": "乳牛紋",
+          "image": "data/textures/cow-print.webp",
+          "audioEn": "data/textures/cow-print-en.wav",
+          "audioCn": "data/textures/cow-print-cn.wav"
+        },
+        {
+          "id": "cream",
+          "en": "Cream",
+          "cn": "奶油色",
+          "image": "data/textures/cream.webp",
+          "audioEn": "data/textures/cream-en.wav",
+          "audioCn": "data/textures/cream-cn.wav"
+        },
+        {
+          "id": "crescent",
+          "en": "Crescent",
+          "cn": "月牙形",
+          "image": "data/textures/crescent.webp",
+          "audioEn": "data/textures/crescent-en.wav",
+          "audioCn": "data/textures/crescent-cn.wav"
+        },
+        {
+          "id": "crimson",
+          "en": "Crimson",
+          "cn": "深紅色",
+          "image": "data/textures/crimson.webp",
+          "audioEn": "data/textures/crimson-en.wav",
+          "audioCn": "data/textures/crimson-cn.wav"
+        },
+        {
+          "id": "cross",
+          "en": "Cross",
+          "cn": "十字形",
+          "image": "data/textures/cross.webp",
+          "audioEn": "data/textures/cross-en.wav",
+          "audioCn": "data/textures/cross-cn.wav"
+        },
+        {
+          "id": "cube",
+          "en": "Cube",
+          "cn": "正方體",
+          "image": "data/textures/cube.webp",
+          "audioEn": "data/textures/cube-en.wav",
+          "audioCn": "data/textures/cube-cn.wav"
+        },
+        {
+          "id": "cyan",
+          "en": "Cyan",
+          "cn": "青色",
+          "image": "data/textures/cyan.webp",
+          "audioEn": "data/textures/cyan-en.wav",
+          "audioCn": "data/textures/cyan-cn.wav"
+        },
+        {
+          "id": "cylinder",
+          "en": "Cylinder",
+          "cn": "圓柱體",
+          "image": "data/textures/cylinder.webp",
+          "audioEn": "data/textures/cylinder-en.wav",
+          "audioCn": "data/textures/cylinder-cn.wav"
+        },
+        {
+          "id": "dark",
+          "en": "Dark",
+          "cn": "深色",
+          "image": "data/textures/dark.webp",
+          "audioEn": "data/textures/dark-en.wav",
+          "audioCn": "data/textures/dark-cn.wav"
+        },
+        {
+          "id": "dark-green",
+          "en": "Dark Green",
+          "cn": "深綠色",
+          "image": "data/textures/dark-green.webp",
+          "audioEn": "data/textures/dark-green-en.wav",
+          "audioCn": "data/textures/dark-green-cn.wav"
+        },
+        {
+          "id": "diamond",
+          "en": "Diamond",
+          "cn": "菱形",
+          "image": "data/textures/diamond.webp",
+          "audioEn": "data/textures/diamond-en.wav",
+          "audioCn": "data/textures/diamond-cn.wav"
+        },
+        {
+          "id": "floral",
+          "en": "Floral",
+          "cn": "花花圖案",
+          "image": "data/textures/floral.webp",
+          "audioEn": "data/textures/floral-en.wav",
+          "audioCn": "data/textures/floral-cn.wav"
+        },
+        {
+          "id": "gold",
+          "en": "Gold",
+          "cn": "金色",
+          "image": "data/textures/gold.webp",
+          "audioEn": "data/textures/gold-en.wav",
+          "audioCn": "data/textures/gold-cn.wav"
+        },
+        {
+          "id": "green",
+          "en": "Green",
+          "cn": "綠色",
+          "image": "data/textures/green.webp",
+          "audioEn": "data/textures/green-en.wav",
+          "audioCn": "data/textures/green-cn.wav"
+        },
+        {
+          "id": "grey",
+          "en": "Grey",
+          "cn": "灰色",
+          "image": "data/textures/grey.webp",
+          "audioEn": "data/textures/grey-en.wav",
+          "audioCn": "data/textures/grey-cn.wav"
+        },
+        {
+          "id": "heart",
+          "en": "Heart",
+          "cn": "心形",
+          "image": "data/textures/heart.webp",
+          "audioEn": "data/textures/heart-en.wav",
+          "audioCn": "data/textures/heart-cn.wav"
+        },
+        {
+          "id": "herringbone",
+          "en": "Herringbone",
+          "cn": "人字紋",
+          "image": "data/textures/herringbone.webp",
+          "audioEn": "data/textures/herringbone-en.wav",
+          "audioCn": "data/textures/herringbone-cn.wav"
+        },
+        {
+          "id": "hexagon",
+          "en": "Hexagon",
+          "cn": "六邊形",
+          "image": "data/textures/hexagon.webp",
+          "audioEn": "data/textures/hexagon-en.wav",
+          "audioCn": "data/textures/hexagon-cn.wav"
+        },
+        {
+          "id": "houndstooth",
+          "en": "Houndstooth",
+          "cn": "千鳥格",
+          "image": "data/textures/houndstooth.webp",
+          "audioEn": "data/textures/houndstooth-en.wav",
+          "audioCn": "data/textures/houndstooth-cn.wav"
+        },
+        {
+          "id": "indigo",
+          "en": "Indigo",
+          "cn": "靛藍色",
+          "image": "data/textures/indigo.webp",
+          "audioEn": "data/textures/indigo-en.wav",
+          "audioCn": "data/textures/indigo-cn.wav"
+        },
+        {
+          "id": "ivory",
+          "en": "Ivory",
+          "cn": "象牙色",
+          "image": "data/textures/ivory.webp",
+          "audioEn": "data/textures/ivory-en.wav",
+          "audioCn": "data/textures/ivory-cn.wav"
+        },
+        {
+          "id": "khaki",
+          "en": "Khaki",
+          "cn": "卡其色",
+          "image": "data/textures/khaki.webp",
+          "audioEn": "data/textures/khaki-en.wav",
+          "audioCn": "data/textures/khaki-cn.wav"
+        },
+        {
+          "id": "lavender",
+          "en": "Lavender",
+          "cn": "薰衣草色",
+          "image": "data/textures/lavender.webp",
+          "audioEn": "data/textures/lavender-en.wav",
+          "audioCn": "data/textures/lavender-cn.wav"
+        },
+        {
+          "id": "lemon",
+          "en": "Lemon",
+          "cn": "檸檬黃色",
+          "image": "data/textures/lemon.webp",
+          "audioEn": "data/textures/lemon-en.wav",
+          "audioCn": "data/textures/lemon-cn.wav"
+        },
+        {
+          "id": "leopard-print",
+          "en": "Leopard Print",
+          "cn": "豹紋",
+          "image": "data/textures/leopard-print.webp",
+          "audioEn": "data/textures/leopard-print-en.wav",
+          "audioCn": "data/textures/leopard-print-cn.wav"
+        },
+        {
+          "id": "light",
+          "en": "Light",
+          "cn": "淺色",
+          "image": "data/textures/light.webp",
+          "audioEn": "data/textures/light-en.wav",
+          "audioCn": "data/textures/light-cn.wav"
+        },
+        {
+          "id": "light-blue",
+          "en": "Light Blue",
+          "cn": "淺藍色",
+          "image": "data/textures/light-blue.webp",
+          "audioEn": "data/textures/light-blue-en.wav",
+          "audioCn": "data/textures/light-blue-cn.wav"
+        },
+        {
+          "id": "light-green",
+          "en": "Light Green",
+          "cn": "淺綠色",
+          "image": "data/textures/light-green.webp",
+          "audioEn": "data/textures/light-green-en.wav",
+          "audioCn": "data/textures/light-green-cn.wav"
+        },
+        {
+          "id": "lilac",
+          "en": "Lilac",
+          "cn": "丁香紫色",
+          "image": "data/textures/lilac.webp",
+          "audioEn": "data/textures/lilac-en.wav",
+          "audioCn": "data/textures/lilac-cn.wav"
+        },
+        {
+          "id": "lime",
+          "en": "Lime",
+          "cn": "青檸綠色",
+          "image": "data/textures/lime.webp",
+          "audioEn": "data/textures/lime-en.wav",
+          "audioCn": "data/textures/lime-cn.wav"
+        },
+        {
+          "id": "magenta",
+          "en": "Magenta",
+          "cn": "洋紅色",
+          "image": "data/textures/magenta.webp",
+          "audioEn": "data/textures/magenta-en.wav",
+          "audioCn": "data/textures/magenta-cn.wav"
+        },
+        {
+          "id": "marble",
+          "en": "Marble",
+          "cn": "雲石紋",
+          "image": "data/textures/marble.webp",
+          "audioEn": "data/textures/marble-en.wav",
+          "audioCn": "data/textures/marble-cn.wav"
+        },
+        {
+          "id": "maroon",
+          "en": "Maroon",
+          "cn": "棗紅色",
+          "image": "data/textures/maroon.webp",
+          "audioEn": "data/textures/maroon-en.wav",
+          "audioCn": "data/textures/maroon-cn.wav"
+        },
+        {
+          "id": "matte",
+          "en": "Matte",
+          "cn": "啞色",
+          "image": "data/textures/matte.webp",
+          "audioEn": "data/textures/matte-en.wav",
+          "audioCn": "data/textures/matte-cn.wav"
+        },
+        {
+          "id": "mint",
+          "en": "Mint",
+          "cn": "薄荷綠色",
+          "image": "data/textures/mint.webp",
+          "audioEn": "data/textures/mint-en.wav",
+          "audioCn": "data/textures/mint-cn.wav"
+        },
+        {
+          "id": "mustard",
+          "en": "Mustard",
+          "cn": "芥末黃色",
+          "image": "data/textures/mustard.webp",
+          "audioEn": "data/textures/mustard-en.wav",
+          "audioCn": "data/textures/mustard-cn.wav"
+        },
+        {
+          "id": "navy",
+          "en": "Navy",
+          "cn": "深藍色",
+          "image": "data/textures/navy.webp",
+          "audioEn": "data/textures/navy-en.wav",
+          "audioCn": "data/textures/navy-cn.wav"
+        },
+        {
+          "id": "neon",
+          "en": "Neon",
+          "cn": "螢光色",
+          "image": "data/textures/neon.webp",
+          "audioEn": "data/textures/neon-en.wav",
+          "audioCn": "data/textures/neon-cn.wav"
+        },
+        {
+          "id": "octagon",
+          "en": "Octagon",
+          "cn": "八邊形",
+          "image": "data/textures/octagon.webp",
+          "audioEn": "data/textures/octagon-en.wav",
+          "audioCn": "data/textures/octagon-cn.wav"
+        },
+        {
+          "id": "olive",
+          "en": "Olive",
+          "cn": "橄欖綠色",
+          "image": "data/textures/olive.webp",
+          "audioEn": "data/textures/olive-en.wav",
+          "audioCn": "data/textures/olive-cn.wav"
+        },
+        {
+          "id": "orange",
+          "en": "Orange",
+          "cn": "橙色",
+          "image": "data/textures/orange.webp",
+          "audioEn": "data/textures/orange-en.wav",
+          "audioCn": "data/textures/orange-cn.wav"
+        },
+        {
+          "id": "oval",
+          "en": "Oval",
+          "cn": "橢圓形",
+          "image": "data/textures/oval.webp",
+          "audioEn": "data/textures/oval-en.wav",
+          "audioCn": "data/textures/oval-cn.wav"
+        },
+        {
+          "id": "paisley",
+          "en": "Paisley",
+          "cn": "佩斯利紋",
+          "image": "data/textures/paisley.webp",
+          "audioEn": "data/textures/paisley-en.wav",
+          "audioCn": "data/textures/paisley-cn.wav"
+        },
+        {
+          "id": "pastel",
+          "en": "Pastel",
+          "cn": "粉彩色",
+          "image": "data/textures/pastel.webp",
+          "audioEn": "data/textures/pastel-en.wav",
+          "audioCn": "data/textures/pastel-cn.wav"
+        },
+        {
+          "id": "peach",
+          "en": "Peach",
+          "cn": "蜜桃色",
+          "image": "data/textures/peach.webp",
+          "audioEn": "data/textures/peach-en.wav",
+          "audioCn": "data/textures/peach-cn.wav"
+        },
+        {
+          "id": "pink",
+          "en": "Pink",
+          "cn": "粉紅色",
+          "image": "data/textures/pink.webp",
+          "audioEn": "data/textures/pink-en.wav",
+          "audioCn": "data/textures/pink-cn.wav"
+        },
+        {
+          "id": "plaid",
+          "en": "Plaid",
+          "cn": "蘇格蘭格紋",
+          "image": "data/textures/plaid.webp",
+          "audioEn": "data/textures/plaid-en.wav",
+          "audioCn": "data/textures/plaid-cn.wav"
+        },
+        {
+          "id": "polka-dots",
+          "en": "Polka Dots",
+          "cn": "波點",
+          "image": "data/textures/polka-dots.webp",
+          "audioEn": "data/textures/polka-dots-en.wav",
+          "audioCn": "data/textures/polka-dots-cn.wav"
+        },
+        {
+          "id": "prism",
+          "en": "Prism",
+          "cn": "三稜柱",
+          "image": "data/textures/prism.webp",
+          "audioEn": "data/textures/prism-en.wav",
+          "audioCn": "data/textures/prism-cn.wav"
+        },
+        {
+          "id": "purple",
+          "en": "Purple",
+          "cn": "紫色",
+          "image": "data/textures/purple.webp",
+          "audioEn": "data/textures/purple-en.wav",
+          "audioCn": "data/textures/purple-cn.wav"
+        },
+        {
+          "id": "pyramid",
+          "en": "Pyramid",
+          "cn": "金字塔形",
+          "image": "data/textures/pyramid.webp",
+          "audioEn": "data/textures/pyramid-en.wav",
+          "audioCn": "data/textures/pyramid-cn.wav"
+        },
+        {
+          "id": "rainbow",
+          "en": "Rainbow",
+          "cn": "彩虹色",
+          "image": "data/textures/rainbow.webp",
+          "audioEn": "data/textures/rainbow-en.wav",
+          "audioCn": "data/textures/rainbow-cn.wav"
+        },
+        {
+          "id": "rectangle",
+          "en": "Rectangle",
+          "cn": "長方形",
+          "image": "data/textures/rectangle.webp",
+          "audioEn": "data/textures/rectangle-en.wav",
+          "audioCn": "data/textures/rectangle-cn.wav"
+        },
+        {
+          "id": "red",
+          "en": "Red",
+          "cn": "紅色",
+          "image": "data/textures/red.webp",
+          "audioEn": "data/textures/red-en.wav",
+          "audioCn": "data/textures/red-cn.wav"
+        },
+        {
+          "id": "rose",
+          "en": "Rose",
+          "cn": "玫瑰色",
+          "image": "data/textures/rose.webp",
+          "audioEn": "data/textures/rose-en.wav",
+          "audioCn": "data/textures/rose-cn.wav"
+        },
+        {
+          "id": "rust",
+          "en": "Rust",
+          "cn": "鐵銹色",
+          "image": "data/textures/rust.webp",
+          "audioEn": "data/textures/rust-en.wav",
+          "audioCn": "data/textures/rust-cn.wav"
+        },
+        {
+          "id": "salmon",
+          "en": "Salmon",
+          "cn": "三文魚色",
+          "image": "data/textures/salmon.webp",
+          "audioEn": "data/textures/salmon-en.wav",
+          "audioCn": "data/textures/salmon-cn.wav"
+        },
+        {
+          "id": "semicircle",
+          "en": "Semicircle",
+          "cn": "半圓形",
+          "image": "data/textures/semicircle.webp",
+          "audioEn": "data/textures/semicircle-en.wav",
+          "audioCn": "data/textures/semicircle-cn.wav"
+        },
+        {
+          "id": "shiny",
+          "en": "Shiny",
+          "cn": "閃令令",
+          "image": "data/textures/shiny.webp",
+          "audioEn": "data/textures/shiny-en.wav",
+          "audioCn": "data/textures/shiny-cn.wav"
+        },
+        {
+          "id": "silver",
+          "en": "Silver",
+          "cn": "銀色",
+          "image": "data/textures/silver.webp",
+          "audioEn": "data/textures/silver-en.wav",
+          "audioCn": "data/textures/silver-cn.wav"
+        },
+        {
+          "id": "sky-blue",
+          "en": "Sky Blue",
+          "cn": "天藍色",
+          "image": "data/textures/sky-blue.webp",
+          "audioEn": "data/textures/sky-blue-en.wav",
+          "audioCn": "data/textures/sky-blue-cn.wav"
+        },
+        {
+          "id": "sparkle",
+          "en": "Sparkle",
+          "cn": "閃閃",
+          "image": "data/textures/sparkle.webp",
+          "audioEn": "data/textures/sparkle-en.wav",
+          "audioCn": "data/textures/sparkle-cn.wav"
+        },
+        {
+          "id": "sphere",
+          "en": "Sphere",
+          "cn": "球形",
+          "image": "data/textures/sphere.webp",
+          "audioEn": "data/textures/sphere-en.wav",
+          "audioCn": "data/textures/sphere-cn.wav"
+        },
+        {
+          "id": "spiral",
+          "en": "Spiral",
+          "cn": "螺旋形",
+          "image": "data/textures/spiral.webp",
+          "audioEn": "data/textures/spiral-en.wav",
+          "audioCn": "data/textures/spiral-cn.wav"
+        },
+        {
+          "id": "square",
+          "en": "Square",
+          "cn": "正方形",
+          "image": "data/textures/square.webp",
+          "audioEn": "data/textures/square-en.wav",
+          "audioCn": "data/textures/square-cn.wav"
+        },
+        {
+          "id": "star",
+          "en": "Star",
+          "cn": "星形",
+          "image": "data/textures/star.webp",
+          "audioEn": "data/textures/star-en.wav",
+          "audioCn": "data/textures/star-cn.wav"
+        },
+        {
+          "id": "stripes",
+          "en": "Stripes",
+          "cn": "條紋",
+          "image": "data/textures/stripes.webp",
+          "audioEn": "data/textures/stripes-en.wav",
+          "audioCn": "data/textures/stripes-cn.wav"
+        },
+        {
+          "id": "teal",
+          "en": "Teal",
+          "cn": "藍綠色",
+          "image": "data/textures/teal.webp",
+          "audioEn": "data/textures/teal-en.wav",
+          "audioCn": "data/textures/teal-cn.wav"
+        },
+        {
+          "id": "tie-dye",
+          "en": "Tie-dye",
+          "cn": "紮染",
+          "image": "data/textures/tie-dye.webp",
+          "audioEn": "data/textures/tie-dye-en.wav",
+          "audioCn": "data/textures/tie-dye-cn.wav"
+        },
+        {
+          "id": "torus",
+          "en": "Torus",
+          "cn": "冬甩圈形",
+          "image": "data/textures/torus.webp",
+          "audioEn": "data/textures/torus-en.wav",
+          "audioCn": "data/textures/torus-cn.wav"
+        },
+        {
+          "id": "transparent",
+          "en": "Transparent",
+          "cn": "透明",
+          "image": "data/textures/transparent.webp",
+          "audioEn": "data/textures/transparent-en.wav",
+          "audioCn": "data/textures/transparent-cn.wav"
+        },
+        {
+          "id": "triangle",
+          "en": "Triangle",
+          "cn": "三角形",
+          "image": "data/textures/triangle.webp",
+          "audioEn": "data/textures/triangle-en.wav",
+          "audioCn": "data/textures/triangle-cn.wav"
+        },
+        {
+          "id": "turquoise",
+          "en": "Turquoise",
+          "cn": "湖水藍色",
+          "image": "data/textures/turquoise.webp",
+          "audioEn": "data/textures/turquoise-en.wav",
+          "audioCn": "data/textures/turquoise-cn.wav"
+        },
+        {
+          "id": "violet",
+          "en": "Violet",
+          "cn": "紫羅蘭色",
+          "image": "data/textures/violet.webp",
+          "audioEn": "data/textures/violet-en.wav",
+          "audioCn": "data/textures/violet-cn.wav"
+        },
+        {
+          "id": "wave",
+          "en": "Wave",
+          "cn": "波浪形",
+          "image": "data/textures/wave.webp",
+          "audioEn": "data/textures/wave-en.wav",
+          "audioCn": "data/textures/wave-cn.wav"
+        },
+        {
+          "id": "white",
+          "en": "White",
+          "cn": "白色",
+          "image": "data/textures/white.webp",
+          "audioEn": "data/textures/white-en.wav",
+          "audioCn": "data/textures/white-cn.wav"
+        },
+        {
+          "id": "yellow",
+          "en": "Yellow",
+          "cn": "黃色",
+          "image": "data/textures/yellow.webp",
+          "audioEn": "data/textures/yellow-en.wav",
+          "audioCn": "data/textures/yellow-cn.wav"
+        },
+        {
+          "id": "zebra-print",
+          "en": "Zebra Print",
+          "cn": "斑馬紋",
+          "image": "data/textures/zebra-print.webp",
+          "audioEn": "data/textures/zebra-print-en.wav",
+          "audioCn": "data/textures/zebra-print-cn.wav"
+        },
+        {
+          "id": "zigzag",
+          "en": "Zigzag",
+          "cn": "鋸齒形",
+          "image": "data/textures/zigzag.webp",
+          "audioEn": "data/textures/zigzag-en.wav",
+          "audioCn": "data/textures/zigzag-cn.wav"
+        }
+      ]
+    },
+    {
       "id": "toys",
-      "en": "toys",
-      "cn": "toys",
+      "en": "Toys",
+      "cn": "玩具",
       "cover": "data/toys/baby-mobile.webp",
       "cards": [
         {
@@ -5408,20 +5752,20 @@
           "audioCn": "data/toys/balance-bike-cn.wav"
         },
         {
-          "id": "ball-pit",
-          "en": "Ball Pit",
-          "cn": "波波池",
-          "image": "data/toys/ball-pit.webp",
-          "audioEn": "data/toys/ball-pit-en.wav",
-          "audioCn": "data/toys/ball-pit-cn.wav"
-        },
-        {
           "id": "ball",
           "en": "Ball",
           "cn": "波波",
           "image": "data/toys/ball.webp",
           "audioEn": "data/toys/ball-en.wav",
           "audioCn": "data/toys/ball-cn.wav"
+        },
+        {
+          "id": "ball-pit",
+          "en": "Ball Pit",
+          "cn": "波波池",
+          "image": "data/toys/ball-pit.webp",
+          "audioEn": "data/toys/ball-pit-en.wav",
+          "audioCn": "data/toys/ball-pit-cn.wav"
         },
         {
           "id": "balloon",
@@ -5886,6 +6230,814 @@
           "image": "data/toys/xylophone.webp",
           "audioEn": "data/toys/xylophone-en.wav",
           "audioCn": "data/toys/xylophone-cn.wav"
+        }
+      ]
+    },
+    {
+      "id": "vehicles",
+      "en": "Vehicles",
+      "cn": "交通工具",
+      "cover": "data/vehicles/airplane.webp",
+      "cards": [
+        {
+          "id": "airplane",
+          "en": "Airplane",
+          "cn": "飛機",
+          "image": "data/vehicles/airplane.webp",
+          "audioEn": "data/vehicles/airplane-en.wav",
+          "audioCn": "data/vehicles/airplane-cn.wav"
+        },
+        {
+          "id": "ambulance",
+          "en": "Ambulance",
+          "cn": "救護車",
+          "image": "data/vehicles/ambulance.webp",
+          "audioEn": "data/vehicles/ambulance-en.wav",
+          "audioCn": "data/vehicles/ambulance-cn.wav"
+        },
+        {
+          "id": "armored-car",
+          "en": "Armored Car",
+          "cn": "裝甲車",
+          "image": "data/vehicles/armored-car.webp",
+          "audioEn": "data/vehicles/armored-car-en.wav",
+          "audioCn": "data/vehicles/armored-car-cn.wav"
+        },
+        {
+          "id": "bicycle",
+          "en": "Bicycle",
+          "cn": "單車",
+          "image": "data/vehicles/bicycle.webp",
+          "audioEn": "data/vehicles/bicycle-en.wav",
+          "audioCn": "data/vehicles/bicycle-cn.wav"
+        },
+        {
+          "id": "blimp",
+          "en": "Blimp",
+          "cn": "飛艇",
+          "image": "data/vehicles/blimp.webp",
+          "audioEn": "data/vehicles/blimp-en.wav",
+          "audioCn": "data/vehicles/blimp-cn.wav"
+        },
+        {
+          "id": "boat",
+          "en": "Boat",
+          "cn": "船",
+          "image": "data/vehicles/boat.webp",
+          "audioEn": "data/vehicles/boat-en.wav",
+          "audioCn": "data/vehicles/boat-cn.wav"
+        },
+        {
+          "id": "bulldozer",
+          "en": "Bulldozer",
+          "cn": "推土機",
+          "image": "data/vehicles/bulldozer.webp",
+          "audioEn": "data/vehicles/bulldozer-en.wav",
+          "audioCn": "data/vehicles/bulldozer-cn.wav"
+        },
+        {
+          "id": "bumper-car",
+          "en": "Bumper Car",
+          "cn": "碰碰車",
+          "image": "data/vehicles/bumper-car.webp",
+          "audioEn": "data/vehicles/bumper-car-en.wav",
+          "audioCn": "data/vehicles/bumper-car-cn.wav"
+        },
+        {
+          "id": "bus",
+          "en": "Bus",
+          "cn": "巴士",
+          "image": "data/vehicles/bus.webp",
+          "audioEn": "data/vehicles/bus-en.wav",
+          "audioCn": "data/vehicles/bus-cn.wav"
+        },
+        {
+          "id": "cable-car",
+          "en": "Cable Car",
+          "cn": "纜車",
+          "image": "data/vehicles/cable-car.webp",
+          "audioEn": "data/vehicles/cable-car-en.wav",
+          "audioCn": "data/vehicles/cable-car-cn.wav"
+        },
+        {
+          "id": "camper-van",
+          "en": "Camper Van",
+          "cn": "露營車",
+          "image": "data/vehicles/camper-van.webp",
+          "audioEn": "data/vehicles/camper-van-en.wav",
+          "audioCn": "data/vehicles/camper-van-cn.wav"
+        },
+        {
+          "id": "canoe",
+          "en": "Canoe",
+          "cn": "獨木舟",
+          "image": "data/vehicles/canoe.webp",
+          "audioEn": "data/vehicles/canoe-en.wav",
+          "audioCn": "data/vehicles/canoe-cn.wav"
+        },
+        {
+          "id": "car",
+          "en": "Car",
+          "cn": "車車",
+          "image": "data/vehicles/car.webp",
+          "audioEn": "data/vehicles/car-en.wav",
+          "audioCn": "data/vehicles/car-cn.wav"
+        },
+        {
+          "id": "caravan",
+          "en": "Caravan",
+          "cn": "露營拖車",
+          "image": "data/vehicles/caravan.webp",
+          "audioEn": "data/vehicles/caravan-en.wav",
+          "audioCn": "data/vehicles/caravan-cn.wav"
+        },
+        {
+          "id": "cargo-ship",
+          "en": "Cargo Ship",
+          "cn": "貨輪",
+          "image": "data/vehicles/cargo-ship.webp",
+          "audioEn": "data/vehicles/cargo-ship-en.wav",
+          "audioCn": "data/vehicles/cargo-ship-cn.wav"
+        },
+        {
+          "id": "catamaran",
+          "en": "Catamaran",
+          "cn": "雙體船",
+          "image": "data/vehicles/catamaran.webp",
+          "audioEn": "data/vehicles/catamaran-en.wav",
+          "audioCn": "data/vehicles/catamaran-cn.wav"
+        },
+        {
+          "id": "cement-mixer",
+          "en": "Cement Mixer",
+          "cn": "水泥車",
+          "image": "data/vehicles/cement-mixer.webp",
+          "audioEn": "data/vehicles/cement-mixer-en.wav",
+          "audioCn": "data/vehicles/cement-mixer-cn.wav"
+        },
+        {
+          "id": "coach",
+          "en": "Coach",
+          "cn": "旅遊巴",
+          "image": "data/vehicles/coach.webp",
+          "audioEn": "data/vehicles/coach-en.wav",
+          "audioCn": "data/vehicles/coach-cn.wav"
+        },
+        {
+          "id": "combine-harvester",
+          "en": "Combine Harvester",
+          "cn": "聯合收割機",
+          "image": "data/vehicles/combine-harvester.webp",
+          "audioEn": "data/vehicles/combine-harvester-en.wav",
+          "audioCn": "data/vehicles/combine-harvester-cn.wav"
+        },
+        {
+          "id": "convertible",
+          "en": "Convertible",
+          "cn": "開篷車",
+          "image": "data/vehicles/convertible.webp",
+          "audioEn": "data/vehicles/convertible-en.wav",
+          "audioCn": "data/vehicles/convertible-cn.wav"
+        },
+        {
+          "id": "crane",
+          "en": "Crane",
+          "cn": "吊機",
+          "image": "data/vehicles/crane.webp",
+          "audioEn": "data/vehicles/crane-en.wav",
+          "audioCn": "data/vehicles/crane-cn.wav"
+        },
+        {
+          "id": "cruise-ship",
+          "en": "Cruise Ship",
+          "cn": "郵輪",
+          "image": "data/vehicles/cruise-ship.webp",
+          "audioEn": "data/vehicles/cruise-ship-en.wav",
+          "audioCn": "data/vehicles/cruise-ship-cn.wav"
+        },
+        {
+          "id": "double-decker",
+          "en": "Double Decker",
+          "cn": "雙層巴士",
+          "image": "data/vehicles/double-decker.webp",
+          "audioEn": "data/vehicles/double-decker-en.wav",
+          "audioCn": "data/vehicles/double-decker-cn.wav"
+        },
+        {
+          "id": "drone",
+          "en": "Drone",
+          "cn": "無人機",
+          "image": "data/vehicles/drone.webp",
+          "audioEn": "data/vehicles/drone-en.wav",
+          "audioCn": "data/vehicles/drone-cn.wav"
+        },
+        {
+          "id": "dump-truck",
+          "en": "Dump Truck",
+          "cn": "泥頭車",
+          "image": "data/vehicles/dump-truck.webp",
+          "audioEn": "data/vehicles/dump-truck-en.wav",
+          "audioCn": "data/vehicles/dump-truck-cn.wav"
+        },
+        {
+          "id": "e-scooter",
+          "en": "E-scooter",
+          "cn": "電動滑板車",
+          "image": "data/vehicles/e-scooter.webp",
+          "audioEn": "data/vehicles/e-scooter-en.wav",
+          "audioCn": "data/vehicles/e-scooter-cn.wav"
+        },
+        {
+          "id": "excavator",
+          "en": "Excavator",
+          "cn": "挖泥機",
+          "image": "data/vehicles/excavator.webp",
+          "audioEn": "data/vehicles/excavator-en.wav",
+          "audioCn": "data/vehicles/excavator-cn.wav"
+        },
+        {
+          "id": "ferry",
+          "en": "Ferry",
+          "cn": "渡輪",
+          "image": "data/vehicles/ferry.webp",
+          "audioEn": "data/vehicles/ferry-en.wav",
+          "audioCn": "data/vehicles/ferry-cn.wav"
+        },
+        {
+          "id": "fire-truck",
+          "en": "Fire Truck",
+          "cn": "消防車",
+          "image": "data/vehicles/fire-truck.webp",
+          "audioEn": "data/vehicles/fire-truck-en.wav",
+          "audioCn": "data/vehicles/fire-truck-cn.wav"
+        },
+        {
+          "id": "fireboat",
+          "en": "Fireboat",
+          "cn": "消防船",
+          "image": "data/vehicles/fireboat.webp",
+          "audioEn": "data/vehicles/fireboat-en.wav",
+          "audioCn": "data/vehicles/fireboat-cn.wav"
+        },
+        {
+          "id": "fishing-boat",
+          "en": "Fishing Boat",
+          "cn": "漁船",
+          "image": "data/vehicles/fishing-boat.webp",
+          "audioEn": "data/vehicles/fishing-boat-en.wav",
+          "audioCn": "data/vehicles/fishing-boat-cn.wav"
+        },
+        {
+          "id": "forklift",
+          "en": "Forklift",
+          "cn": "剷車",
+          "image": "data/vehicles/forklift.webp",
+          "audioEn": "data/vehicles/forklift-en.wav",
+          "audioCn": "data/vehicles/forklift-cn.wav"
+        },
+        {
+          "id": "garbage-truck",
+          "en": "Garbage Truck",
+          "cn": "垃圾車",
+          "image": "data/vehicles/garbage-truck.webp",
+          "audioEn": "data/vehicles/garbage-truck-en.wav",
+          "audioCn": "data/vehicles/garbage-truck-cn.wav"
+        },
+        {
+          "id": "glider",
+          "en": "Glider",
+          "cn": "滑翔機",
+          "image": "data/vehicles/glider.webp",
+          "audioEn": "data/vehicles/glider-en.wav",
+          "audioCn": "data/vehicles/glider-cn.wav"
+        },
+        {
+          "id": "go-kart",
+          "en": "Go-kart",
+          "cn": "高卡車",
+          "image": "data/vehicles/go-kart.webp",
+          "audioEn": "data/vehicles/go-kart-en.wav",
+          "audioCn": "data/vehicles/go-kart-cn.wav"
+        },
+        {
+          "id": "gondola",
+          "en": "Gondola",
+          "cn": "貢多拉船",
+          "image": "data/vehicles/gondola.webp",
+          "audioEn": "data/vehicles/gondola-en.wav",
+          "audioCn": "data/vehicles/gondola-cn.wav"
+        },
+        {
+          "id": "hatchback",
+          "en": "Hatchback",
+          "cn": "揭背車",
+          "image": "data/vehicles/hatchback.webp",
+          "audioEn": "data/vehicles/hatchback-en.wav",
+          "audioCn": "data/vehicles/hatchback-cn.wav"
+        },
+        {
+          "id": "helicopter",
+          "en": "Helicopter",
+          "cn": "直升機",
+          "image": "data/vehicles/helicopter.webp",
+          "audioEn": "data/vehicles/helicopter-en.wav",
+          "audioCn": "data/vehicles/helicopter-cn.wav"
+        },
+        {
+          "id": "high-speed-train",
+          "en": "High-speed Train",
+          "cn": "高鐵",
+          "image": "data/vehicles/high-speed-train.webp",
+          "audioEn": "data/vehicles/high-speed-train-en.wav",
+          "audioCn": "data/vehicles/high-speed-train-cn.wav"
+        },
+        {
+          "id": "horse-carriage",
+          "en": "Horse Carriage",
+          "cn": "馬車",
+          "image": "data/vehicles/horse-carriage.webp",
+          "audioEn": "data/vehicles/horse-carriage-en.wav",
+          "audioCn": "data/vehicles/horse-carriage-cn.wav"
+        },
+        {
+          "id": "hot-air-balloon",
+          "en": "Hot Air Balloon",
+          "cn": "熱氣球",
+          "image": "data/vehicles/hot-air-balloon.webp",
+          "audioEn": "data/vehicles/hot-air-balloon-en.wav",
+          "audioCn": "data/vehicles/hot-air-balloon-cn.wav"
+        },
+        {
+          "id": "hovercraft",
+          "en": "Hovercraft",
+          "cn": "氣墊船",
+          "image": "data/vehicles/hovercraft.webp",
+          "audioEn": "data/vehicles/hovercraft-en.wav",
+          "audioCn": "data/vehicles/hovercraft-cn.wav"
+        },
+        {
+          "id": "ice-cream-truck",
+          "en": "Ice Cream Truck",
+          "cn": "雪糕車",
+          "image": "data/vehicles/ice-cream-truck.webp",
+          "audioEn": "data/vehicles/ice-cream-truck-en.wav",
+          "audioCn": "data/vehicles/ice-cream-truck-cn.wav"
+        },
+        {
+          "id": "jeep",
+          "en": "Jeep",
+          "cn": "吉普車",
+          "image": "data/vehicles/jeep.webp",
+          "audioEn": "data/vehicles/jeep-en.wav",
+          "audioCn": "data/vehicles/jeep-cn.wav"
+        },
+        {
+          "id": "jet",
+          "en": "Jet",
+          "cn": "噴射機",
+          "image": "data/vehicles/jet.webp",
+          "audioEn": "data/vehicles/jet-en.wav",
+          "audioCn": "data/vehicles/jet-cn.wav"
+        },
+        {
+          "id": "jet-ski",
+          "en": "Jet Ski",
+          "cn": "水上電單車",
+          "image": "data/vehicles/jet-ski.webp",
+          "audioEn": "data/vehicles/jet-ski-en.wav",
+          "audioCn": "data/vehicles/jet-ski-cn.wav"
+        },
+        {
+          "id": "kayak",
+          "en": "Kayak",
+          "cn": "皮划艇",
+          "image": "data/vehicles/kayak.webp",
+          "audioEn": "data/vehicles/kayak-en.wav",
+          "audioCn": "data/vehicles/kayak-cn.wav"
+        },
+        {
+          "id": "lifeboat",
+          "en": "Lifeboat",
+          "cn": "救生艇",
+          "image": "data/vehicles/lifeboat.webp",
+          "audioEn": "data/vehicles/lifeboat-en.wav",
+          "audioCn": "data/vehicles/lifeboat-cn.wav"
+        },
+        {
+          "id": "limousine",
+          "en": "Limousine",
+          "cn": "加長車",
+          "image": "data/vehicles/limousine.webp",
+          "audioEn": "data/vehicles/limousine-en.wav",
+          "audioCn": "data/vehicles/limousine-cn.wav"
+        },
+        {
+          "id": "lunar-rover",
+          "en": "Lunar Rover",
+          "cn": "月球車",
+          "image": "data/vehicles/lunar-rover.webp",
+          "audioEn": "data/vehicles/lunar-rover-en.wav",
+          "audioCn": "data/vehicles/lunar-rover-cn.wav"
+        },
+        {
+          "id": "minibus",
+          "en": "Minibus",
+          "cn": "小巴",
+          "image": "data/vehicles/minibus.webp",
+          "audioEn": "data/vehicles/minibus-en.wav",
+          "audioCn": "data/vehicles/minibus-cn.wav"
+        },
+        {
+          "id": "monorail",
+          "en": "Monorail",
+          "cn": "單軌列車",
+          "image": "data/vehicles/monorail.webp",
+          "audioEn": "data/vehicles/monorail-en.wav",
+          "audioCn": "data/vehicles/monorail-cn.wav"
+        },
+        {
+          "id": "monster-truck",
+          "en": "Monster Truck",
+          "cn": "大腳車",
+          "image": "data/vehicles/monster-truck.webp",
+          "audioEn": "data/vehicles/monster-truck-en.wav",
+          "audioCn": "data/vehicles/monster-truck-cn.wav"
+        },
+        {
+          "id": "motorcycle",
+          "en": "Motorcycle",
+          "cn": "電單車",
+          "image": "data/vehicles/motorcycle.webp",
+          "audioEn": "data/vehicles/motorcycle-en.wav",
+          "audioCn": "data/vehicles/motorcycle-cn.wav"
+        },
+        {
+          "id": "parachute",
+          "en": "Parachute",
+          "cn": "降落傘",
+          "image": "data/vehicles/parachute.webp",
+          "audioEn": "data/vehicles/parachute-en.wav",
+          "audioCn": "data/vehicles/parachute-cn.wav"
+        },
+        {
+          "id": "pickup-truck",
+          "en": "Pickup Truck",
+          "cn": "皮卡車",
+          "image": "data/vehicles/pickup-truck.webp",
+          "audioEn": "data/vehicles/pickup-truck-en.wav",
+          "audioCn": "data/vehicles/pickup-truck-cn.wav"
+        },
+        {
+          "id": "police-car",
+          "en": "Police Car",
+          "cn": "警車",
+          "image": "data/vehicles/police-car.webp",
+          "audioEn": "data/vehicles/police-car-en.wav",
+          "audioCn": "data/vehicles/police-car-cn.wav"
+        },
+        {
+          "id": "race-car",
+          "en": "Race Car",
+          "cn": "賽車",
+          "image": "data/vehicles/race-car.webp",
+          "audioEn": "data/vehicles/race-car-en.wav",
+          "audioCn": "data/vehicles/race-car-cn.wav"
+        },
+        {
+          "id": "raft",
+          "en": "Raft",
+          "cn": "木筏",
+          "image": "data/vehicles/raft.webp",
+          "audioEn": "data/vehicles/raft-en.wav",
+          "audioCn": "data/vehicles/raft-cn.wav"
+        },
+        {
+          "id": "rickshaw",
+          "en": "Rickshaw",
+          "cn": "人力車",
+          "image": "data/vehicles/rickshaw.webp",
+          "audioEn": "data/vehicles/rickshaw-en.wav",
+          "audioCn": "data/vehicles/rickshaw-cn.wav"
+        },
+        {
+          "id": "road-roller",
+          "en": "Road Roller",
+          "cn": "壓路機",
+          "image": "data/vehicles/road-roller.webp",
+          "audioEn": "data/vehicles/road-roller-en.wav",
+          "audioCn": "data/vehicles/road-roller-cn.wav"
+        },
+        {
+          "id": "rocket",
+          "en": "Rocket",
+          "cn": "火箭",
+          "image": "data/vehicles/rocket.webp",
+          "audioEn": "data/vehicles/rocket-en.wav",
+          "audioCn": "data/vehicles/rocket-cn.wav"
+        },
+        {
+          "id": "sailboat",
+          "en": "Sailboat",
+          "cn": "帆船",
+          "image": "data/vehicles/sailboat.webp",
+          "audioEn": "data/vehicles/sailboat-en.wav",
+          "audioCn": "data/vehicles/sailboat-cn.wav"
+        },
+        {
+          "id": "school-bus",
+          "en": "School Bus",
+          "cn": "校巴",
+          "image": "data/vehicles/school-bus.webp",
+          "audioEn": "data/vehicles/school-bus-en.wav",
+          "audioCn": "data/vehicles/school-bus-cn.wav"
+        },
+        {
+          "id": "scooter",
+          "en": "Scooter",
+          "cn": "綿羊仔",
+          "image": "data/vehicles/scooter.webp",
+          "audioEn": "data/vehicles/scooter-en.wav",
+          "audioCn": "data/vehicles/scooter-cn.wav"
+        },
+        {
+          "id": "seaplane",
+          "en": "Seaplane",
+          "cn": "水上飛機",
+          "image": "data/vehicles/seaplane.webp",
+          "audioEn": "data/vehicles/seaplane-en.wav",
+          "audioCn": "data/vehicles/seaplane-cn.wav"
+        },
+        {
+          "id": "sedan",
+          "en": "Sedan",
+          "cn": "房車",
+          "image": "data/vehicles/sedan.webp",
+          "audioEn": "data/vehicles/sedan-en.wav",
+          "audioCn": "data/vehicles/sedan-cn.wav"
+        },
+        {
+          "id": "segway",
+          "en": "Segway",
+          "cn": "平衡車",
+          "image": "data/vehicles/segway.webp",
+          "audioEn": "data/vehicles/segway-en.wav",
+          "audioCn": "data/vehicles/segway-cn.wav"
+        },
+        {
+          "id": "ship",
+          "en": "Ship",
+          "cn": "大船",
+          "image": "data/vehicles/ship.webp",
+          "audioEn": "data/vehicles/ship-en.wav",
+          "audioCn": "data/vehicles/ship-cn.wav"
+        },
+        {
+          "id": "skateboard",
+          "en": "Skateboard",
+          "cn": "滑板",
+          "image": "data/vehicles/skateboard.webp",
+          "audioEn": "data/vehicles/skateboard-en.wav",
+          "audioCn": "data/vehicles/skateboard-cn.wav"
+        },
+        {
+          "id": "sleigh",
+          "en": "Sleigh",
+          "cn": "雪橇",
+          "image": "data/vehicles/sleigh.webp",
+          "audioEn": "data/vehicles/sleigh-en.wav",
+          "audioCn": "data/vehicles/sleigh-cn.wav"
+        },
+        {
+          "id": "snowmobile",
+          "en": "Snowmobile",
+          "cn": "雪地電單車",
+          "image": "data/vehicles/snowmobile.webp",
+          "audioEn": "data/vehicles/snowmobile-en.wav",
+          "audioCn": "data/vehicles/snowmobile-cn.wav"
+        },
+        {
+          "id": "snowplow",
+          "en": "Snowplow",
+          "cn": "掃雪車",
+          "image": "data/vehicles/snowplow.webp",
+          "audioEn": "data/vehicles/snowplow-en.wav",
+          "audioCn": "data/vehicles/snowplow-cn.wav"
+        },
+        {
+          "id": "space-shuttle",
+          "en": "Space Shuttle",
+          "cn": "穿梭機",
+          "image": "data/vehicles/space-shuttle.webp",
+          "audioEn": "data/vehicles/space-shuttle-en.wav",
+          "audioCn": "data/vehicles/space-shuttle-cn.wav"
+        },
+        {
+          "id": "spaceship",
+          "en": "Spaceship",
+          "cn": "太空船",
+          "image": "data/vehicles/spaceship.webp",
+          "audioEn": "data/vehicles/spaceship-en.wav",
+          "audioCn": "data/vehicles/spaceship-cn.wav"
+        },
+        {
+          "id": "speedboat",
+          "en": "Speedboat",
+          "cn": "快艇",
+          "image": "data/vehicles/speedboat.webp",
+          "audioEn": "data/vehicles/speedboat-en.wav",
+          "audioCn": "data/vehicles/speedboat-cn.wav"
+        },
+        {
+          "id": "sports-car",
+          "en": "Sports Car",
+          "cn": "跑車",
+          "image": "data/vehicles/sports-car.webp",
+          "audioEn": "data/vehicles/sports-car-en.wav",
+          "audioCn": "data/vehicles/sports-car-cn.wav"
+        },
+        {
+          "id": "steam-train",
+          "en": "Steam Train",
+          "cn": "蒸汽火車",
+          "image": "data/vehicles/steam-train.webp",
+          "audioEn": "data/vehicles/steam-train-en.wav",
+          "audioCn": "data/vehicles/steam-train-cn.wav"
+        },
+        {
+          "id": "stroller",
+          "en": "Stroller",
+          "cn": "BB車",
+          "image": "data/vehicles/stroller.webp",
+          "audioEn": "data/vehicles/stroller-en.wav",
+          "audioCn": "data/vehicles/stroller-cn.wav"
+        },
+        {
+          "id": "submarine",
+          "en": "Submarine",
+          "cn": "潛水艇",
+          "image": "data/vehicles/submarine.webp",
+          "audioEn": "data/vehicles/submarine-en.wav",
+          "audioCn": "data/vehicles/submarine-cn.wav"
+        },
+        {
+          "id": "subway",
+          "en": "Subway",
+          "cn": "地鐵",
+          "image": "data/vehicles/subway.webp",
+          "audioEn": "data/vehicles/subway-en.wav",
+          "audioCn": "data/vehicles/subway-cn.wav"
+        },
+        {
+          "id": "suv",
+          "en": "SUV",
+          "cn": "越野車",
+          "image": "data/vehicles/suv.webp",
+          "audioEn": "data/vehicles/suv-en.wav",
+          "audioCn": "data/vehicles/suv-cn.wav"
+        },
+        {
+          "id": "tandem",
+          "en": "Tandem",
+          "cn": "雙人單車",
+          "image": "data/vehicles/tandem.webp",
+          "audioEn": "data/vehicles/tandem-en.wav",
+          "audioCn": "data/vehicles/tandem-cn.wav"
+        },
+        {
+          "id": "tank",
+          "en": "Tank",
+          "cn": "坦克",
+          "image": "data/vehicles/tank.webp",
+          "audioEn": "data/vehicles/tank-en.wav",
+          "audioCn": "data/vehicles/tank-cn.wav"
+        },
+        {
+          "id": "tanker",
+          "en": "Tanker",
+          "cn": "油缸車",
+          "image": "data/vehicles/tanker.webp",
+          "audioEn": "data/vehicles/tanker-en.wav",
+          "audioCn": "data/vehicles/tanker-cn.wav"
+        },
+        {
+          "id": "taxi",
+          "en": "Taxi",
+          "cn": "的士",
+          "image": "data/vehicles/taxi.webp",
+          "audioEn": "data/vehicles/taxi-en.wav",
+          "audioCn": "data/vehicles/taxi-cn.wav"
+        },
+        {
+          "id": "tow-truck",
+          "en": "Tow Truck",
+          "cn": "拖車",
+          "image": "data/vehicles/tow-truck.webp",
+          "audioEn": "data/vehicles/tow-truck-en.wav",
+          "audioCn": "data/vehicles/tow-truck-cn.wav"
+        },
+        {
+          "id": "tractor",
+          "en": "Tractor",
+          "cn": "拖拉機",
+          "image": "data/vehicles/tractor.webp",
+          "audioEn": "data/vehicles/tractor-en.wav",
+          "audioCn": "data/vehicles/tractor-cn.wav"
+        },
+        {
+          "id": "trailer",
+          "en": "Trailer",
+          "cn": "拖卡",
+          "image": "data/vehicles/trailer.webp",
+          "audioEn": "data/vehicles/trailer-en.wav",
+          "audioCn": "data/vehicles/trailer-cn.wav"
+        },
+        {
+          "id": "train",
+          "en": "Train",
+          "cn": "火車",
+          "image": "data/vehicles/train.webp",
+          "audioEn": "data/vehicles/train-en.wav",
+          "audioCn": "data/vehicles/train-cn.wav"
+        },
+        {
+          "id": "tram",
+          "en": "Tram",
+          "cn": "電車",
+          "image": "data/vehicles/tram.webp",
+          "audioEn": "data/vehicles/tram-en.wav",
+          "audioCn": "data/vehicles/tram-cn.wav"
+        },
+        {
+          "id": "tricycle",
+          "en": "Tricycle",
+          "cn": "三輪車",
+          "image": "data/vehicles/tricycle.webp",
+          "audioEn": "data/vehicles/tricycle-en.wav",
+          "audioCn": "data/vehicles/tricycle-cn.wav"
+        },
+        {
+          "id": "truck",
+          "en": "Truck",
+          "cn": "貨車",
+          "image": "data/vehicles/truck.webp",
+          "audioEn": "data/vehicles/truck-en.wav",
+          "audioCn": "data/vehicles/truck-cn.wav"
+        },
+        {
+          "id": "tugboat",
+          "en": "Tugboat",
+          "cn": "拖船",
+          "image": "data/vehicles/tugboat.webp",
+          "audioEn": "data/vehicles/tugboat-en.wav",
+          "audioCn": "data/vehicles/tugboat-cn.wav"
+        },
+        {
+          "id": "tuk-tuk",
+          "en": "Tuk-tuk",
+          "cn": "篤篤車",
+          "image": "data/vehicles/tuk-tuk.webp",
+          "audioEn": "data/vehicles/tuk-tuk-en.wav",
+          "audioCn": "data/vehicles/tuk-tuk-cn.wav"
+        },
+        {
+          "id": "ufo",
+          "en": "UFO",
+          "cn": "飛碟",
+          "image": "data/vehicles/ufo.webp",
+          "audioEn": "data/vehicles/ufo-en.wav",
+          "audioCn": "data/vehicles/ufo-cn.wav"
+        },
+        {
+          "id": "unicycle",
+          "en": "Unicycle",
+          "cn": "單輪車",
+          "image": "data/vehicles/unicycle.webp",
+          "audioEn": "data/vehicles/unicycle-en.wav",
+          "audioCn": "data/vehicles/unicycle-cn.wav"
+        },
+        {
+          "id": "van",
+          "en": "Van",
+          "cn": "客貨車",
+          "image": "data/vehicles/van.webp",
+          "audioEn": "data/vehicles/van-en.wav",
+          "audioCn": "data/vehicles/van-cn.wav"
+        },
+        {
+          "id": "wheelchair",
+          "en": "Wheelchair",
+          "cn": "輪椅",
+          "image": "data/vehicles/wheelchair.webp",
+          "audioEn": "data/vehicles/wheelchair-en.wav",
+          "audioCn": "data/vehicles/wheelchair-cn.wav"
+        },
+        {
+          "id": "yacht",
+          "en": "Yacht",
+          "cn": "遊艇",
+          "image": "data/vehicles/yacht.webp",
+          "audioEn": "data/vehicles/yacht-en.wav",
+          "audioCn": "data/vehicles/yacht-cn.wav"
         }
       ]
     }

@@ -99,6 +99,14 @@
   100% { transform: scale(1); opacity: 1; }
 }
 
+@keyframes candyFly {
+  0% { transform: translate(-50%, -50%) rotate(-10deg) scale(0.25); opacity: 0; }
+  22% { transform: translate(-50%, -50%) rotate(10deg) scale(2.25); opacity: 1; }
+  36% { transform: translate(-50%, -50%) rotate(-12deg) scale(1.85); opacity: 1; }
+  68% { transform: translate(calc(50vw - 82px), calc(-50vh + 70px)) rotate(12deg) scale(0.95); opacity: 1; }
+  100% { transform: translate(calc(50vw - 54px), calc(-50vh + 38px)) rotate(0deg) scale(0.22); opacity: 0; }
+}
+
 /* BB 模式：禁止選取、長按彈 menu、拖圖 */
 .bb-lock {
   user-select: none;

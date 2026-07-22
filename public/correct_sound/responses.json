@@ -1,0 +1,212 @@
+[
+  {
+    "id": "correct-001",
+    "en": "Wow, great job! You got it!",
+    "cn": "嘩，好叻喎！你答啱啦！",
+    "audioEn": "correct_sound/correct-001-en.mp3",
+    "audioCn": "correct_sound/correct-001-cn.mp3"
+  },
+  {
+    "id": "correct-002",
+    "en": "Yay! That's right! Let's do another one!",
+    "cn": "好嘢！啱呀！再玩下一題啦！",
+    "audioEn": "correct_sound/correct-002-en.mp3",
+    "audioCn": "correct_sound/correct-002-cn.mp3"
+  },
+  {
+    "id": "correct-003",
+    "en": "Yes yes, you got it right!",
+    "cn": "係呀係呀，你啱咗啦！",
+    "audioEn": "correct_sound/correct-003-en.mp3",
+    "audioCn": "correct_sound/correct-003-cn.mp3"
+  },
+  {
+    "id": "correct-004",
+    "en": "Woohoo! You found it!",
+    "cn": "嘩，好犀利呀！你搵到啦！",
+    "audioEn": "correct_sound/correct-004-en.mp3",
+    "audioCn": "correct_sound/correct-004-cn.mp3"
+  },
+  {
+    "id": "correct-005",
+    "en": "Nice! That's the one!",
+    "cn": "叻叻！就係呢個啦！",
+    "audioEn": "correct_sound/correct-005-en.mp3",
+    "audioCn": "correct_sound/correct-005-cn.mp3"
+  },
+  {
+    "id": "correct-006",
+    "en": "You did it! So good!",
+    "cn": "你做到啦！好叻呀！",
+    "audioEn": "correct_sound/correct-006-en.mp3",
+    "audioCn": "correct_sound/correct-006-cn.mp3"
+  },
+  {
+    "id": "correct-007",
+    "en": "Perfect! Keep going, keep going!",
+    "cn": "完美呀！繼續啦，繼續啦！",
+    "audioEn": "correct_sound/correct-007-en.mp3",
+    "audioCn": "correct_sound/correct-007-cn.mp3"
+  },
+  {
+    "id": "correct-008",
+    "en": "Amazing! You are so fast!",
+    "cn": "好勁呀！你學得好快喎！",
+    "audioEn": "correct_sound/correct-008-en.mp3",
+    "audioCn": "correct_sound/correct-008-cn.mp3"
+  },
+  {
+    "id": "correct-009",
+    "en": "Super! That answer is right!",
+    "cn": "超叻呀！呢個答案啱呀！",
+    "audioEn": "correct_sound/correct-009-en.mp3",
+    "audioCn": "correct_sound/correct-009-cn.mp3"
+  },
+  {
+    "id": "correct-010",
+    "en": "Nice one! Want to try the next one?",
+    "cn": "好嘢喎！試唔試下一題呀？",
+    "audioEn": "correct_sound/correct-010-en.mp3",
+    "audioCn": "correct_sound/correct-010-cn.mp3"
+  },
+  {
+    "id": "correct-011",
+    "en": "Excellent! You picked the right card!",
+    "cn": "好叻呀！你揀啱張卡啦！",
+    "audioEn": "correct_sound/correct-011-en.mp3",
+    "audioCn": "correct_sound/correct-011-cn.mp3"
+  },
+  {
+    "id": "correct-012",
+    "en": "Hooray! You got it again!",
+    "cn": "好呀！你又啱咗啦！",
+    "audioEn": "correct_sound/correct-012-en.mp3",
+    "audioCn": "correct_sound/correct-012-cn.mp3"
+  },
+  {
+    "id": "correct-013",
+    "en": "Wonderful! That's right!",
+    "cn": "好好呀！答得啱呀！",
+    "audioEn": "correct_sound/correct-013-en.mp3",
+    "audioCn": "correct_sound/correct-013-cn.mp3"
+  },
+  {
+    "id": "correct-014",
+    "en": "You are so clever! Wow!",
+    "cn": "你好醒目喎！嘩！",
+    "audioEn": "correct_sound/correct-014-en.mp3",
+    "audioCn": "correct_sound/correct-014-cn.mp3"
+  },
+  {
+    "id": "correct-015",
+    "en": "That's it! You listened so well!",
+    "cn": "就係呢個！你聽得好好呀！",
+    "audioEn": "correct_sound/correct-015-en.mp3",
+    "audioCn": "correct_sound/correct-015-cn.mp3"
+  },
+  {
+    "id": "correct-016",
+    "en": "Lovely! You chose so carefully!",
+    "cn": "好好呀！你揀得好細心喎！",
+    "audioEn": "correct_sound/correct-016-en.mp3",
+    "audioCn": "correct_sound/correct-016-cn.mp3"
+  },
+  {
+    "id": "correct-017",
+    "en": "You are on fire! Another one?",
+    "cn": "你好有料喎！再嚟一題？",
+    "audioEn": "correct_sound/correct-017-en.mp3",
+    "audioCn": "correct_sound/correct-017-cn.mp3"
+  },
+  {
+    "id": "correct-018",
+    "en": "Great thinking! That's exactly right!",
+    "cn": "諗得好好呀！完全啱晒！",
+    "audioEn": "correct_sound/correct-018-en.mp3",
+    "audioCn": "correct_sound/correct-018-cn.mp3"
+  },
+  {
+    "id": "correct-019",
+    "en": "You found the answer! Nice!",
+    "cn": "你搵到答案啦！好嘢！",
+    "audioEn": "correct_sound/correct-019-en.mp3",
+    "audioCn": "correct_sound/correct-019-cn.mp3"
+  },
+  {
+    "id": "correct-020",
+    "en": "That was quick! Well done!",
+    "cn": "好快喎！做得好呀！",
+    "audioEn": "correct_sound/correct-020-en.mp3",
+    "audioCn": "correct_sound/correct-020-cn.mp3"
+  },
+  {
+    "id": "correct-021",
+    "en": "Yes! You remembered it!",
+    "cn": "係喎！你記得呀！",
+    "audioEn": "correct_sound/correct-021-en.mp3",
+    "audioCn": "correct_sound/correct-021-cn.mp3"
+  },
+  {
+    "id": "correct-022",
+    "en": "Great choice! Let's keep playing!",
+    "cn": "揀得好呀！繼續玩啦！",
+    "audioEn": "correct_sound/correct-022-en.mp3",
+    "audioCn": "correct_sound/correct-022-cn.mp3"
+  },
+  {
+    "id": "correct-023",
+    "en": "You are doing so well!",
+    "cn": "你做得好好喎！",
+    "audioEn": "correct_sound/correct-023-en.mp3",
+    "audioCn": "correct_sound/correct-023-cn.mp3"
+  },
+  {
+    "id": "correct-024",
+    "en": "Exactly! That's the answer!",
+    "cn": "正呀！就係呢個答案啦！",
+    "audioEn": "correct_sound/correct-024-en.mp3",
+    "audioCn": "correct_sound/correct-024-cn.mp3"
+  },
+  {
+    "id": "correct-025",
+    "en": "Good listening! You got it!",
+    "cn": "聽得好清楚喎！你啱啦！",
+    "audioEn": "correct_sound/correct-025-en.mp3",
+    "audioCn": "correct_sound/correct-025-cn.mp3"
+  },
+  {
+    "id": "correct-026",
+    "en": "Great work! Another candy for you!",
+    "cn": "做得好呀！又有粒糖啦！",
+    "audioEn": "correct_sound/correct-026-en.mp3",
+    "audioCn": "correct_sound/correct-026-cn.mp3"
+  },
+  {
+    "id": "correct-027",
+    "en": "You picked it! So smart!",
+    "cn": "你揀中啦！好醒目呀！",
+    "audioEn": "correct_sound/correct-027-en.mp3",
+    "audioCn": "correct_sound/correct-027-cn.mp3"
+  },
+  {
+    "id": "correct-028",
+    "en": "Smart answer! Keep it up!",
+    "cn": "醒目答案喎！繼續呀！",
+    "audioEn": "correct_sound/correct-028-en.mp3",
+    "audioCn": "correct_sound/correct-028-cn.mp3"
+  },
+  {
+    "id": "correct-029",
+    "en": "Wow, you listened and got it!",
+    "cn": "嘩，你聽到又答啱喎！",
+    "audioEn": "correct_sound/correct-029-en.mp3",
+    "audioCn": "correct_sound/correct-029-cn.mp3"
+  },
+  {
+    "id": "correct-030",
+    "en": "Yay! Let's play the next one!",
+    "cn": "好呀！玩下一題啦！",
+    "audioEn": "correct_sound/correct-030-en.mp3",
+    "audioCn": "correct_sound/correct-030-cn.mp3"
+  }
+]

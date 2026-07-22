@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "com.babycards.app"
+    namespace "com.mono12studio.babycards"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.babycards.app"
+        applicationId "com.mono12studio.babycards"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

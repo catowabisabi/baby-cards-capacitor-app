@@ -1,0 +1,212 @@
+[
+  {
+    "id": "wrong-001",
+    "en": "Not quite. It's okay, let's try again!",
+    "cn": "唔啱喎，不過唔緊要，再試下啦！",
+    "audioEn": "wrong_sound/wrong-001-en.mp3",
+    "audioCn": "wrong_sound/wrong-001-cn.mp3"
+  },
+  {
+    "id": "wrong-002",
+    "en": "Oops, not that one. Let's listen again!",
+    "cn": "哎呀，唔係呢個喎。再聽多次啦！",
+    "audioEn": "wrong_sound/wrong-002-en.mp3",
+    "audioCn": "wrong_sound/wrong-002-cn.mp3"
+  },
+  {
+    "id": "wrong-003",
+    "en": "Almost! Let's try one more time!",
+    "cn": "差少少咋！再試一次啦！",
+    "audioEn": "wrong_sound/wrong-003-en.mp3",
+    "audioCn": "wrong_sound/wrong-003-cn.mp3"
+  },
+  {
+    "id": "wrong-004",
+    "en": "Not this card. Try again!",
+    "cn": "唔係呢張卡呀，再試下！",
+    "audioEn": "wrong_sound/wrong-004-en.mp3",
+    "audioCn": "wrong_sound/wrong-004-cn.mp3"
+  },
+  {
+    "id": "wrong-005",
+    "en": "Good try! Listen one more time!",
+    "cn": "試得好呀！再聽多次啦！",
+    "audioEn": "wrong_sound/wrong-005-en.mp3",
+    "audioCn": "wrong_sound/wrong-005-cn.mp3"
+  },
+  {
+    "id": "wrong-006",
+    "en": "Let's try again, you can do it!",
+    "cn": "再試下啦，你得㗎！",
+    "audioEn": "wrong_sound/wrong-006-en.mp3",
+    "audioCn": "wrong_sound/wrong-006-cn.mp3"
+  },
+  {
+    "id": "wrong-007",
+    "en": "Not yet, but you're close!",
+    "cn": "未啱呀，不過好接近喎！",
+    "audioEn": "wrong_sound/wrong-007-en.mp3",
+    "audioCn": "wrong_sound/wrong-007-cn.mp3"
+  },
+  {
+    "id": "wrong-008",
+    "en": "Oops! Pick another one!",
+    "cn": "哎呀！揀過另一個啦！",
+    "audioEn": "wrong_sound/wrong-008-en.mp3",
+    "audioCn": "wrong_sound/wrong-008-cn.mp3"
+  },
+  {
+    "id": "wrong-009",
+    "en": "That one is not right. Try again!",
+    "cn": "呢個唔啱呀，再試下啦！",
+    "audioEn": "wrong_sound/wrong-009-en.mp3",
+    "audioCn": "wrong_sound/wrong-009-cn.mp3"
+  },
+  {
+    "id": "wrong-010",
+    "en": "Listen carefully. Try once more!",
+    "cn": "留心聽呀，再試多次！",
+    "audioEn": "wrong_sound/wrong-010-en.mp3",
+    "audioCn": "wrong_sound/wrong-010-cn.mp3"
+  },
+  {
+    "id": "wrong-011",
+    "en": "Not the answer yet. Keep trying!",
+    "cn": "仲未係答案呀，繼續試！",
+    "audioEn": "wrong_sound/wrong-011-en.mp3",
+    "audioCn": "wrong_sound/wrong-011-cn.mp3"
+  },
+  {
+    "id": "wrong-012",
+    "en": "Try again! I know you can!",
+    "cn": "再試下！我知你得㗎！",
+    "audioEn": "wrong_sound/wrong-012-en.mp3",
+    "audioCn": "wrong_sound/wrong-012-cn.mp3"
+  },
+  {
+    "id": "wrong-013",
+    "en": "So close! But not this one!",
+    "cn": "好近呀！但唔係呢個喎！",
+    "audioEn": "wrong_sound/wrong-013-en.mp3",
+    "audioCn": "wrong_sound/wrong-013-cn.mp3"
+  },
+  {
+    "id": "wrong-014",
+    "en": "Let's listen again and choose carefully!",
+    "cn": "我哋再聽多次，慢慢揀啦！",
+    "audioEn": "wrong_sound/wrong-014-en.mp3",
+    "audioCn": "wrong_sound/wrong-014-cn.mp3"
+  },
+  {
+    "id": "wrong-015",
+    "en": "Have another go! You can do it!",
+    "cn": "再玩多次啦！你得㗎！",
+    "audioEn": "wrong_sound/wrong-015-en.mp3",
+    "audioCn": "wrong_sound/wrong-015-cn.mp3"
+  },
+  {
+    "id": "wrong-016",
+    "en": "Not this time. Let's try again!",
+    "cn": "今次未啱呀，再試下啦！",
+    "audioEn": "wrong_sound/wrong-016-en.mp3",
+    "audioCn": "wrong_sound/wrong-016-cn.mp3"
+  },
+  {
+    "id": "wrong-017",
+    "en": "That's okay! Listen again!",
+    "cn": "唔緊要呀！再聽一次啦！",
+    "audioEn": "wrong_sound/wrong-017-en.mp3",
+    "audioCn": "wrong_sound/wrong-017-cn.mp3"
+  },
+  {
+    "id": "wrong-018",
+    "en": "Try another card, okay?",
+    "cn": "試下另一張卡，好唔好？",
+    "audioEn": "wrong_sound/wrong-018-en.mp3",
+    "audioCn": "wrong_sound/wrong-018-cn.mp3"
+  },
+  {
+    "id": "wrong-019",
+    "en": "Not right yet. Keep going!",
+    "cn": "仲未啱呀，繼續啦！",
+    "audioEn": "wrong_sound/wrong-019-en.mp3",
+    "audioCn": "wrong_sound/wrong-019-cn.mp3"
+  },
+  {
+    "id": "wrong-020",
+    "en": "Let's slow down and try again!",
+    "cn": "我哋慢慢嚟，再試下啦！",
+    "audioEn": "wrong_sound/wrong-020-en.mp3",
+    "audioCn": "wrong_sound/wrong-020-cn.mp3"
+  },
+  {
+    "id": "wrong-021",
+    "en": "Oops, choose again!",
+    "cn": "哎呀，揀過啦！",
+    "audioEn": "wrong_sound/wrong-021-en.mp3",
+    "audioCn": "wrong_sound/wrong-021-cn.mp3"
+  },
+  {
+    "id": "wrong-022",
+    "en": "Good effort! Try once more!",
+    "cn": "你好努力呀！再試一次！",
+    "audioEn": "wrong_sound/wrong-022-en.mp3",
+    "audioCn": "wrong_sound/wrong-022-cn.mp3"
+  },
+  {
+    "id": "wrong-023",
+    "en": "Not that one. You can try again!",
+    "cn": "唔係嗰個呀，你可以再試！",
+    "audioEn": "wrong_sound/wrong-023-en.mp3",
+    "audioCn": "wrong_sound/wrong-023-cn.mp3"
+  },
+  {
+    "id": "wrong-024",
+    "en": "Let's hear the word again!",
+    "cn": "我哋再聽多次個詞語啦！",
+    "audioEn": "wrong_sound/wrong-024-en.mp3",
+    "audioCn": "wrong_sound/wrong-024-cn.mp3"
+  },
+  {
+    "id": "wrong-025",
+    "en": "Not quite right. Try carefully!",
+    "cn": "未完全啱呀，小心再試下！",
+    "audioEn": "wrong_sound/wrong-025-en.mp3",
+    "audioCn": "wrong_sound/wrong-025-cn.mp3"
+  },
+  {
+    "id": "wrong-026",
+    "en": "It's okay! Pick again!",
+    "cn": "冇問題呀！揀多次啦！",
+    "audioEn": "wrong_sound/wrong-026-en.mp3",
+    "audioCn": "wrong_sound/wrong-026-cn.mp3"
+  },
+  {
+    "id": "wrong-027",
+    "en": "Let's look and listen again!",
+    "cn": "我哋睇清楚，再聽多次啦！",
+    "audioEn": "wrong_sound/wrong-027-en.mp3",
+    "audioCn": "wrong_sound/wrong-027-cn.mp3"
+  },
+  {
+    "id": "wrong-028",
+    "en": "Not this answer. Try the other one!",
+    "cn": "唔係呢個答案呀，試下另一個！",
+    "audioEn": "wrong_sound/wrong-028-en.mp3",
+    "audioCn": "wrong_sound/wrong-028-cn.mp3"
+  },
+  {
+    "id": "wrong-029",
+    "en": "Almost there! Try again!",
+    "cn": "就快啱啦！再試下！",
+    "audioEn": "wrong_sound/wrong-029-en.mp3",
+    "audioCn": "wrong_sound/wrong-029-cn.mp3"
+  },
+  {
+    "id": "wrong-030",
+    "en": "Keep trying! You're learning!",
+    "cn": "繼續試啦！你學緊㗎！",
+    "audioEn": "wrong_sound/wrong-030-en.mp3",
+    "audioCn": "wrong_sound/wrong-030-cn.mp3"
+  }
+]

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
+import { App as CapacitorApp } from '@capacitor/app';
 import { toast, Toaster } from 'sonner';
 import { AdBanner } from '@/components/AdBanner';
-import { InterstitialAd } from '@/components/InterstitialAd';
 import { PremiumDialog } from '@/components/PremiumDialog';
 import { UnlockHold } from '@/components/UnlockHold';
 import { APP_CONFIG } from '@/config/app';
@@ -9,35 +9,43 @@ import {
   hideBanner,
   incrementCardViews,
   initAds,
-  shouldShowInterstitial,
   showBanner,
-  showNativeInterstitial,
 } from '@/lib/ads';
 import { assetUrl } from '@/lib/assets';
 import { setBbMode, useBbMode } from '@/lib/bbmode';
-import { isPremium, usePremium } from '@/lib/premium';
+import { applyCardOverrides, revokeTopicOverrideUrls } from '@/lib/cardOverrides';
+import {
+  hasUnlimitedGames,
+  initRevenueCat,
+  isPremium,
+  usePremium,
+  useUnlimitedGames,
+} from '@/lib/premium';
+import { canStartFreeGame, recordGameStart } from '@/lib/gameUsage';
 import { getAllUserCards, type UserCardRecord } from '@/lib/userCards';
 import { useVolumeUnlock } from '@/hooks/useVolumeUnlock';
 import { CardsScreen } from '@/sections/CardsScreen';
 import { LoadingScreen } from '@/sections/LoadingScreen';
+import { MiniGameScreen, type MiniGameKind } from '@/sections/MiniGameScreen';
 import { TopicsScreen } from '@/sections/TopicsScreen';
 import { UserCardsScreen } from '@/sections/UserCardsScreen';
 import type { CardsManifest, Topic } from '@/types/card';
 
-type Screen = 'loading' | 'topics' | 'cards' | 'my-cards';
+type Screen = 'loading' | 'topics' | 'cards' | 'my-cards' | 'mini-game';
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('loading');
   const [topics, setTopics] = useState<Topic[]>([]);
+  const [manifestTopics, setManifestTopics] = useState<Topic[]>([]);
   const [topic, setTopic] = useState<Topic | null>(null);
+  const [miniGameKind, setMiniGameKind] = useState<MiniGameKind>('listen-pick');
   const [premiumOpen, setPremiumOpen] = useState(false);
-  const [interstitialOpen, setInterstitialOpen] = useState(false);
   const [userRecords, setUserRecords] = useState<UserCardRecord[]>([]);
   const [userCoverUrl, setUserCoverUrl] = useState<string | null>(null);
   const premium = usePremium();
+  const unlimitedGames = useUnlimitedGames();
   const bbMode = useBbMode();
 
-  /* 自製卡：從 IndexedDB 載入（封面用第一張卡嘅相） */
   const refreshUserCards = useCallback(async () => {
     try {
       const recs = await getAllUserCards();
@@ -47,11 +55,23 @@ export default function App() {
         return recs.length > 0 ? URL.createObjectURL(recs[0].image) : null;
       });
     } catch (e) {
-      console.warn('自製卡載入失敗', e);
+      console.warn('User cards failed to load', e);
     }
   }, []);
 
-  /* 啟動：載入 cards manifest + 初始化廣告 + loading 最少顯示時間 */
+  const refreshCardOverrides = useCallback(async () => {
+    if (manifestTopics.length === 0) return;
+    const withOverrides = await applyCardOverrides(manifestTopics);
+    setTopics((previous) => {
+      revokeTopicOverrideUrls(previous);
+      return withOverrides;
+    });
+    setTopic((current) => {
+      if (!current) return current;
+      return withOverrides.find((nextTopic) => nextTopic.id === current.id) ?? current;
+    });
+  }, [manifestTopics]);
+
   useEffect(() => {
     let alive = true;
     const start = Date.now();
@@ -62,15 +82,17 @@ export default function App() {
         const manifest = (await res.json()) as CardsManifest;
         loaded = manifest.topics;
       } catch (e) {
-        console.error('cards manifest 載入失敗', e);
-        toast.error('卡片資料載入失敗，請檢查 cards 文件夾');
+        console.error('Cards manifest failed to load', e);
+        toast.error('卡片資料載入失敗，請檢查 data 文件夾');
       }
       void initAds();
+      void initRevenueCat();
       void refreshUserCards();
       const wait = Math.max(0, APP_CONFIG.loadingMinMs - (Date.now() - start));
-      await new Promise((r) => setTimeout(r, wait));
+      await new Promise((resolve) => setTimeout(resolve, wait));
       if (!alive) return;
-      setTopics(loaded);
+      setManifestTopics(loaded);
+      setTopics(await applyCardOverrides(loaded));
       setScreen('topics');
     })();
     return () => {
@@ -78,13 +100,15 @@ export default function App() {
     };
   }, [refreshUserCards]);
 
-  /* 訂閱後收埋原生 banner */
+  useEffect(() => {
+    return () => revokeTopicOverrideUrls(topics);
+  }, [topics]);
+
   useEffect(() => {
     if (premium) void hideBanner();
     else void showBanner();
   }, [premium]);
 
-  /* BB 模式：擋返回鍵 + 禁用長按選取/右鍵 */
   useEffect(() => {
     if (!bbMode) return;
     const trap = () => window.history.pushState({ bb: Date.now() }, '');
@@ -97,26 +121,52 @@ export default function App() {
     };
   }, [bbMode]);
 
+  useEffect(() => {
+    let remove: (() => void) | undefined;
+    void CapacitorApp.addListener('backButton', () => {
+      if (bbMode) return;
+      if (screen === 'cards' || screen === 'my-cards' || screen === 'mini-game') {
+        setScreen('topics');
+        return;
+      }
+      if (screen === 'topics') void CapacitorApp.exitApp();
+    }).then((handle) => {
+      remove = () => {
+        void handle.remove();
+      };
+    });
+    return () => remove?.();
+  }, [bbMode, screen]);
+
   const unlock = useCallback(() => {
     setBbMode(false);
-    toast.success('BB 模式已解鎖 🔓');
+    toast.success('BB 模式已解鎖');
   }, []);
   useVolumeUnlock(bbMode, unlock);
 
-  /* 每 10 張卡出一次插頁廣告（訂閱用戶豁免） */
   const handleCardViewed = useCallback(() => {
     if (isPremium()) return;
-    const count = incrementCardViews();
-    if (shouldShowInterstitial(count)) {
-      void showNativeInterstitial().then((shown) => {
-        if (!shown) setInterstitialOpen(true);
-      });
-    }
+    incrementCardViews();
   }, []);
 
-  const openTopic = (t: Topic) => {
-    setTopic(t);
+  const openTopic = (nextTopic: Topic) => {
+    setTopic(nextTopic);
     setScreen('cards');
+  };
+
+  const startMiniGame = (kind: MiniGameKind) => {
+    const unlimited = hasUnlimitedGames();
+    if (!canStartFreeGame(unlimited)) {
+      setPremiumOpen(true);
+      toast.info('今日免費遊戲次數已用完，明日 12 點後會重新計算');
+      return;
+    }
+    const remaining = recordGameStart(unlimited);
+    if (!unlimited) {
+      toast(`今日仲可以免費玩 ${remaining} 次`);
+    }
+    setMiniGameKind(kind);
+    setScreen('mini-game');
   };
 
   return (
@@ -131,6 +181,8 @@ export default function App() {
           userCardsCount={userRecords.length}
           userCoverUrl={userCoverUrl}
           onSelectUser={() => setScreen('my-cards')}
+          unlimitedGames={unlimitedGames}
+          onStartGame={startMiniGame}
         />
       )}
 
@@ -139,6 +191,7 @@ export default function App() {
           topic={topic}
           onBack={() => setScreen('topics')}
           onCardViewed={handleCardViewed}
+          onCardsChanged={refreshCardOverrides}
         />
       )}
 
@@ -151,20 +204,17 @@ export default function App() {
         />
       )}
 
-      {/* 廣告同訂閱 */}
-      <AdBanner onUpgrade={() => setPremiumOpen(true)} />
-      {interstitialOpen && (
-        <InterstitialAd
-          onClose={() => setInterstitialOpen(false)}
-          onUpgrade={() => {
-            setInterstitialOpen(false);
-            setPremiumOpen(true);
-          }}
+      {screen === 'mini-game' && (
+        <MiniGameScreen
+          kind={miniGameKind}
+          topics={topics}
+          onBack={() => setScreen('topics')}
         />
       )}
+
+      <AdBanner onUpgrade={() => setPremiumOpen(true)} />
       <PremiumDialog open={premiumOpen} onOpenChange={setPremiumOpen} />
 
-      {/* BB 模式解鎖掣（任何畫面都喺度） */}
       {bbMode && <UnlockHold onUnlock={unlock} />}
 
       <Toaster richColors position="top-center" />

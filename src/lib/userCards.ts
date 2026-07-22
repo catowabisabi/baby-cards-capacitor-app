@@ -6,6 +6,7 @@
  * 唔使登入、冇雲端 backup，刪 app / 清 app data 就會冇咗。
  */
 import type { CardItem } from '@/types/card';
+import { DB_VERSION, ensureBabyCardsStores } from '@/lib/cardOverrides';
 
 export const USER_TOPIC_ID = 'my-cards';
 
@@ -20,16 +21,13 @@ export interface UserCardRecord {
 }
 
 const DB_NAME = 'babycards';
-const DB_VERSION = 1;
 const STORE = 'userCards';
 
 function openDb(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
     const req = indexedDB.open(DB_NAME, DB_VERSION);
     req.onupgradeneeded = () => {
-      if (!req.result.objectStoreNames.contains(STORE)) {
-        req.result.createObjectStore(STORE, { keyPath: 'id' });
-      }
+      ensureBabyCardsStores(req.result);
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);

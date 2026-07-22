@@ -71,7 +71,7 @@ iOS 就喺 `ios/App/App/Info.plist` 加：
 
 1. https://www.revenuecat.com 開戶 → **New project**
 2. **Apps → + New → Google Play**：
-   - 填 package name：`com.babycards.app`
+   - 填 package name：`com.mono12studio.babycards`
    - 跟佢教學整一個 **Play 服務帳戶 JSON key** 上載（佢有 step-by-step）
    - 攞到 **Public SDK API Key**（`goog_xxxxxxxx`）
 3. **Entitlements → 新建**：名 `premium`，掛上 `premium_monthly`

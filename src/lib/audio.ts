@@ -9,10 +9,23 @@ import { assetUrl } from './assets';
 
 let current: HTMLAudioElement | null = null;
 let playToken = 0;
+let currentResolve: (() => void) | null = null;
+let audioContext: AudioContext | null = null;
+let currentSources: AudioBufferSourceNode[] = [];
 
 function stopCurrent() {
   current?.pause();
   current = null;
+  currentSources.forEach((source) => {
+    try {
+      source.stop();
+    } catch {
+      /* already stopped */
+    }
+  });
+  currentSources = [];
+  currentResolve?.();
+  currentResolve = null;
   if ('speechSynthesis' in window) window.speechSynthesis.cancel();
 }
 
@@ -22,14 +35,99 @@ export function stopAudio() {
   stopCurrent();
 }
 
+export function beginAudioSequence(): number {
+  playToken++;
+  stopCurrent();
+  return playToken;
+}
+
+export function isAudioSequenceActive(token: number): boolean {
+  return token === playToken;
+}
+
 function playFile(src: string): Promise<void> {
   return new Promise((resolve) => {
     const a = new Audio(assetUrl(src));
     current = a;
-    a.onended = () => resolve();
-    a.onerror = () => resolve();
-    a.play().catch(() => resolve());
+    const stopped = resolve;
+    currentResolve = stopped;
+    const finish = () => {
+      if (current === a) current = null;
+      if (currentResolve === stopped) currentResolve = null;
+      resolve();
+    };
+    a.onended = finish;
+    a.onerror = finish;
+    a.play().catch(finish);
   });
+}
+
+export async function playAudioFile(src: string): Promise<boolean> {
+  return new Promise((resolve) => {
+    stopCurrent();
+    const a = new Audio(assetUrl(src));
+    current = a;
+    const stopped = () => resolve(false);
+    currentResolve = stopped;
+    const finish = (ok: boolean) => {
+      if (current === a) current = null;
+      if (currentResolve === stopped) currentResolve = null;
+      resolve(ok);
+    };
+    a.onended = () => finish(true);
+    a.onerror = () => finish(false);
+    a.play().then(() => undefined).catch(() => finish(false));
+  });
+}
+
+export async function playAudioFilesGapless(srcs: string[]): Promise<boolean> {
+  if (srcs.length === 0 || !('AudioContext' in window)) return false;
+  try {
+    audioContext ??= new AudioContext();
+    if (audioContext.state === 'suspended') await audioContext.resume();
+    const buffers = await Promise.all(
+      srcs.map(async (src) => {
+        const response = await fetch(assetUrl(src));
+        if (!response.ok) throw new Error(`Audio fetch failed: ${src}`);
+        const data = await response.arrayBuffer();
+        return audioContext!.decodeAudioData(data);
+      })
+    );
+
+    return await new Promise<boolean>((resolve) => {
+      currentSources = [];
+      let startAt = audioContext!.currentTime + 0.03;
+      let done = false;
+      const stopped = () => {
+        if (!done) {
+          done = true;
+          resolve(false);
+        }
+      };
+      currentResolve = stopped;
+      buffers.forEach((buffer, index) => {
+        const source = audioContext!.createBufferSource();
+        source.buffer = buffer;
+        source.connect(audioContext!.destination);
+        source.start(startAt);
+        startAt += buffer.duration;
+        currentSources.push(source);
+        if (index === buffers.length - 1) {
+          source.onended = () => {
+            if (!done) {
+              done = true;
+              currentSources = [];
+              if (currentResolve === stopped) currentResolve = null;
+              resolve(true);
+            }
+          };
+        }
+      });
+    });
+  } catch {
+    currentSources = [];
+    return false;
+  }
 }
 
 let voicesPromise: Promise<void> | null = null;
@@ -73,14 +171,22 @@ async function speak(text: string, lang: string): Promise<void> {
   });
 }
 
+export async function speakText(text: string, lang: string): Promise<void> {
+  beginAudioSequence();
+  await speak(text, lang);
+}
+
+export async function speakInCurrentSequence(text: string, lang: string): Promise<void> {
+  await speak(text, lang);
+}
+
 /**
  * 播放一張卡嘅發音。
  * mode 'both' 會先播英文、再播中文；切卡或再撳會自動停返上一個。
  */
 export async function playCard(card: CardItem, mode: 'en' | 'cn' | 'both' = 'both') {
-  const token = ++playToken;
-  stopCurrent();
-  const alive = () => token === playToken;
+  const token = beginAudioSequence();
+  const alive = () => isAudioSequenceActive(token);
 
   if ((mode === 'en' || mode === 'both') && alive()) {
     if (card.audioEn) await playFile(card.audioEn);

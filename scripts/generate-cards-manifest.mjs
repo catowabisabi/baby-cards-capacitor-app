@@ -4,6 +4,7 @@ import path from 'node:path';
 const dataDir = path.resolve(process.cwd(), 'public/data');
 const IMAGE_EXTS = ['.png', '.jpg', '.jpeg', '.webp', '.gif', '.svg'];
 const AUDIO_EXTS = ['.wav', '.mp3', '.flac', '.m4a', '.aac'];
+const fileCollator = new Intl.Collator('en', { numeric: true, sensitivity: 'base' });
 
 if (!fs.existsSync(dataDir)) {
   console.error(`Cannot find ${dataDir}`);
@@ -36,7 +37,7 @@ for (const topicId of topicDirs) {
   const cards = [];
   const jsonFiles = files
     .filter((file) => file.endsWith('.json') && file !== '_topic.json')
-    .sort();
+    .sort((a, b) => fileCollator.compare(path.basename(a, '.json'), path.basename(b, '.json')));
 
   for (const file of jsonFiles) {
     const id = path.basename(file, '.json');

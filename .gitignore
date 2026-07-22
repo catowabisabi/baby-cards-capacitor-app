@@ -8,9 +8,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+node_modules/
 dist
+dist/
 dist-ssr
 *.local
+.local-jdk/
 
 # Editor directories and files
 .vscode/*
@@ -29,12 +32,17 @@ dist-ssr
 android/.gradle/
 android/build/
 android/app/build/
+android/app/src/main/assets/public/
 android/local.properties
+.gradle/
 ios/App/Pods/
 ios/App/build/
+ios/App/App/public/
 
 # ComfyUI local artifacts (generated images + working config, not for repo)
 comfyui/
+comfyui/.kokoro-venv/
+comfyui/kokoro-weights/
 comfyui-output/
 
 # Python bytecode + Sisyphus session cache (regenerated on every run)

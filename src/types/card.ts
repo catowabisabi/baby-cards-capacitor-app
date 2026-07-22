@@ -7,6 +7,12 @@ export interface CardItem {
   /** 冇錄音檔就係 null，播放時會用裝置語音合成 fallback */
   audioEn: string | null;
   audioCn: string | null;
+  defaultImage?: string;
+  defaultAudioEn?: string | null;
+  defaultAudioCn?: string | null;
+  hasImageOverride?: boolean;
+  hasAudioEnOverride?: boolean;
+  hasAudioCnOverride?: boolean;
 }
 
 /** 一個主題 = cards/ 入面一個子文件夾 */
